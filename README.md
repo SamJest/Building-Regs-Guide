@@ -46,6 +46,8 @@ The repository includes `.github/workflows/pages.yml`. It builds the static site
 
 In GitHub repository settings, set **Pages -> Build and deployment -> Source** to **GitHub Actions**. That makes `https://buildingregsguide.co.uk/` serve the generated site root instead of the repository README.
 
+The generated site is also mirrored at the repository root as a GitHub Pages branch-source fallback. This prevents GitHub Pages from rendering `README.md` if the repository is temporarily set to branch deployment.
+
 After deployment, run:
 
 ```powershell

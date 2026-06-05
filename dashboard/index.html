@@ -1,0 +1,69 @@
+<!doctype html>
+        <html lang="en-GB">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Building regs project dashboard</title>
+          <meta name="description" content="Local-only project dashboard for saved building regulations tool results.">
+
+          <link rel="canonical" href="https://buildingregsguide.co.uk/dashboard/">
+          <link rel="stylesheet" href="/assets/site.css">
+          <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebPage", "name": "Building regs project dashboard", "description": "Local-only project dashboard for saved building regulations tool results.", "url": "https://buildingregsguide.co.uk/dashboard/", "dateModified": "2026-06-05", "publisher": {"@type": "Organization", "name": "BuildingRegsGuide"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://buildingregsguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Building regs project dashboard", "item": "https://buildingregsguide.co.uk/dashboard/"}]}]</script>
+        </head>
+        <body>
+          <header class="site-header">
+            <nav class="nav" aria-label="Main navigation">
+              <a class="brand" href="/"><span class="brand-mark">B</span><span>BuildingRegsGuide</span></a>
+              <div class="nav-links"><a href="/building-regulations/">Guides</a><a href="/projects/extensions-building-regulations/">Projects</a><a href="/approved-documents/">Approved Documents</a><a href="/tools/building-control-route-checker/">Tools</a><a href="/downloads/extension-building-regulations-checklist/">Downloads</a><a href="/dashboard/">Dashboard</a><a href="/search/">Search</a></div>
+            </nav>
+          </header>
+
+        <main>
+          <div class="breadcrumbs"><a href="/">Home</a> / Dashboard</div>
+          <h1 class="page-title">Building regs project dashboard</h1>
+          <p class="lede">Use this as a device-only project file for saved checker results, inspection prompts and certificate follow-up. There is no login, no account and no backend storage in this build.</p>
+          <div class="warning">Privacy note: saved results use your browser localStorage. Do not enter sensitive personal data. Clear your browser data to remove saved items.</div>
+          <section class="panel">
+            <h2>Project note</h2>
+            <div class="form-row">
+              <input class="mini-input" id="dashboard-project" placeholder="Project, e.g. loft conversion">
+              <input class="mini-input" id="dashboard-address" placeholder="Address/reference, optional">
+              <input class="mini-input" id="dashboard-contact" placeholder="Building control contact, optional">
+            </div>
+            <div class="dashboard-actions">
+              <button class="button ghost" type="button" onclick="localStorage.setItem('brg_project_note', JSON.stringify({project:document.getElementById('dashboard-project').value,address:document.getElementById('dashboard-address').value,contact:document.getElementById('dashboard-contact').value})); location.reload();">Save note locally</button>
+              <button class="button ghost" type="button" onclick="window.print()">Print project file</button>
+            </div>
+          </section>
+          <section class="grid" data-dashboard></section>
+
+<aside class="source-panel" aria-label="Official source and version panel">
+  <h2>Source and version panel</h2>
+  <p>This page is England-first unless a nation is named. Re-check the linked source before starting work, appointing trades or submitting an application.</p>
+  <ul>
+    <li>
+      <a href="https://www.gov.uk/building-regulations-approval">GOV.UK Building regulations approval</a>
+      <span class="tag">Checked 2026-06-05</span>
+      <ul><li>Building regulations approval is different from planning permission and a project may need both.</li><li>Some work does not require the homeowner to apply directly if a competent person scheme member is used.</li><li>England-first guidance should be labelled and not implied to cover Scotland, Wales or Northern Ireland without separate checks.</li></ul>
+    </li>
+    </ul>
+</aside>
+
+          <script>
+            const note = JSON.parse(localStorage.getItem('brg_project_note') || '{}');
+            if (note.project) document.getElementById('dashboard-project').value = note.project;
+            if (note.address) document.getElementById('dashboard-address').value = note.address;
+            if (note.contact) document.getElementById('dashboard-contact').value = note.contact;
+          </script>
+        </main>
+
+          <footer class="site-footer">
+            <div class="footer-inner">
+              <p>BuildingRegsGuide is an independent, source-linked guide for homeowners. It does not grant building regulations approval.</p>
+              <p><a href="/about/">About</a> / <a href="/legal/">Legal and safety</a></p>
+              <p><a href="https://ukplanningguide.co.uk/">UKPlanningGuide</a> covers planning permission and permitted development.</p>
+            </div>
+          </footer>
+          <script src="/assets/js/site.js"></script>
+        </body>
+        </html>

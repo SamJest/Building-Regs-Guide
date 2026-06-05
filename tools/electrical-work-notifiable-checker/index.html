@@ -1,0 +1,96 @@
+<!doctype html>
+        <html lang="en-GB">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Electrical Work Notifiable Checker</title>
+          <meta name="description" content="Routes electrical work to competent person, building control or non-notifiable evidence reminder.">
+
+          <link rel="canonical" href="https://buildingregsguide.co.uk/tools/electrical-work-notifiable-checker/">
+          <link rel="stylesheet" href="/assets/site.css">
+          <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Electrical Work Notifiable Checker", "description": "Routes electrical work to competent person, building control or non-notifiable evidence reminder.", "url": "https://buildingregsguide.co.uk/tools/electrical-work-notifiable-checker/", "dateModified": "2026-06-05", "publisher": {"@type": "Organization", "name": "BuildingRegsGuide"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://buildingregsguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Electrical Work Notifiable Checker", "item": "https://buildingregsguide.co.uk/tools/electrical-work-notifiable-checker/"}]}]</script>
+        </head>
+        <body>
+          <header class="site-header">
+            <nav class="nav" aria-label="Main navigation">
+              <a class="brand" href="/"><span class="brand-mark">B</span><span>BuildingRegsGuide</span></a>
+              <div class="nav-links"><a href="/building-regulations/">Guides</a><a href="/projects/extensions-building-regulations/">Projects</a><a href="/approved-documents/">Approved Documents</a><a href="/tools/building-control-route-checker/">Tools</a><a href="/downloads/extension-building-regulations-checklist/">Downloads</a><a href="/dashboard/">Dashboard</a><a href="/search/">Search</a></div>
+            </nav>
+          </header>
+
+        <main>
+          <div class="breadcrumbs"><a href="/">Home</a> / <a href="/tools/">Tools</a> / Electrical Work Notifiable Checker</div>
+          <h1 class="page-title">Electrical Work Notifiable Checker</h1>
+          <p class="lede">Routes electrical work to competent person, building control or non-notifiable evidence reminder.</p>
+          <div class="warning">This tool does not grant approval. Results are prompts for your next building-control conversation and do not replace competent professional advice.</div>
+          <div class="split">
+
+<section class="panel" data-tool="electrical-work-notifiable-checker">
+  <h2>Electrical Work Notifiable Checker</h2>
+  <p>Routes electrical work to competent person, building control or non-notifiable evidence reminder.</p>
+  <form class="tool-form" data-tool-form>
+    <div class="field"><label for="projectType">Project type</label><select id="projectType" name="projectType"><option value="extension">Extension</option><option value="loft">Loft conversion</option><option value="garage">Garage conversion</option><option value="structural">Structural alteration</option><option value="windows">Windows or doors</option><option value="electrical">Electrical work</option><option value="heating">Heating or boiler</option><option value="drainage">Drainage or waste</option></select></div>
+    <div class="field"><label for="workStatus">Work status</label><select id="workStatus" name="workStatus"><option value="not_started">Not started</option><option value="in_progress">In progress</option><option value="finished">Finished or historic</option></select></div>
+    <div class="field"><label for="structuralChange">Structural change?</label><select id="structuralChange" name="structuralChange"><option value="no">No or not sure</option><option value="yes">Yes</option></select></div>
+    <div class="field"><label for="certificateMissing">Missing certificate or approval record?</label><select id="certificateMissing" name="certificateMissing"><option value="no">No</option><option value="yes">Yes</option></select></div>
+    <div class="field"><label for="higherRisk">Higher-risk building, flat, or major fire-safety signal?</label><select id="higherRisk" name="higherRisk"><option value="no">No</option><option value="yes">Yes or not sure</option></select></div>
+    <div class="field"><label for="jurisdiction">Jurisdiction</label><select id="jurisdiction" name="jurisdiction"><option value="england">England</option><option value="wales">Wales</option><option value="scotland">Scotland</option><option value="ni">Northern Ireland</option></select></div>
+    <button class="button" type="submit">Check likely route</button>
+  </form>
+  <div class="result" aria-live="polite"></div>
+</section>
+
+            <aside class="panel">
+              <h2>Result includes</h2>
+              <ul class="checklist">
+                <li>Likely route and confidence level.</li>
+                <li>Red flags including higher-risk building signals.</li>
+                <li>Official source links and next actions.</li>
+                <li>Print and local save options.</li>
+              </ul>
+            </aside>
+          </div>
+          <section class="section"><h2>Next useful checks</h2><div class="grid"><article class="card"><h3><a href="/tools/building-control-route-checker/">Building Control Route Checker</a></h3><p>Chooses likely next route: planning-first, full plans, building notice, competent person, regularisation, or specialist advice.</p></article><article class="card"><h3><a href="/tools/full-plans-vs-building-notice-checker/">Full Plans vs Building Notice Checker</a></h3><p>Compares project complexity, certainty needs, start timing and structural risk.</p></article><article class="card"><h3><a href="/building-regulations/completion-certificate/">Building regulations completion certificate</a></h3><p>What a completion certificate proves and why it matters when selling or remortgaging.</p></article><article class="card"><h3><a href="/building-regulations/planning-permission-vs-building-regulations/">Planning permission vs building regulations</a></h3><p>Plain-English guide to planning permission vs building regulations for homeowners, with building-control route prompts, certificate evidence, official sources and practical next steps.</p></article><article class="card"><h3><a href="/building-regulations/full-plans-application/">Full plans building regulations application</a></h3><p>When full plans can give more certainty before work starts and what documents are usually needed.</p></article><article class="card"><h3><a href="/building-regulations/building-notice/">Building notice for building regulations</a></h3><p>When a building notice may suit smaller domestic works and what risk remains.</p></article></div></section>
+
+<aside class="source-panel" aria-label="Official source and version panel">
+  <h2>Source and version panel</h2>
+  <p>This page is England-first unless a nation is named. Re-check the linked source before starting work, appointing trades or submitting an application.</p>
+  <ul>
+    <li>
+      <a href="https://www.gov.uk/building-regulations-approval">GOV.UK Building regulations approval</a>
+      <span class="tag">Checked 2026-06-05</span>
+      <ul><li>Building regulations approval is different from planning permission and a project may need both.</li><li>Some work does not require the homeowner to apply directly if a competent person scheme member is used.</li><li>England-first guidance should be labelled and not implied to cover Scotland, Wales or Northern Ireland without separate checks.</li></ul>
+    </li>
+
+    <li>
+      <a href="https://www.gov.uk/building-regulations-approval/how-to-apply">GOV.UK: How to apply for building regulations approval</a>
+      <span class="tag">Checked 2026-06-04</span>
+      <ul><li>Use for the concept of contacting a building control body and for route selection around BCBs.</li></ul>
+    </li>
+
+    <li>
+      <a href="https://www.gov.uk/building-regulations-approval/use-a-competent-person-scheme">GOV.UK: Use a competent person scheme</a>
+      <span class="tag">Checked 2026-06-04</span>
+      <ul><li>Use where the user may avoid a direct building-control application by using a registered installer.</li></ul>
+    </li>
+
+    <li>
+      <a href="https://www.planningportal.co.uk/applications/building-control-applications/building-control/how-to-get-approval/pre-site-approval/building-notice/">Planning Portal: Building notice</a>
+      <span class="tag">Checked 2026-06-04</span>
+      <ul><li>Use for building notice characteristics: faster, less detail, often smaller domestic projects, inspections as work progresses.</li></ul>
+    </li>
+    </ul>
+</aside>
+
+        </main>
+
+          <footer class="site-footer">
+            <div class="footer-inner">
+              <p>BuildingRegsGuide is an independent, source-linked guide for homeowners. It does not grant building regulations approval.</p>
+              <p><a href="/about/">About</a> / <a href="/legal/">Legal and safety</a></p>
+              <p><a href="https://ukplanningguide.co.uk/">UKPlanningGuide</a> covers planning permission and permitted development.</p>
+            </div>
+          </footer>
+          <script src="/assets/js/site.js"></script>
+        </body>
+        </html>
