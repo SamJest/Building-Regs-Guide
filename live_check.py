@@ -36,41 +36,44 @@ def fetch(url: str) -> tuple[int, str, str]:
         return response.status, response.headers.get("Content-Type", ""), body
 
 
+def run_checks(base_url: str) -> list[str]:
+    failures: list[str] = []
+    for check in CHECKS:
+        url = f"{base_url}{check.path}"
+        try:
+            status, content_type, body = fetch(url)
+        except HTTPError as exc:
+            failures.append(f"{check.path} returned HTTP {exc.code}")
+            continue
+        except URLError as exc:
+            failures.append(f"{check.path} could not be reached: {exc.reason}")
+            continue
+        if status != 200:
+            failures.append(f"{check.path} returned HTTP {status}")
+        if check.content_type and check.content_type not in content_type:
+            failures.append(f"{check.path} content type {content_type!r} does not include {check.content_type!r}")
+        if check.contains and check.contains not in body:
+            failures.append(f"{check.path} does not contain expected marker {check.contains!r}")
+    return failures
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check the live BuildingRegsGuide deployment.")
     parser.add_argument("--base-url", default="https://buildingregsguide.co.uk", help="Production or preview base URL.")
-    parser.add_argument("--retries", type=int, default=1, help="Attempts per URL before failing.")
+    parser.add_argument("--retries", type=int, default=1, help="Full-suite attempts before failing.")
     parser.add_argument("--delay", type=int, default=10, help="Seconds to wait between retry attempts.")
     args = parser.parse_args()
     base_url = args.base_url.rstrip("/")
-    failures: list[str] = []
 
-    for check in CHECKS:
-        url = f"{base_url}{check.path}"
-        last_failure = ""
-        for attempt in range(1, args.retries + 1):
-            try:
-                status, content_type, body = fetch(url)
-            except HTTPError as exc:
-                last_failure = f"{check.path} returned HTTP {exc.code}"
-            except URLError as exc:
-                last_failure = f"{check.path} could not be reached: {exc.reason}"
-            else:
-                page_failures: list[str] = []
-                if status != 200:
-                    page_failures.append(f"{check.path} returned HTTP {status}")
-                if check.content_type and check.content_type not in content_type:
-                    page_failures.append(f"{check.path} content type {content_type!r} does not include {check.content_type!r}")
-                if check.contains and check.contains not in body:
-                    page_failures.append(f"{check.path} does not contain expected marker {check.contains!r}")
-                if not page_failures:
-                    last_failure = ""
-                    break
-                last_failure = "; ".join(page_failures)
-            if attempt < args.retries:
-                time.sleep(args.delay)
-        if last_failure:
-            failures.append(last_failure)
+    failures: list[str] = []
+    for attempt in range(1, args.retries + 1):
+        failures = run_checks(base_url)
+        if not failures:
+            print(f"Live check passed for {base_url}.")
+            return 0
+        if attempt < args.retries:
+            print(f"Live check attempt {attempt} failed; retrying in {args.delay}s.")
+            time.sleep(args.delay)
 
     if failures:
         print("Live check failed:")
