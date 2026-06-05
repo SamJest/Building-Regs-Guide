@@ -1,0 +1,70 @@
+[
+  {
+    "event": "tool_start",
+    "when": "User opens a tool form",
+    "params": [
+      "tool_slug",
+      "entry_page",
+      "project_type"
+    ]
+  },
+  {
+    "event": "tool_result_generated",
+    "when": "A tool returns a result",
+    "params": [
+      "tool_slug",
+      "result_type",
+      "red_flag_count",
+      "download_count"
+    ]
+  },
+  {
+    "event": "download_view",
+    "when": "User views a printable asset page",
+    "params": [
+      "asset_id",
+      "source_page",
+      "project_type"
+    ]
+  },
+  {
+    "event": "print_asset",
+    "when": "User prints or opens print view",
+    "params": [
+      "asset_id",
+      "source_page"
+    ]
+  },
+  {
+    "event": "save_project_local",
+    "when": "User saves to no-login dashboard",
+    "params": [
+      "project_type",
+      "source_tool"
+    ]
+  },
+  {
+    "event": "clear_local_data",
+    "when": "User clears local dashboard data",
+    "params": [
+      "dashboard_section"
+    ]
+  },
+  {
+    "event": "cross_site_click",
+    "when": "User clicks to UKPlanningGuide or back",
+    "params": [
+      "target_domain",
+      "source_page",
+      "anchor_type"
+    ]
+  },
+  {
+    "event": "search_query",
+    "when": "User searches internal site search",
+    "params": [
+      "query_length",
+      "result_count"
+    ]
+  }
+]

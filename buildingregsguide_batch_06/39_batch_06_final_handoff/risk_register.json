@@ -1,0 +1,62 @@
+[
+  {
+    "risk_id": "R-001",
+    "risk": "Regulatory guidance changes after launch",
+    "impact": "High",
+    "mitigation": "Visible checked_date/source panels; monthly source refresh; version-aware source registry."
+  },
+  {
+    "risk_id": "R-002",
+    "risk": "Site gives impression of formal approval",
+    "impact": "High",
+    "mitigation": "Every tool result uses likely route/next steps wording, not approval guarantee wording."
+  },
+  {
+    "risk_id": "R-003",
+    "risk": "England guidance accidentally applied to other UK nations",
+    "impact": "High",
+    "mitigation": "Jurisdiction field required; Scotland/Wales/NI pages either separate or noindex/draft until sourced."
+  },
+  {
+    "risk_id": "R-004",
+    "risk": "Thin programmatic pages damage trust/SEO",
+    "impact": "High",
+    "mitigation": "No-thin-page publishing gate; candidate pages remain draft/noindex until completed."
+  },
+  {
+    "risk_id": "R-005",
+    "risk": "Approved Document L/F 2026 transition dates mishandled",
+    "impact": "High",
+    "mitigation": "Version-aware energy/ventilation pages; cite AD L 2026 and Circular 01/2026; source freshness gate."
+  },
+  {
+    "risk_id": "R-006",
+    "risk": "Higher-risk building cases routed through homeowner simplification flow",
+    "impact": "Critical",
+    "mitigation": "Hard stop to BSR/specialist route when HRB signals appear."
+  },
+  {
+    "risk_id": "R-007",
+    "risk": "UKPlanningGuide cannibalisation",
+    "impact": "Medium",
+    "mitigation": "Planning content remains summary only; detailed planning pages live on UKPlanningGuide."
+  },
+  {
+    "risk_id": "R-008",
+    "risk": "LocalStorage dashboard privacy confusion",
+    "impact": "Medium",
+    "mitigation": "Plain local-only notice; no account/server claims unless actually implemented."
+  },
+  {
+    "risk_id": "R-009",
+    "risk": "Download assets become outdated",
+    "impact": "Medium",
+    "mitigation": "Each printable includes generated date and source re-check note."
+  },
+  {
+    "risk_id": "R-010",
+    "risk": "Codex overbuilds with accounts/paywalls/complex CMS",
+    "impact": "Medium",
+    "mitigation": "Static-first, no-login, no monetisation until traffic and trust layer are established."
+  }
+]

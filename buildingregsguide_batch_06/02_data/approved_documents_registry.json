@@ -1,0 +1,250 @@
+[
+  {
+    "part": "A",
+    "slug": "approved-document-a-structure",
+    "title": "Approved Document A: Structure",
+    "theme": "structure",
+    "common_projects": [
+      "extensions",
+      "loft-conversions",
+      "structural-alterations",
+      "garage-conversions",
+      "removing-load-bearing-walls"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "high"
+  },
+  {
+    "part": "B",
+    "slug": "approved-document-b-fire-safety",
+    "title": "Approved Document B: Fire safety",
+    "theme": "fire safety",
+    "common_projects": [
+      "loft-conversions",
+      "garage-conversions",
+      "extensions",
+      "flats",
+      "new-builds"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "high"
+  },
+  {
+    "part": "C",
+    "slug": "approved-document-c-site-preparation-moisture",
+    "title": "Approved Document C: Site preparation and resistance to contaminants and moisture",
+    "theme": "moisture and contaminants",
+    "common_projects": [
+      "extensions",
+      "garage-conversions",
+      "basements",
+      "new-builds"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "medium"
+  },
+  {
+    "part": "E",
+    "slug": "approved-document-e-sound",
+    "title": "Approved Document E: Resistance to sound",
+    "theme": "sound",
+    "common_projects": [
+      "garage-conversions",
+      "flats",
+      "loft-conversions",
+      "new-builds"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "medium"
+  },
+  {
+    "part": "F",
+    "slug": "approved-document-f-ventilation",
+    "title": "Approved Document F: Ventilation",
+    "theme": "ventilation",
+    "common_projects": [
+      "extensions",
+      "loft-conversions",
+      "bathrooms",
+      "kitchens",
+      "insulation-upgrades"
+    ],
+    "primary_source_id": "govuk_approved_document_f_2026",
+    "priority": "high"
+  },
+  {
+    "part": "G",
+    "slug": "approved-document-g-sanitation-hot-water-water-efficiency",
+    "title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "theme": "sanitation and hot water",
+    "common_projects": [
+      "bathrooms",
+      "kitchens",
+      "extensions",
+      "garage-conversions"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "medium"
+  },
+  {
+    "part": "H",
+    "slug": "approved-document-h-drainage-waste",
+    "title": "Approved Document H: Drainage and waste disposal",
+    "theme": "drainage",
+    "common_projects": [
+      "extensions",
+      "bathrooms",
+      "kitchens",
+      "driveways",
+      "new-builds"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "high"
+  },
+  {
+    "part": "J",
+    "slug": "approved-document-j-combustion-appliances",
+    "title": "Approved Document J: Combustion appliances and fuel storage systems",
+    "theme": "heating and combustion",
+    "common_projects": [
+      "boilers",
+      "wood-burners",
+      "chimneys",
+      "extensions"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "medium"
+  },
+  {
+    "part": "K",
+    "slug": "approved-document-k-falling-collision-impact",
+    "title": "Approved Document K: Protection from falling, collision and impact",
+    "theme": "stairs, guarding and glazing",
+    "common_projects": [
+      "loft-conversions",
+      "extensions",
+      "staircases",
+      "rooflights"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "high"
+  },
+  {
+    "part": "L",
+    "slug": "approved-document-l-conservation-fuel-power",
+    "title": "Approved Document L: Conservation of fuel and power",
+    "theme": "energy efficiency",
+    "common_projects": [
+      "extensions",
+      "windows-and-doors",
+      "insulation",
+      "heating",
+      "new-builds"
+    ],
+    "primary_source_id": "govuk_approved_document_l_2026",
+    "priority": "high"
+  },
+  {
+    "part": "M",
+    "slug": "approved-document-m-access",
+    "title": "Approved Document M: Access to and use of buildings",
+    "theme": "access",
+    "common_projects": [
+      "new-builds",
+      "extensions",
+      "porches",
+      "entrances"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "medium"
+  },
+  {
+    "part": "O",
+    "slug": "approved-document-o-overheating",
+    "title": "Approved Document O: Overheating",
+    "theme": "overheating",
+    "common_projects": [
+      "new-builds",
+      "loft-conversions",
+      "large-glazed-extensions"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "medium"
+  },
+  {
+    "part": "P",
+    "slug": "approved-document-p-electrical-safety",
+    "title": "Approved Document P: Electrical safety - dwellings",
+    "theme": "electrical safety",
+    "common_projects": [
+      "electrical-work",
+      "kitchens",
+      "bathrooms",
+      "garden-rooms",
+      "extensions"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "high"
+  },
+  {
+    "part": "Q",
+    "slug": "approved-document-q-security",
+    "title": "Approved Document Q: Security - dwellings",
+    "theme": "security",
+    "common_projects": [
+      "new-builds",
+      "some-extensions",
+      "entrance-doors"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "low"
+  },
+  {
+    "part": "R",
+    "slug": "approved-document-r-physical-infrastructure",
+    "title": "Approved Document R: Physical infrastructure for high-speed electronic communications networks",
+    "theme": "broadband infrastructure",
+    "common_projects": [
+      "new-builds",
+      "major-renovations"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "low"
+  },
+  {
+    "part": "S",
+    "slug": "approved-document-s-electric-vehicle-charging",
+    "title": "Approved Document S: Infrastructure for charging electric vehicles",
+    "theme": "EV charging",
+    "common_projects": [
+      "new-builds",
+      "major-renovations",
+      "parking"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "medium"
+  },
+  {
+    "part": "T",
+    "slug": "approved-document-t-toilets",
+    "title": "Approved Document T: Toilet accommodation",
+    "theme": "toilets",
+    "common_projects": [
+      "non-domestic",
+      "public-buildings"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "low"
+  },
+  {
+    "part": "Regulation 7",
+    "slug": "regulation-7-materials-workmanship",
+    "title": "Regulation 7: Materials and workmanship",
+    "theme": "materials and workmanship",
+    "common_projects": [
+      "all-projects"
+    ],
+    "primary_source_id": "govuk_approved_documents_collection",
+    "priority": "medium"
+  }
+]

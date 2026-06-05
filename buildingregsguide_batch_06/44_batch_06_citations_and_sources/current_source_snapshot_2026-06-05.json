@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "govuk_building_regs_approval",
+    "name": "GOV.UK Building regulations approval",
+    "url": "https://www.gov.uk/building-regulations-approval",
+    "checked_date": "2026-06-05",
+    "key_points_for_site": [
+      "Building regulations approval is different from planning permission and a project may need both.",
+      "Some work does not require the homeowner to apply directly if a competent person scheme member is used.",
+      "England-first guidance should be labelled and not implied to cover Scotland, Wales or Northern Ireland without separate checks."
+    ],
+    "codex_handling": "Use as the primary authority for ordinary homeowner building regulations approval route pages."
+  },
+  {
+    "source_id": "govuk_competent_person_scheme",
+    "name": "GOV.UK competent person scheme guidance",
+    "url": "https://www.gov.uk/building-regulations-approval/use-a-competent-person-scheme",
+    "checked_date": "2026-06-05",
+    "key_points_for_site": [
+      "Competent person schemes allow registered tradespeople to self-certify certain work instead of the homeowner applying separately.",
+      "The site must tell users to check installer registration and keep the certificate/evidence."
+    ],
+    "codex_handling": "Use for certificate checker, installer question pages and CPS download assets."
+  },
+  {
+    "source_id": "govuk_approved_documents_collection",
+    "name": "GOV.UK Approved Documents collection",
+    "url": "https://www.gov.uk/government/collections/approved-documents",
+    "checked_date": "2026-06-05",
+    "key_points_for_site": [
+      "Approved Documents give practical guidance on ways to meet building regulations in England.",
+      "They must be treated as guidance, not as the only lawful way to comply.",
+      "Pages must show document/version and warn users to re-check before starting work."
+    ],
+    "codex_handling": "Use for Approved Document hubs and source/version blocks."
+  },
+  {
+    "source_id": "govuk_approved_document_l_2026",
+    "name": "GOV.UK Approved Document L 2026",
+    "url": "https://www.gov.uk/government/publications/approved-document-l-2026",
+    "checked_date": "2026-06-05",
+    "key_points_for_site": [
+      "Approved Document L 2026 was published on 24 March 2026.",
+      "Earlier versions can continue to apply to buildings subject to previous regulatory standards.",
+      "The PDF/source notes include staged commencement dates, so energy pages must be version-aware."
+    ],
+    "codex_handling": "Use only with visible version warnings and transition handling."
+  },
+  {
+    "source_id": "govuk_future_homes_buildings_circular_2026",
+    "name": "Future Homes and Buildings Standards: Building Circular 01/2026",
+    "url": "https://www.gov.uk/government/publications/the-future-homes-and-buildings-standards-building-circular-012026",
+    "checked_date": "2026-06-05",
+    "key_points_for_site": [
+      "Circular 01/2026 explains updates connected with future homes/buildings standards.",
+      "Codex must not collapse these changes into older Part L or Part F pages without transition notes."
+    ],
+    "codex_handling": "Use for energy/ventilation version notes and update queue."
+  },
+  {
+    "source_id": "govuk_bsr_higher_risk_approval",
+    "name": "GOV.UK Building control approval for higher-risk buildings",
+    "url": "https://www.gov.uk/guidance/building-control-approval-for-higher-risk-buildings",
+    "checked_date": "2026-06-05",
+    "key_points_for_site": [
+      "BSR oversees and approves building work for higher-risk buildings in England.",
+      "The guidance defines HRB thresholds around 7 storeys or 18 metres and building use/residential units.",
+      "Ordinary homeowner tools must route HRB cases out to specialist/BSR guidance rather than giving simplified advice."
+    ],
+    "codex_handling": "Use as a stop-route and warning source, not as a normal DIY/homeowner flow."
+  }
+]

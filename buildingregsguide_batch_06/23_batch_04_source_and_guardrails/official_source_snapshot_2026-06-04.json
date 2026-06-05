@@ -1,0 +1,65 @@
+{
+  "snapshot_date": "2026-06-04",
+  "batch": 4,
+  "purpose": "Support download assets, retention flows and homeowner handover/certificate logic with current official-source framing.",
+  "observed_source_claims": [
+    {
+      "source_id": "govuk_building_regulations_approval",
+      "url": "https://www.gov.uk/building-regulations-approval",
+      "claims_for_pack": [
+        "Building regulations approval is different from planning permission and a project might need both.",
+        "Homeowners must check whether they need approval before constructing or changing buildings in relevant ways.",
+        "If a person cannot decide whether approval is needed, GOV.UK says to check with a building control body.",
+        "For work that is not higher risk, approval may be from a local authority building control department or a private registered building control approver.",
+        "Without approval, certificates of compliance may be missing when the owner wants to sell the home."
+      ],
+      "use_in_batch_4": "Certificate trackers, evidence folders, before-you-start packs and cross-site planning-vs-building-regs prompts."
+    },
+    {
+      "source_id": "govuk_competent_person_scheme",
+      "url": "https://www.gov.uk/building-regulations-approval/use-a-competent-person-scheme",
+      "claims_for_pack": [
+        "Competent person schemes allow registered tradespeople to prove they can carry out certain work to required standards instead of the homeowner applying for building regulations approval.",
+        "Registered installers can self-certify compliance, notify the local authority if needed, and provide a certificate within 8 weeks of completion.",
+        "GOV.UK points users to the Competent Persons Register and Electrical Competent Person Register."
+      ],
+      "use_in_batch_4": "Competent-person certificate tracker and installer confirmation forms."
+    },
+    {
+      "source_id": "govuk_approved_documents_collection",
+      "url": "https://www.gov.uk/government/collections/approved-documents",
+      "claims_for_pack": [
+        "Approved Documents give guidance on ways to meet the building regulations.",
+        "They include general guidance on expected performance and practical examples/solutions for common building situations."
+      ],
+      "use_in_batch_4": "Approved Document pack downloads and source/version panels."
+    },
+    {
+      "source_id": "govuk_approved_document_l_2026",
+      "url": "https://www.gov.uk/government/publications/approved-document-l-2026",
+      "claims_for_pack": [
+        "Approved Document L 2026 was published on 24 March 2026 and applies to England.",
+        "Earlier versions of Approved Document L continue to apply to buildings subject to previous regulatory standards."
+      ],
+      "use_in_batch_4": "Version warning for energy/ventilation downloads and saved project packs."
+    },
+    {
+      "source_id": "govuk_future_homes_buildings_circular_2026",
+      "url": "https://www.gov.uk/government/publications/the-future-homes-and-buildings-standards-building-circular-012026/the-future-homes-and-buildings-standards-building-circular-012026-letter",
+      "claims_for_pack": [
+        "The 2026 circular announced new statutory guidance in Approved Document L Volumes 1 and 2 and Approved Document F Volume 1.",
+        "It includes new or updated guidance on heat networks, low carbon heating systems, building services efficiencies, commissioning and the role of competent person schemes for heat pump or mechanical ventilation installations."
+      ],
+      "use_in_batch_4": "Keep energy, heat-pump and ventilation lead magnets version-aware."
+    },
+    {
+      "source_id": "govuk_bsr_strategic_plan_2026_2027",
+      "url": "https://www.gov.uk/government/publications/building-safety-regulator-strategic-plan-2026-to-2027/building-safety-regulator-strategic-plan-2026-to-2027",
+      "claims_for_pack": [
+        "BSR is the building control authority for higher-risk buildings in England.",
+        "Higher-risk buildings are at least 7 storeys or at least 18 metres high and have 2 or more residential units, or are a hospital or care home."
+      ],
+      "use_in_batch_4": "HRB exclusion/routing warnings in checklists and tool results."
+    }
+  ]
+}

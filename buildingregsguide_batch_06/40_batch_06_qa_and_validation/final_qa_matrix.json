@@ -1,0 +1,302 @@
+[
+  {
+    "area": "routing",
+    "test": "homepage loads",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "routing",
+    "test": "all published route paths resolve",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "routing",
+    "test": "canonical matches path",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "routing",
+    "test": "breadcrumb hierarchy works",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "routing",
+    "test": "draft pages excluded from sitemap",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "sources",
+    "test": "source panel visible",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "sources",
+    "test": "source checked date visible",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "sources",
+    "test": "version warnings shown for AD L/F pages",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "sources",
+    "test": "HRB pages show BSR stop-route",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "sources",
+    "test": "Scotland/Wales/NI pages do not reuse England wording unlabelled",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "tools",
+    "test": "route checker handles extension",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "tools",
+    "test": "route checker handles already-built work",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "tools",
+    "test": "CPS checker handles electrical/windows/boiler work",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "tools",
+    "test": "completion checker returns missing evidence",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "tools",
+    "test": "tool results print cleanly",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "tools",
+    "test": "saved result can be removed",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "downloads",
+    "test": "download pages render",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "downloads",
+    "test": "print CSS works",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "downloads",
+    "test": "asset CTAs appear on relevant pages",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "downloads",
+    "test": "download recommendation engine avoids duplicate CTAs",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "downloads",
+    "test": "asset pages include re-check warning",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "dashboard",
+    "test": "localStorage initialises safely",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "dashboard",
+    "test": "dashboard works with no saved project",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "dashboard",
+    "test": "saved project survives refresh",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "dashboard",
+    "test": "clear data button works",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "dashboard",
+    "test": "privacy note visible",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "seo",
+    "test": "schema JSON valid",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "seo",
+    "test": "FAQ schema only mirrors visible content",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "seo",
+    "test": "sitemap excludes noindex",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "seo",
+    "test": "robots allows published pages",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "seo",
+    "test": "search index contains only intended fields",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "accessibility",
+    "test": "forms have labels",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "accessibility",
+    "test": "keyboard focus visible",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "accessibility",
+    "test": "error messages announced",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "accessibility",
+    "test": "skip link exists",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "accessibility",
+    "test": "buttons are buttons not divs",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "performance",
+    "test": "core pages work without third-party scripts",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "performance",
+    "test": "JS errors absent",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "performance",
+    "test": "images lazy loaded",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "performance",
+    "test": "CSS not excessive",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "performance",
+    "test": "search index size acceptable",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "cross_site",
+    "test": "UKPlanningGuide link appears on planning-overlap pages",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "cross_site",
+    "test": "BuildingRegsGuide does not cannibalise planning pages",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "cross_site",
+    "test": "cross-site links use helpful anchor text",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "cross_site",
+    "test": "no circular CTA loop",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "legal",
+    "test": "not legal/professional advice disclaimer visible",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "legal",
+    "test": "no guarantee of approval wording",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "legal",
+    "test": "competent person certificate warning included",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "legal",
+    "test": "regularisation warnings cautious",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  },
+  {
+    "area": "legal",
+    "test": "user data local-only copy accurate",
+    "expected_result": "Pass with no console errors, no broken links, no misleading compliance claim.",
+    "severity": "high"
+  }
+]

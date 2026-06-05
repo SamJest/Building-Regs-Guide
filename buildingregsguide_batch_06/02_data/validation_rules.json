@@ -1,0 +1,35 @@
+{
+  "required_checks": [
+    "Every generated page must have one canonical URL on the target domain.",
+    "Every guide/tool/download page must include at least one official or trusted source block.",
+    "No England-only wording on Wales or Scotland jurisdiction pages.",
+    "No local council/building-control-body pages until a reliable data source exists.",
+    "No sitewide cross-link footer between UKPlanningGuide and BuildingRegsGuide.",
+    "Every internal link must exist in the route registry or be deliberately marked external.",
+    "Tool result states must point to at least one guide and one printable asset.",
+    "Approved Document pages must display last verified date and source ID.",
+    "Download pages must be HTML-first and printable, not PDF-only.",
+    "Validation must fail on missing source_ids, duplicate slugs, duplicate paths and missing titles."
+  ],
+  "commands_for_codex_to_create_or_adapt": [
+    "python build_site.py",
+    "python validate.py --mode local",
+    "python validate.py --mode links",
+    "python validate.py --mode content",
+    "python scripts/generate_sitemaps.py",
+    "node scripts/tool_smoke_test.js"
+  ],
+  "route_families_to_register": [
+    "home",
+    "hub",
+    "guide",
+    "approval_route",
+    "project",
+    "approved_document",
+    "tool",
+    "download",
+    "jurisdiction",
+    "guardrail"
+  ],
+  "metadata_policy": "Answer-first titles. Avoid copying UKPlanningGuide planning-permission patterns. Target building-control decisions, evidence, certificates and approval route uncertainty."
+}

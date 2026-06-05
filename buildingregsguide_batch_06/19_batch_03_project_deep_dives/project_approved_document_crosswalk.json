@@ -1,0 +1,1372 @@
+[
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "G",
+    "approved_document_title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "why_it_matters": "Sanitation, hot water safety and water efficiency issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "M",
+    "approved_document_title": "Approved Document M: Access to and use of buildings",
+    "why_it_matters": "Access to and use of buildings issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "single_storey_extension",
+    "project_title": "Single-storey extension building regulations",
+    "project_slug": "single-storey-extension-building-regulations",
+    "approved_document_part": "O",
+    "approved_document_title": "Approved Document O: Overheating",
+    "why_it_matters": "Overheating issues may arise in single-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "G",
+    "approved_document_title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "why_it_matters": "Sanitation, hot water safety and water efficiency issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "M",
+    "approved_document_title": "Approved Document M: Access to and use of buildings",
+    "why_it_matters": "Access to and use of buildings issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "two_storey_extension",
+    "project_title": "Two-storey extension building regulations",
+    "project_slug": "two-storey-extension-building-regulations",
+    "approved_document_part": "O",
+    "approved_document_title": "Approved Document O: Overheating",
+    "why_it_matters": "Overheating issues may arise in two-storey extension building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "loft_conversion",
+    "project_title": "Loft conversion building regulations",
+    "project_slug": "loft-conversion-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in loft conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "loft_conversion",
+    "project_title": "Loft conversion building regulations",
+    "project_slug": "loft-conversion-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in loft conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "loft_conversion",
+    "project_title": "Loft conversion building regulations",
+    "project_slug": "loft-conversion-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in loft conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "loft_conversion",
+    "project_title": "Loft conversion building regulations",
+    "project_slug": "loft-conversion-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in loft conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "loft_conversion",
+    "project_title": "Loft conversion building regulations",
+    "project_slug": "loft-conversion-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in loft conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "loft_conversion",
+    "project_title": "Loft conversion building regulations",
+    "project_slug": "loft-conversion-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in loft conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garage_conversion",
+    "project_title": "Garage conversion building regulations",
+    "project_slug": "garage-conversion-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in garage conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garage_conversion",
+    "project_title": "Garage conversion building regulations",
+    "project_slug": "garage-conversion-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in garage conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garage_conversion",
+    "project_title": "Garage conversion building regulations",
+    "project_slug": "garage-conversion-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in garage conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garage_conversion",
+    "project_title": "Garage conversion building regulations",
+    "project_slug": "garage-conversion-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in garage conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garage_conversion",
+    "project_title": "Garage conversion building regulations",
+    "project_slug": "garage-conversion-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in garage conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garage_conversion",
+    "project_title": "Garage conversion building regulations",
+    "project_slug": "garage-conversion-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in garage conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garage_conversion",
+    "project_title": "Garage conversion building regulations",
+    "project_slug": "garage-conversion-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in garage conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "removing_load_bearing_wall",
+    "project_title": "Removing a load-bearing wall building regulations",
+    "project_slug": "removing-load-bearing-wall-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in removing a load-bearing wall building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "removing_load_bearing_wall",
+    "project_title": "Removing a load-bearing wall building regulations",
+    "project_slug": "removing-load-bearing-wall-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in removing a load-bearing wall building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "removing_load_bearing_wall",
+    "project_title": "Removing a load-bearing wall building regulations",
+    "project_slug": "removing-load-bearing-wall-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in removing a load-bearing wall building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "chimney_breast_removal",
+    "project_title": "Chimney breast removal building regulations",
+    "project_slug": "chimney-breast-removal-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in chimney breast removal building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "chimney_breast_removal",
+    "project_title": "Chimney breast removal building regulations",
+    "project_slug": "chimney-breast-removal-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in chimney breast removal building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "chimney_breast_removal",
+    "project_title": "Chimney breast removal building regulations",
+    "project_slug": "chimney-breast-removal-building-regulations",
+    "approved_document_part": "J",
+    "approved_document_title": "Approved Document J: Combustion appliances and fuel storage",
+    "why_it_matters": "Combustion appliances and fuel storage issues may arise in chimney breast removal building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "bathroom",
+    "project_title": "Bathroom building regulations",
+    "project_slug": "bathroom-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in bathroom building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "bathroom",
+    "project_title": "Bathroom building regulations",
+    "project_slug": "bathroom-building-regulations",
+    "approved_document_part": "G",
+    "approved_document_title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "why_it_matters": "Sanitation, hot water safety and water efficiency issues may arise in bathroom building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "bathroom",
+    "project_title": "Bathroom building regulations",
+    "project_slug": "bathroom-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in bathroom building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "bathroom",
+    "project_title": "Bathroom building regulations",
+    "project_slug": "bathroom-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in bathroom building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "bathroom",
+    "project_title": "Bathroom building regulations",
+    "project_slug": "bathroom-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in bathroom building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "kitchen",
+    "project_title": "Kitchen building regulations",
+    "project_slug": "kitchen-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in kitchen building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "kitchen",
+    "project_title": "Kitchen building regulations",
+    "project_slug": "kitchen-building-regulations",
+    "approved_document_part": "G",
+    "approved_document_title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "why_it_matters": "Sanitation, hot water safety and water efficiency issues may arise in kitchen building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "kitchen",
+    "project_title": "Kitchen building regulations",
+    "project_slug": "kitchen-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in kitchen building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "kitchen",
+    "project_title": "Kitchen building regulations",
+    "project_slug": "kitchen-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in kitchen building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "kitchen",
+    "project_title": "Kitchen building regulations",
+    "project_slug": "kitchen-building-regulations",
+    "approved_document_part": "J",
+    "approved_document_title": "Approved Document J: Combustion appliances and fuel storage",
+    "why_it_matters": "Combustion appliances and fuel storage issues may arise in kitchen building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "kitchen",
+    "project_title": "Kitchen building regulations",
+    "project_slug": "kitchen-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in kitchen building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "windows_doors",
+    "project_title": "Replacement windows and doors building regulations",
+    "project_slug": "replacement-windows-doors-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in replacement windows and doors building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "windows_doors",
+    "project_title": "Replacement windows and doors building regulations",
+    "project_slug": "replacement-windows-doors-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in replacement windows and doors building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "windows_doors",
+    "project_title": "Replacement windows and doors building regulations",
+    "project_slug": "replacement-windows-doors-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in replacement windows and doors building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "windows_doors",
+    "project_title": "Replacement windows and doors building regulations",
+    "project_slug": "replacement-windows-doors-building-regulations",
+    "approved_document_part": "Q",
+    "approved_document_title": "Approved Document Q: Security in dwellings",
+    "why_it_matters": "Security in dwellings issues may arise in replacement windows and doors building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "windows_doors",
+    "project_title": "Replacement windows and doors building regulations",
+    "project_slug": "replacement-windows-doors-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in replacement windows and doors building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "boiler_heating",
+    "project_title": "Boiler and heating building regulations",
+    "project_slug": "boiler-heating-building-regulations",
+    "approved_document_part": "J",
+    "approved_document_title": "Approved Document J: Combustion appliances and fuel storage",
+    "why_it_matters": "Combustion appliances and fuel storage issues may arise in boiler and heating building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "boiler_heating",
+    "project_title": "Boiler and heating building regulations",
+    "project_slug": "boiler-heating-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in boiler and heating building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "boiler_heating",
+    "project_title": "Boiler and heating building regulations",
+    "project_slug": "boiler-heating-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in boiler and heating building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "boiler_heating",
+    "project_title": "Boiler and heating building regulations",
+    "project_slug": "boiler-heating-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in boiler and heating building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "electrical_work",
+    "project_title": "Electrical work building regulations",
+    "project_slug": "electrical-work-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in electrical work building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "electrical_work",
+    "project_title": "Electrical work building regulations",
+    "project_slug": "electrical-work-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in electrical work building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "electrical_work",
+    "project_title": "Electrical work building regulations",
+    "project_slug": "electrical-work-building-regulations",
+    "approved_document_part": "S",
+    "approved_document_title": "Approved Document S: Electric vehicle charging infrastructure",
+    "why_it_matters": "Electric vehicle charging infrastructure issues may arise in electrical work building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "solar_panels",
+    "project_title": "Solar panels building regulations",
+    "project_slug": "solar-panels-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in solar panels building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "solar_panels",
+    "project_title": "Solar panels building regulations",
+    "project_slug": "solar-panels-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in solar panels building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "solar_panels",
+    "project_title": "Solar panels building regulations",
+    "project_slug": "solar-panels-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in solar panels building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "solar_panels",
+    "project_title": "Solar panels building regulations",
+    "project_slug": "solar-panels-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in solar panels building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "heat_pump",
+    "project_title": "Heat pump building regulations",
+    "project_slug": "heat-pump-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in heat pump building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "heat_pump",
+    "project_title": "Heat pump building regulations",
+    "project_slug": "heat-pump-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in heat pump building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "heat_pump",
+    "project_title": "Heat pump building regulations",
+    "project_slug": "heat-pump-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in heat pump building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "heat_pump",
+    "project_title": "Heat pump building regulations",
+    "project_slug": "heat-pump-building-regulations",
+    "approved_document_part": "J",
+    "approved_document_title": "Approved Document J: Combustion appliances and fuel storage",
+    "why_it_matters": "Combustion appliances and fuel storage issues may arise in heat pump building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garden_room",
+    "project_title": "Garden room building regulations",
+    "project_slug": "garden-room-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in garden room building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garden_room",
+    "project_title": "Garden room building regulations",
+    "project_slug": "garden-room-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in garden room building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garden_room",
+    "project_title": "Garden room building regulations",
+    "project_slug": "garden-room-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in garden room building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garden_room",
+    "project_title": "Garden room building regulations",
+    "project_slug": "garden-room-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in garden room building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garden_room",
+    "project_title": "Garden room building regulations",
+    "project_slug": "garden-room-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in garden room building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garden_room",
+    "project_title": "Garden room building regulations",
+    "project_slug": "garden-room-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in garden room building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "garden_room",
+    "project_title": "Garden room building regulations",
+    "project_slug": "garden-room-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in garden room building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "outbuilding",
+    "project_title": "Outbuilding building regulations",
+    "project_slug": "outbuilding-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in outbuilding building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "outbuilding",
+    "project_title": "Outbuilding building regulations",
+    "project_slug": "outbuilding-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in outbuilding building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "outbuilding",
+    "project_title": "Outbuilding building regulations",
+    "project_slug": "outbuilding-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in outbuilding building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "outbuilding",
+    "project_title": "Outbuilding building regulations",
+    "project_slug": "outbuilding-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in outbuilding building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "outbuilding",
+    "project_title": "Outbuilding building regulations",
+    "project_slug": "outbuilding-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in outbuilding building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "basement",
+    "project_title": "Basement conversion building regulations",
+    "project_slug": "basement-conversion-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in basement conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "basement",
+    "project_title": "Basement conversion building regulations",
+    "project_slug": "basement-conversion-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in basement conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "basement",
+    "project_title": "Basement conversion building regulations",
+    "project_slug": "basement-conversion-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in basement conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "basement",
+    "project_title": "Basement conversion building regulations",
+    "project_slug": "basement-conversion-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in basement conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "basement",
+    "project_title": "Basement conversion building regulations",
+    "project_slug": "basement-conversion-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in basement conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "basement",
+    "project_title": "Basement conversion building regulations",
+    "project_slug": "basement-conversion-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in basement conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "basement",
+    "project_title": "Basement conversion building regulations",
+    "project_slug": "basement-conversion-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in basement conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "basement",
+    "project_title": "Basement conversion building regulations",
+    "project_slug": "basement-conversion-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in basement conversion building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "underpinning",
+    "project_title": "Underpinning building regulations",
+    "project_slug": "underpinning-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in underpinning building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "underpinning",
+    "project_title": "Underpinning building regulations",
+    "project_slug": "underpinning-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in underpinning building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "rooflights",
+    "project_title": "Rooflights building regulations",
+    "project_slug": "rooflights-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in rooflights building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "rooflights",
+    "project_title": "Rooflights building regulations",
+    "project_slug": "rooflights-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in rooflights building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "rooflights",
+    "project_title": "Rooflights building regulations",
+    "project_slug": "rooflights-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in rooflights building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "rooflights",
+    "project_title": "Rooflights building regulations",
+    "project_slug": "rooflights-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in rooflights building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "rooflights",
+    "project_title": "Rooflights building regulations",
+    "project_slug": "rooflights-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in rooflights building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "roof_alterations",
+    "project_title": "Roof alterations building regulations",
+    "project_slug": "roof-alterations-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in roof alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "roof_alterations",
+    "project_title": "Roof alterations building regulations",
+    "project_slug": "roof-alterations-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in roof alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "roof_alterations",
+    "project_title": "Roof alterations building regulations",
+    "project_slug": "roof-alterations-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in roof alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "roof_alterations",
+    "project_title": "Roof alterations building regulations",
+    "project_slug": "roof-alterations-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in roof alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "driveway_drainage",
+    "project_title": "Driveway drainage building regulations",
+    "project_slug": "driveway-drainage-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in driveway drainage building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "driveway_drainage",
+    "project_title": "Driveway drainage building regulations",
+    "project_slug": "driveway-drainage-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in driveway drainage building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "insulation",
+    "project_title": "Insulation upgrades building regulations",
+    "project_slug": "insulation-upgrades-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in insulation upgrades building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "insulation",
+    "project_title": "Insulation upgrades building regulations",
+    "project_slug": "insulation-upgrades-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in insulation upgrades building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "insulation",
+    "project_title": "Insulation upgrades building regulations",
+    "project_slug": "insulation-upgrades-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in insulation upgrades building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "insulation",
+    "project_title": "Insulation upgrades building regulations",
+    "project_slug": "insulation-upgrades-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in insulation upgrades building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "porch",
+    "project_title": "Porch building regulations",
+    "project_slug": "porch-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in porch building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "porch",
+    "project_title": "Porch building regulations",
+    "project_slug": "porch-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in porch building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "porch",
+    "project_title": "Porch building regulations",
+    "project_slug": "porch-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in porch building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "porch",
+    "project_title": "Porch building regulations",
+    "project_slug": "porch-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in porch building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "porch",
+    "project_title": "Porch building regulations",
+    "project_slug": "porch-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in porch building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "E",
+    "approved_document_title": "Approved Document E: Resistance to sound",
+    "why_it_matters": "Resistance to sound issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "G",
+    "approved_document_title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "why_it_matters": "Sanitation, hot water safety and water efficiency issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "M",
+    "approved_document_title": "Approved Document M: Access to and use of buildings",
+    "why_it_matters": "Access to and use of buildings issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "flat_alterations",
+    "project_title": "Flat alterations building regulations",
+    "project_slug": "flat-alterations-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in flat alterations building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "A",
+    "approved_document_title": "Approved Document A: Structure",
+    "why_it_matters": "Structure issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "B",
+    "approved_document_title": "Approved Document B: Fire safety",
+    "why_it_matters": "Fire safety issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "C",
+    "approved_document_title": "Approved Document C: Site preparation, contaminants and moisture",
+    "why_it_matters": "Site preparation, contaminants and moisture issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "E",
+    "approved_document_title": "Approved Document E: Resistance to sound",
+    "why_it_matters": "Resistance to sound issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "F",
+    "approved_document_title": "Approved Document F: Ventilation",
+    "why_it_matters": "Ventilation issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "G",
+    "approved_document_title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "why_it_matters": "Sanitation, hot water safety and water efficiency issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "H",
+    "approved_document_title": "Approved Document H: Drainage and waste disposal",
+    "why_it_matters": "Drainage and waste disposal issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "K",
+    "approved_document_title": "Approved Document K: Protection from falling, collision and impact",
+    "why_it_matters": "Protection from falling, collision and impact issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "L",
+    "approved_document_title": "Approved Document L: Conservation of fuel and power",
+    "why_it_matters": "Conservation of fuel and power issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "M",
+    "approved_document_title": "Approved Document M: Access to and use of buildings",
+    "why_it_matters": "Access to and use of buildings issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "O",
+    "approved_document_title": "Approved Document O: Overheating",
+    "why_it_matters": "Overheating issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "P",
+    "approved_document_title": "Approved Document P: Electrical safety",
+    "why_it_matters": "Electrical safety issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "Q",
+    "approved_document_title": "Approved Document Q: Security in dwellings",
+    "why_it_matters": "Security in dwellings issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "R",
+    "approved_document_title": "Approved Document R: Physical infrastructure for electronic communications",
+    "why_it_matters": "Physical infrastructure for electronic communications issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  },
+  {
+    "project_id": "new_dwelling_conversion",
+    "project_title": "Creating a new dwelling building regulations",
+    "project_slug": "creating-new-dwelling-building-regulations",
+    "approved_document_part": "S",
+    "approved_document_title": "Approved Document S: Electric vehicle charging infrastructure",
+    "why_it_matters": "Electric vehicle charging infrastructure issues may arise in creating a new dwelling building regulations depending on design and scope.",
+    "certainty": "likely_not_absolute",
+    "source_primary": "govuk_approved_documents_collection"
+  }
+]

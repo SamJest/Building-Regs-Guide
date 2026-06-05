@@ -1,0 +1,39 @@
+{
+  "disclaimer": "Routing aid only. It must tell users to check with a building control body or competent professional before relying on the result.",
+  "global_triggers": {
+    "higher_risk_building": {
+      "question": "Is the building at least 7 storeys or at least 18m high and in a relevant residential/hospital/care use?",
+      "outcome": "Route to BSR higher-risk building guidance before any normal route."
+    },
+    "started_without_approval": {
+      "question": "Has work already started or finished without approval/certification?",
+      "outcome": "Show regularisation/completion evidence route and warn that normal notice routes may no longer apply."
+    },
+    "listed_or_conservation": {
+      "question": "Is the building listed, in a conservation area, a flat, leasehold, or subject to planning conditions?",
+      "outcome": "Keep building regs answer separate but add planning/listed/freeholder warning."
+    }
+  },
+  "outcomes": {
+    "likely_building_control_needed": {
+      "headline": "Likely building control approval needed",
+      "cta": "Prepare drawings/evidence and contact local authority building control or a registered building control approver before starting."
+    },
+    "competent_person_route_possible": {
+      "headline": "A competent person scheme may cover this",
+      "cta": "Use a properly registered installer and keep the compliance certificate. If not using one, check the building control route before starting."
+    },
+    "may_be_exempt_or_minor": {
+      "headline": "May be exempt/minor, but check the details",
+      "cta": "Keep product/installer evidence and check if the work is part of a wider project."
+    },
+    "bsr_route": {
+      "headline": "Higher-risk building route: check BSR guidance",
+      "cta": "Do not use the standard domestic route until the higher-risk building status is resolved."
+    },
+    "regularisation_or_evidence_problem": {
+      "headline": "Work may need regularisation or evidence recovery",
+      "cta": "Contact the local authority building control team and gather photos, invoices, certificates and structural details."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "batch": 4,
+  "date": "2026-06-04",
+  "cumulative_from": "buildingregsguide_batch_03",
+  "new_focus": "downloadable packs, no-login retention dashboard, saveable tool results, inspection/certificate/evidence loops",
+  "new_counts": {
+    "download_asset_records": 48,
+    "download_asset_markdown_files": 48,
+    "retention_loops": 8,
+    "prototype_js_modules": 3,
+    "wireframes": 3,
+    "codex_prompts": 4
+  },
+  "new_directories": [
+    "23_batch_04_source_and_guardrails",
+    "23_batch_04_download_assets",
+    "24_batch_04_retention_system",
+    "25_batch_04_tool_extensions",
+    "26_batch_04_wireframes",
+    "27_batch_04_content_and_linking",
+    "28_batch_04_codex_handoff",
+    "29_batch_04_validation"
+  ]
+}

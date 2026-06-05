@@ -1,0 +1,487 @@
+{
+  "version": "batch_3_v1",
+  "date": "2026-06-04",
+  "project_to_parts": {
+    "single_storey_extension": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "O"
+    ],
+    "two_storey_extension": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "O"
+    ],
+    "loft_conversion": [
+      "A",
+      "B",
+      "F",
+      "K",
+      "L",
+      "P"
+    ],
+    "garage_conversion": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "L",
+      "P",
+      "K"
+    ],
+    "removing_load_bearing_wall": [
+      "A",
+      "B",
+      "K"
+    ],
+    "chimney_breast_removal": [
+      "A",
+      "B",
+      "J"
+    ],
+    "bathroom": [
+      "F",
+      "G",
+      "H",
+      "P",
+      "K"
+    ],
+    "kitchen": [
+      "F",
+      "G",
+      "H",
+      "P",
+      "J",
+      "L"
+    ],
+    "windows_doors": [
+      "L",
+      "K",
+      "B",
+      "Q",
+      "F"
+    ],
+    "boiler_heating": [
+      "J",
+      "L",
+      "F",
+      "P"
+    ],
+    "electrical_work": [
+      "P",
+      "L",
+      "S"
+    ],
+    "solar_panels": [
+      "A",
+      "P",
+      "L",
+      "B"
+    ],
+    "heat_pump": [
+      "L",
+      "P",
+      "F",
+      "J"
+    ],
+    "garden_room": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "L",
+      "P",
+      "H"
+    ],
+    "outbuilding": [
+      "A",
+      "B",
+      "C",
+      "P",
+      "H"
+    ],
+    "basement": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "H",
+      "K",
+      "L",
+      "P"
+    ],
+    "underpinning": [
+      "A",
+      "C"
+    ],
+    "rooflights": [
+      "A",
+      "B",
+      "K",
+      "L",
+      "F"
+    ],
+    "roof_alterations": [
+      "A",
+      "B",
+      "K",
+      "L"
+    ],
+    "driveway_drainage": [
+      "H",
+      "C"
+    ],
+    "insulation": [
+      "L",
+      "C",
+      "F",
+      "B"
+    ],
+    "porch": [
+      "A",
+      "C",
+      "L",
+      "K",
+      "P"
+    ],
+    "flat_alterations": [
+      "A",
+      "B",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "P"
+    ],
+    "new_dwelling_conversion": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  "project_to_default_route": {
+    "single_storey_extension": "Full plans is the safest default if foundations, drainage, steelwork, large glazing or open-plan changes are involved. A building notice may be acceptable for simple domestic work, but it gives less design certainty before work starts.",
+    "two_storey_extension": "Use full plans unless a professional confirms a simpler route is suitable. Two-storey work increases structural, fire, drainage and neighbour risk.",
+    "loft_conversion": "Full plans should be the default because structure, stairs, fire safety and insulation need design before work starts.",
+    "garage_conversion": "Usually needs building regulations approval. Full plans is better where the garage floor, wall insulation, damp proofing and fire separation need checking.",
+    "removing_load_bearing_wall": "Treat as structural work. Use full plans or a clear building control route with structural calculations before work starts.",
+    "chimney_breast_removal": "Use structural design and building control approval before removal. Party wall and fireplace/flue issues may be separate.",
+    "bathroom": "Minor like-for-like changes may not need an application, but new drainage, electrical work, ventilation and structural changes can trigger approval/certification.",
+    "kitchen": "Simple replacement may be low-risk, but moving drainage, gas, electrics, extract, walls or windows changes the compliance picture.",
+    "windows_doors": "Often handled through a competent person scheme for registered installers. Keep the compliance certificate.",
+    "boiler_heating": "Use a registered competent person where possible. Keep Gas Safe/OFTEC/HETAS or other relevant certificates and commissioning records.",
+    "electrical_work": "Notifiable domestic electrical work needs either building control involvement or a registered installer who can self-certify.",
+    "solar_panels": "Building regulations can cover structure, electrics and fire/equipment safety even where planning is permitted development.",
+    "heat_pump": "Use competent installers and keep commissioning, electrical and product records. Planning/noise constraints may still apply.",
+    "garden_room": "Detached small buildings can be exempt only in limited circumstances. Sleep accommodation, services, size, boundary proximity and construction change the route.",
+    "outbuilding": "Check exemption rules early; do not assume every shed, office or gym is exempt.",
+    "basement": "Use full plans and specialist design. Basements are high-risk because structure, water, escape, ventilation and drainage interact.",
+    "underpinning": "Use full plans and engineer-led design. Local authority/approver inspection timing matters because work is concealed quickly.",
+    "rooflights": "Small rooflights may be simple, but structure, insulation, safety glass, ventilation and fire escape roles must be checked.",
+    "roof_alterations": "Treat structural roof changes as building control work unless clearly minor and non-structural.",
+    "driveway_drainage": "Planning and drainage rules often overlap. Building regulations are mainly relevant where drainage connects, diverts or affects building fabric.",
+    "insulation": "Thermal upgrades can trigger Part L and can create moisture/ventilation/fire risks if treated as decoration only.",
+    "porch": "Some small porches may be exempt if conditions are met, but glazing, electrics, thermal separation and structure still matter.",
+    "flat_alterations": "Work to flats is higher sensitivity. Check lease/freeholder, fire strategy, sound, structure and building control before starting.",
+    "new_dwelling_conversion": "Use full plans and professional design. Creating a new dwelling pulls in the widest set of Approved Documents and usually has planning/change-of-use overlap."
+  },
+  "part_to_evidence": {
+    "A": [
+      "structural engineer calculations",
+      "beam/steel schedules",
+      "foundation notes",
+      "existing/proposed plans",
+      "site photos before cover-up",
+      "inspection sign-off for structural stages"
+    ],
+    "B": [
+      "fire strategy notes",
+      "smoke/heat alarm specification",
+      "protected stair/escape route notes",
+      "fire door schedule where relevant",
+      "completion certificates for alarms/electrics"
+    ],
+    "C": [
+      "damp-proof course/damp-proof membrane details",
+      "ground condition notes",
+      "radon/contaminant checks where relevant",
+      "floor build-up specification",
+      "photos before covering membranes"
+    ],
+    "D": [
+      "product datasheets",
+      "installer certificate",
+      "specification confirming suitable materials"
+    ],
+    "E": [
+      "acoustic design notes",
+      "robust details where applicable",
+      "pre-completion test certificates if required",
+      "floor/wall build-up specification"
+    ],
+    "F": [
+      "extract fan specification",
+      "ventilation calculations/strategy",
+      "commissioning certificates where needed",
+      "trickle vent/window details",
+      "handover/user information"
+    ],
+    "G": [
+      "hot water safety details",
+      "water efficiency calculation where required",
+      "sanitary layout",
+      "plumbing/commissioning certificates"
+    ],
+    "H": [
+      "existing/proposed drainage layout",
+      "inspection chamber locations",
+      "sewer build-over approval where relevant",
+      "photos of drains before backfill",
+      "air/admittance/venting details"
+    ],
+    "J": [
+      "Gas Safe/OFTEC/HETAS certificate where applicable",
+      "flue specification",
+      "CO alarm details",
+      "ventilation provision",
+      "commissioning certificate"
+    ],
+    "K": [
+      "stair dimensions",
+      "guarding/balustrade spec",
+      "safety glazing location plan",
+      "manufacturer data",
+      "photos before completion"
+    ],
+    "L": [
+      "U-value calculations",
+      "SAP/energy calculations if required",
+      "insulation specification",
+      "heating controls details",
+      "air-tightness/commissioning information",
+      "photos before covering insulation"
+    ],
+    "M": [
+      "access layout",
+      "threshold details",
+      "door/corridor widths where relevant",
+      "WC layout",
+      "ramp/step details"
+    ],
+    "O": [
+      "overheating assessment",
+      "glazing areas and orientation",
+      "ventilation/opening strategy",
+      "shading details"
+    ],
+    "P": [
+      "Electrical Installation Certificate",
+      "Building Regulations compliance certificate or notice",
+      "minor works certificate where relevant",
+      "installer details",
+      "circuit schedule"
+    ],
+    "Q": [
+      "door/window security specification",
+      "PAS/standard compliance evidence",
+      "manufacturer certificates",
+      "location schedule"
+    ],
+    "R": [
+      "ducting/infrastructure specification",
+      "network termination point location",
+      "developer/installer notes"
+    ],
+    "S": [
+      "charge point/cable route design",
+      "electrical load assessment",
+      "Part P/EIC paperwork",
+      "parking bay plan"
+    ],
+    "T": [
+      "toilet layout",
+      "accessibility notes",
+      "separate accommodation schedule where relevant"
+    ],
+    "7": [
+      "product datasheets",
+      "CE/UKCA or equivalent evidence where applicable",
+      "installer records",
+      "substitution log",
+      "photos of installed products before cover-up"
+    ]
+  },
+  "part_to_red_flags": {
+    "A": [
+      "any load-bearing element being removed",
+      "unknown wall construction",
+      "large openings into old walls",
+      "work near party walls or shared structures",
+      "cracks, movement, subsidence history"
+    ],
+    "B": [
+      "new room in the roof",
+      "open-plan ground floor below upper-storey bedrooms",
+      "work to flats/common parts",
+      "removing doors that protected escape routes",
+      "combustible cladding or balcony alterations"
+    ],
+    "C": [
+      "below-ground rooms",
+      "historic damp",
+      "made ground/contaminated land possibility",
+      "floor levels close to external ground",
+      "bridged damp-proof courses"
+    ],
+    "D": [
+      "unknown insulation products",
+      "unverified installer claims",
+      "older cavity fill records missing"
+    ],
+    "E": [
+      "creating separate dwelling units",
+      "working in flats or maisonettes",
+      "lightweight floors between separate occupancies",
+      "party wall acoustic weakness"
+    ],
+    "F": [
+      "new or moved bathroom/kitchen",
+      "sealed-up fireplaces or draught reduction",
+      "highly insulated retrofit",
+      "condensation or mould history",
+      "rooms without openable windows"
+    ],
+    "G": [
+      "unvented hot water cylinders",
+      "new bathrooms without ventilation",
+      "layout reducing accessible WC provision",
+      "high water-use fittings in new dwellings"
+    ],
+    "H": [
+      "building over or near a public sewer",
+      "moving inspection chambers",
+      "new foul drainage to outbuildings",
+      "surface water discharged to combined sewer unnecessarily",
+      "unknown drain ownership"
+    ],
+    "J": [
+      "new stove or flue",
+      "boiler relocation",
+      "sealed rooms with combustion appliances",
+      "blocked chimneys",
+      "DIY fuel appliance work"
+    ],
+    "K": [
+      "steep loft stairs",
+      "low guarding",
+      "unprotected drops",
+      "large panes near doors/floors",
+      "roof access or balcony works"
+    ],
+    "L": [
+      "large glazed extensions",
+      "solid wall insulation",
+      "thermal bridges",
+      "uninsulated converted garages",
+      "changing heating systems",
+      "using old Part L assumptions after 2026 updates"
+    ],
+    "M": [
+      "removing only ground-floor WC",
+      "narrowing circulation routes",
+      "steps at new entrances",
+      "work to communal residential access"
+    ],
+    "O": [
+      "large south/west-facing glazing",
+      "restricted window opening due to noise/security",
+      "single-aspect flats",
+      "roof rooms with high solar gain"
+    ],
+    "P": [
+      "DIY notifiable electrical work",
+      "work in special locations",
+      "new consumer unit",
+      "outdoor circuits",
+      "missing certificate when selling/remortgaging"
+    ],
+    "Q": [
+      "new homes or new flats",
+      "easily accessible glazing/doors",
+      "cheap replacement units with no security documentation"
+    ],
+    "R": [
+      "creating new dwellings",
+      "omitting telecoms infrastructure until late build",
+      "routes blocked by structure/insulation"
+    ],
+    "S": [
+      "new homes with parking",
+      "major renovation with parking",
+      "consumer unit capacity concerns",
+      "leasehold/communal parking constraints"
+    ],
+    "T": [
+      "publicly accessible premises",
+      "conversion to commercial/mixed-use",
+      "assuming domestic-only rules apply to non-domestic use"
+    ],
+    "7": [
+      "unapproved substitutions",
+      "missing product data",
+      "using unsuitable reclaimed materials",
+      "installer cannot evidence specification"
+    ]
+  },
+  "global_flags": [
+    {
+      "condition": "jurisdiction != England",
+      "result": "show_jurisdiction_warning",
+      "message": "This site is England-first. Wales, Scotland and Northern Ireland have separate building standards routes."
+    },
+    {
+      "condition": "higher_risk_building == true",
+      "result": "route_to_bsr",
+      "message": "Higher-risk buildings need Building Safety Regulator routing rather than ordinary domestic building-control routing."
+    },
+    {
+      "condition": "work_already_done == true and no_certificate == true",
+      "result": "regularisation_or_certificate_search",
+      "message": "Completed work without evidence may require regularisation or certificate tracing."
+    },
+    {
+      "condition": "planning_unknown == true",
+      "result": "cross_link_ukplanningguide",
+      "message": "Building regulations and planning permission are separate; check the planning side before starting."
+    }
+  ]
+}

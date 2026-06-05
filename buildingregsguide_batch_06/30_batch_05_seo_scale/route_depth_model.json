@@ -1,0 +1,46 @@
+{
+  "levels": [
+    {
+      "level": 0,
+      "type": "homepage",
+      "example": "/",
+      "purpose": "Global routing into projects, tools and downloads."
+    },
+    {
+      "level": 1,
+      "type": "major_hub",
+      "examples": [
+        "/projects/",
+        "/approved-documents/",
+        "/tools/",
+        "/downloads/"
+      ],
+      "purpose": "Top-level intent routing."
+    },
+    {
+      "level": 2,
+      "type": "core_pages",
+      "examples": [
+        "/projects/loft-conversion-building-regulations/",
+        "/approved-documents/b-fire-safety/"
+      ],
+      "purpose": "Primary indexable content."
+    },
+    {
+      "level": 3,
+      "type": "longtail_support",
+      "examples": [
+        "/questions/building-control-inspections-for-loft-conversion/",
+        "/downloads/loft-conversion-fire-and-structure-checklist/"
+      ],
+      "purpose": "Support pages that must link up to the parent page and sideways to relevant tools/downloads."
+    }
+  ],
+  "max_click_depth_from_home": 3,
+  "priority_rules": [
+    "Every project deep-dive must be within 2 clicks of the homepage.",
+    "Every question page must link to its parent project and at least one tool/download.",
+    "Every download landing page must show a real preview and link to a project/tool route.",
+    "No page should be an orphan; validation should catch zero incoming or zero outgoing contextual links."
+  ]
+}

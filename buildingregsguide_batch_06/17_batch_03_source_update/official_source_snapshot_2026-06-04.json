@@ -1,0 +1,48 @@
+{
+  "snapshot_date": "2026-06-04",
+  "notes": [
+    "GOV.UK Approved Documents collection remains the primary source registry for England-first Approved Document pages.",
+    "Approved Document L 2026 exists as a separate GOV.UK publication; Codex must treat Part L pages as version-aware and must not hard-code outdated 2021/2022 assumptions as current for new work.",
+    "BSR higher-risk-building routing must remain separate from ordinary domestic building control routing.",
+    "Planning Portal is useful as a user-facing process source for application routes, but GOV.UK and legislation remain primary authority for statutory source blocks."
+  ],
+  "sources": [
+    {
+      "id": "govuk_approved_documents_collection",
+      "title": "Approved Documents collection",
+      "url": "https://www.gov.uk/government/collections/approved-documents",
+      "observed_claims": [
+        "Approved Documents provide guidance on ways to meet the building regulations.",
+        "The collection lists Parts A, B, C, D, E, F, G, H, J, K, L, M, O, P, Q, R, S, T and Document 7."
+      ]
+    },
+    {
+      "id": "govuk_approved_document_l_2026",
+      "title": "Approved Document L (2026)",
+      "url": "https://www.gov.uk/government/publications/approved-document-l-2026",
+      "observed_claims": [
+        "Published 24 March 2026.",
+        "Applies to England.",
+        "Earlier versions continue to apply to buildings subject to previous regulatory standards."
+      ]
+    },
+    {
+      "id": "govuk_bsr_strategic_plan_2026_2027",
+      "title": "Building Safety Regulator strategic plan 2026 to 2027",
+      "url": "https://www.gov.uk/government/publications/building-safety-regulator-strategic-plan-2026-to-2027/building-safety-regulator-strategic-plan-2026-to-2027",
+      "observed_claims": [
+        "BSR is the building control authority for higher-risk buildings in England.",
+        "HRBs are described as at least 7 storeys or at least 18 metres high with 2 or more residential units, or a hospital or care home."
+      ]
+    },
+    {
+      "id": "planning_portal_building_control_2026",
+      "title": "Planning Portal building control guide",
+      "url": "https://www.planningportal.co.uk/applications/building-control-applications/building-control/",
+      "observed_claims": [
+        "Building regulations are minimum standards for design, construction and alterations to virtually every building.",
+        "Building control approval can be through local authority or registered building control approver routes."
+      ]
+    }
+  ]
+}

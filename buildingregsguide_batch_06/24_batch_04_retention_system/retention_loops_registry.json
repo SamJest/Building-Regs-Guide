@@ -1,0 +1,135 @@
+[
+  {
+    "id": "project_dashboard",
+    "title": "My Building Regs Project Dashboard",
+    "purpose": "A local, no-login dashboard that stores selected project type, saved tool results, generated packs and evidence reminders.",
+    "entry_points": [
+      "homepage",
+      "all tool results",
+      "downloads",
+      "project pages"
+    ],
+    "storage": "localStorage at launch; optional account/email sync later",
+    "metrics": [
+      "saved_projects",
+      "return_visits",
+      "downloads_per_project",
+      "tool_results_saved"
+    ],
+    "codex_priority": "highest"
+  },
+  {
+    "id": "saved_tool_results",
+    "title": "Save my answers",
+    "purpose": "Let users save checker outputs and rerun them when the project scope changes.",
+    "entry_points": [
+      "route checker",
+      "approved document router",
+      "inspection checklist generator",
+      "competent person checker"
+    ],
+    "storage": "localStorage object linked to project_id",
+    "metrics": [
+      "save_clicks",
+      "reruns",
+      "scope_change_events"
+    ],
+    "codex_priority": "highest"
+  },
+  {
+    "id": "inspection_timeline",
+    "title": "Inspection timeline builder",
+    "purpose": "Generate likely inspection stages based on project type, with printable stage cards.",
+    "entry_points": [
+      "project pages",
+      "inspection tool",
+      "dashboard"
+    ],
+    "storage": "localStorage timeline array",
+    "metrics": [
+      "timeline_created",
+      "stage_completed",
+      "stage_notes_added"
+    ],
+    "codex_priority": "high"
+  },
+  {
+    "id": "evidence_vault_light",
+    "title": "Evidence vault light",
+    "purpose": "A non-upload record keeper: filenames, certificate numbers, issuing body, received dates and notes. Avoid storing sensitive files at launch.",
+    "entry_points": [
+      "completion certificate page",
+      "competent person page",
+      "dashboard"
+    ],
+    "storage": "localStorage metadata only",
+    "metrics": [
+      "evidence_items_added",
+      "certificate_items_completed"
+    ],
+    "codex_priority": "high"
+  },
+  {
+    "id": "certificate_chaser",
+    "title": "Certificate chaser",
+    "purpose": "Prompt users to record whether competent person certificates, completion certificates and commissioning records have arrived.",
+    "entry_points": [
+      "competent person tool",
+      "evidence folder",
+      "dashboard"
+    ],
+    "storage": "localStorage reminders with due dates; no external notifications at launch",
+    "metrics": [
+      "certificate_due_items",
+      "certificate_received_items"
+    ],
+    "codex_priority": "high"
+  },
+  {
+    "id": "project_scope_change_prompt",
+    "title": "Scope change prompt",
+    "purpose": "When users return, ask whether the project changed. If yes, rerun route and Approved Document checks.",
+    "entry_points": [
+      "dashboard return",
+      "saved project page"
+    ],
+    "storage": "localStorage last_checked_at + scope_hash",
+    "metrics": [
+      "scope_change_yes",
+      "rerun_after_change"
+    ],
+    "codex_priority": "medium"
+  },
+  {
+    "id": "cross_site_planning_prompt",
+    "title": "Planning-permission cross-check",
+    "purpose": "Send relevant projects back to UKPlanningGuide for planning permission/lawful development questions without cannibalising this site.",
+    "entry_points": [
+      "project pages",
+      "route checker results",
+      "before-you-start downloads"
+    ],
+    "storage": "not required",
+    "metrics": [
+      "cross_site_clicks",
+      "project_cross_checks"
+    ],
+    "codex_priority": "high"
+  },
+  {
+    "id": "source_recheck_prompt",
+    "title": "Source re-check prompt",
+    "purpose": "Surface a re-check warning when a saved project is older than 30, 60 or 90 days or involves Part L/F version-sensitive issues.",
+    "entry_points": [
+      "dashboard",
+      "saved downloads",
+      "tool results"
+    ],
+    "storage": "source_snapshot_id + generated_at",
+    "metrics": [
+      "recheck_alerts_seen",
+      "tools_rerun_after_recheck"
+    ],
+    "codex_priority": "medium"
+  }
+]

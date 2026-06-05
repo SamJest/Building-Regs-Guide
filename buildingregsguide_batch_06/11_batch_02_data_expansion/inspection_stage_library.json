@@ -1,0 +1,42 @@
+{
+  "commencement": {
+    "label": "Commencement",
+    "why": "Confirms the job has started under the correct application/notice and lets building control agree inspection expectations."
+  },
+  "foundation_excavation": {
+    "label": "Foundation excavation",
+    "why": "Allows soil, depth, width, tree influence and bearing conditions to be checked before concrete is poured."
+  },
+  "foundation_concrete": {
+    "label": "Foundation concrete",
+    "why": "Confirms concrete placement and dimensions before the work is hidden."
+  },
+  "oversite_dpc": {
+    "label": "Oversite / damp-proof course",
+    "why": "Checks damp protection, floor make-up and early moisture-control details."
+  },
+  "drainage_before_cover": {
+    "label": "Drainage before cover",
+    "why": "Drains are easiest to correct before trenches and floors are closed up."
+  },
+  "structural_steel": {
+    "label": "Structural beams and supports",
+    "why": "Beam size, bearings, padstones, restraint and fire protection can be checked before concealment."
+  },
+  "fire_protection": {
+    "label": "Fire protection before cover",
+    "why": "Important for lofts, open-plan layouts, steels, protected routes and separating elements."
+  },
+  "insulation_before_cover": {
+    "label": "Insulation before cover",
+    "why": "Thermal elements cannot be verified properly once plasterboard, flooring or roof coverings are complete."
+  },
+  "ventilation_services": {
+    "label": "Ventilation and services",
+    "why": "Extract routes, terminals, notifiable electrics, gas/flue routes and hot water safety can be evidenced before completion."
+  },
+  "completion": {
+    "label": "Final completion",
+    "why": "The final check supports the completion certificate. Missing evidence at this point can delay sign-off."
+  }
+}

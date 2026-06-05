@@ -1,0 +1,68 @@
+{
+  "base_webpage": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{title}}",
+    "description": "{{meta_description}}",
+    "url": "{{canonical_url}}",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "BuildingRegsGuide",
+      "url": "https://buildingregsguide.co.uk/"
+    },
+    "about": [
+      "Building regulations",
+      "Building control",
+      "Home improvement"
+    ],
+    "inLanguage": "en-GB"
+  },
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{title}}",
+    "description": "{{meta_description}}",
+    "mainEntityOfPage": "{{canonical_url}}",
+    "author": {
+      "@type": "Organization",
+      "name": "BuildingRegsGuide"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "BuildingRegsGuide"
+    },
+    "dateModified": "{{date_modified}}",
+    "inLanguage": "en-GB"
+  },
+  "faq_page": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": "{{faq_entities}}"
+  },
+  "breadcrumb_list": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": "{{breadcrumb_items}}"
+  },
+  "software_application_tool": {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "{{tool_name}}",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Web",
+    "url": "{{canonical_url}}",
+    "description": "{{meta_description}}",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "GBP"
+    }
+  },
+  "dataset_optional_for_route_registry": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "BuildingRegsGuide route and checklist data",
+    "description": "Internal structured route data used to generate homeowner building regulations guidance pages.",
+    "license": "Proprietary internal build data. Do not expose source registry as downloadable dataset unless approved."
+  }
+}

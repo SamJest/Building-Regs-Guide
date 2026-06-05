@@ -1,0 +1,12 @@
+<section class="save-panel" aria-labelledby="save-panel-title">
+  <h2 id="save-panel-title">Save this result</h2>
+  <p>Keep this checker result with your project so you can re-check it before inspections, certificates or completion.</p>
+  <ul>
+    <li>Generated date: {{ generated_date }}</li>
+    <li>Source snapshot: {{ source_snapshot_id }}</li>
+    <li>Result type: {{ tool_id }}</li>
+  </ul>
+  <button data-action="save-tool-result">Save to my project</button>
+  <button data-action="print-result">Print result</button>
+  <a href="/downloads/{{ recommended_download }}/">Open recommended checklist</a>
+</section>

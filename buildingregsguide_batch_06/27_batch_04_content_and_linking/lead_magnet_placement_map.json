@@ -1,0 +1,74 @@
+[
+  {
+    "page_family": "home",
+    "primary_asset": "building-regs-before-you-start-checklist",
+    "secondary_assets": [
+      "building-control-route-decision-sheet",
+      "planning-vs-building-regs-one-page-comparison"
+    ]
+  },
+  {
+    "page_family": "extensions",
+    "primary_asset": "extension-building-control-prep-pack",
+    "secondary_assets": [
+      "foundation-inspection-prep-sheet",
+      "drainage-inspection-prep-sheet"
+    ]
+  },
+  {
+    "page_family": "loft_conversions",
+    "primary_asset": "loft-conversion-fire-and-structure-checklist",
+    "secondary_assets": [
+      "approved-document-b-fire-safety-homeowner-pack",
+      "insulation-before-cover-up-checklist"
+    ]
+  },
+  {
+    "page_family": "garage_conversions",
+    "primary_asset": "garage-conversion-building-regs-pack",
+    "secondary_assets": [
+      "approved-document-f-ventilation-homeowner-pack",
+      "approved-document-l-energy-homeowner-pack"
+    ]
+  },
+  {
+    "page_family": "structural_alterations",
+    "primary_asset": "load-bearing-wall-removal-evidence-checklist",
+    "secondary_assets": [
+      "approved-document-a-structure-homeowner-pack",
+      "structural-calculation-record-sheet"
+    ]
+  },
+  {
+    "page_family": "bathrooms",
+    "primary_asset": "new-bathroom-and-ensuite-regs-checklist",
+    "secondary_assets": [
+      "drainage-inspection-prep-sheet",
+      "electrician-part-p-certificate-request"
+    ]
+  },
+  {
+    "page_family": "windows_doors",
+    "primary_asset": "windows-and-doors-certificate-checklist",
+    "secondary_assets": [
+      "competent-person-certificate-tracker",
+      "approved-document-l-energy-homeowner-pack"
+    ]
+  },
+  {
+    "page_family": "completion_certificate",
+    "primary_asset": "completion-certificate-evidence-folder",
+    "secondary_assets": [
+      "homeowner-handover-file-index",
+      "building-control-contact-log"
+    ]
+  },
+  {
+    "page_family": "competent_person",
+    "primary_asset": "competent-person-certificate-tracker",
+    "secondary_assets": [
+      "registered-installer-confirmation-form",
+      "installer-quote-building-regs-questions"
+    ]
+  }
+]

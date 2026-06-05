@@ -1,0 +1,51 @@
+area,test,expected_result,severity
+routing,homepage loads,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+routing,all published route paths resolve,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+routing,canonical matches path,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+routing,breadcrumb hierarchy works,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+routing,draft pages excluded from sitemap,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+sources,source panel visible,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+sources,source checked date visible,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+sources,version warnings shown for AD L/F pages,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+sources,HRB pages show BSR stop-route,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+sources,Scotland/Wales/NI pages do not reuse England wording unlabelled,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+tools,route checker handles extension,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+tools,route checker handles already-built work,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+tools,CPS checker handles electrical/windows/boiler work,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+tools,completion checker returns missing evidence,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+tools,tool results print cleanly,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+tools,saved result can be removed,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+downloads,download pages render,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+downloads,print CSS works,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+downloads,asset CTAs appear on relevant pages,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+downloads,download recommendation engine avoids duplicate CTAs,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+downloads,asset pages include re-check warning,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+dashboard,localStorage initialises safely,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+dashboard,dashboard works with no saved project,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+dashboard,saved project survives refresh,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+dashboard,clear data button works,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+dashboard,privacy note visible,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+seo,schema JSON valid,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+seo,FAQ schema only mirrors visible content,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+seo,sitemap excludes noindex,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+seo,robots allows published pages,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+seo,search index contains only intended fields,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+accessibility,forms have labels,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+accessibility,keyboard focus visible,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+accessibility,error messages announced,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+accessibility,skip link exists,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+accessibility,buttons are buttons not divs,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+performance,core pages work without third-party scripts,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+performance,JS errors absent,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+performance,images lazy loaded,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+performance,CSS not excessive,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+performance,search index size acceptable,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+cross_site,UKPlanningGuide link appears on planning-overlap pages,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+cross_site,BuildingRegsGuide does not cannibalise planning pages,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+cross_site,cross-site links use helpful anchor text,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+cross_site,no circular CTA loop,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+legal,not legal/professional advice disclaimer visible,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+legal,no guarantee of approval wording,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+legal,competent person certificate warning included,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+legal,regularisation warnings cautious,"Pass with no console errors, no broken links, no misleading compliance claim.",high
+legal,user data local-only copy accurate,"Pass with no console errors, no broken links, no misleading compliance claim.",high

@@ -1,0 +1,20 @@
+{
+  "domain": "https://buildingregsguide.co.uk",
+  "rules": [
+    "All canonical URLs must be lowercase and trailing-slash normalized.",
+    "One canonical per route; no query strings in canonical URLs.",
+    "Tool result states should not be canonical URLs. Save/share states must use client-side/local storage or encoded fragments only if needed.",
+    "Download files and print views should canonicalize to their landing page.",
+    "UKPlanningGuide pages must not canonicalize to BuildingRegsGuide or vice versa; use normal cross-links only."
+  ],
+  "path_normalisation_examples": [
+    {
+      "input": "/Projects/Loft-Conversion-Building-Regulations",
+      "canonical": "https://buildingregsguide.co.uk/projects/loft-conversion-building-regulations/"
+    },
+    {
+      "input": "/downloads/inspection-stage-checklist?print=1",
+      "canonical": "https://buildingregsguide.co.uk/downloads/inspection-stage-checklist/"
+    }
+  ]
+}

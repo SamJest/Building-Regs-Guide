@@ -1,0 +1,42 @@
+{
+  "snapshot_date": "2026-06-04",
+  "sources": [
+    {
+      "id": "govuk_building_regs_approval",
+      "url": "https://www.gov.uk/building-regulations-approval",
+      "notes": "GOV.UK states that building regulations approval is different from planning permission and that both may be needed. It also states homeowners may not need to apply themselves if they use a registered competent person scheme member for covered work.",
+      "use_in_site": "Primary source for approval-needed pages, route checkers and planning/building-regs comparisons."
+    },
+    {
+      "id": "govuk_building_regs_how_to_apply",
+      "url": "https://www.gov.uk/building-regulations-approval/how-to-apply",
+      "notes": "GOV.UK explains full plans, building notice and completion certificate expectations. It also separates ordinary work from higher-risk building work.",
+      "use_in_site": "Primary source for application route pages, certificate timing blocks and route comparison tools."
+    },
+    {
+      "id": "govuk_approved_documents_collection",
+      "url": "https://www.gov.uk/government/collections/approved-documents",
+      "notes": "The collection explains Approved Documents as statutory guidance on ways to meet building regulations, not the regulations themselves.",
+      "use_in_site": "Primary source for all Approved Document hubs and source/version notices."
+    },
+    {
+      "id": "govuk_approved_document_l_2026",
+      "url": "https://www.gov.uk/government/publications/approved-document-l-2026",
+      "notes": "Published 24 March 2026. Supports Part L of Schedule 1 to the Building Regulations 2010. Earlier versions continue to apply to buildings subject to previous regulatory standards.",
+      "use_in_site": "Energy-efficiency pages, Part L warning banners, version-aware source blocks."
+    },
+    {
+      "id": "govuk_future_homes_buildings_circular_01_2026",
+      "url": "https://www.gov.uk/government/publications/the-future-homes-and-buildings-standards-building-circular-012026/the-future-homes-and-buildings-standards-building-circular-012026-letter",
+      "notes": "Circular Letter 01/2026 announces new statutory guidance in Approved Document L volumes 1 and 2 and Approved Document F volume 1.",
+      "use_in_site": "Source guardrail for 2026 energy/ventilation pages and release/update blocks."
+    },
+    {
+      "id": "govuk_higher_risk_building_control_approval",
+      "url": "https://www.gov.uk/guidance/building-control-approval-for-higher-risk-buildings",
+      "notes": "BSR oversees and approves building work for higher-risk buildings. The source lists height/storey and use thresholds.",
+      "use_in_site": "HRB gating route, no domestic simplification when project triggers BSR path."
+    }
+  ],
+  "codex_rule": "Every content page must carry a source block with source IDs from this snapshot or the current source registry. Any page touching Part L, Part F or HRB status must include a visible version/route warning."
+}

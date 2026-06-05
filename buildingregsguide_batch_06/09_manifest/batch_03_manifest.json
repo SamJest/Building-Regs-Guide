@@ -1,0 +1,24 @@
+{
+  "batch": 3,
+  "date": "2026-06-04",
+  "cumulative_from": "buildingregsguide_batch_02_codex_pack.zip",
+  "focus": "Approved Document hubs, project deep dives, crosswalk data, router rule depth, source/version guards",
+  "counts": {
+    "approved_document_hub_drafts": 19,
+    "project_deep_dive_drafts": 24,
+    "crosswalk_records": 137,
+    "new_route_records": 26,
+    "combined_route_records": 134,
+    "tool_rule_modules": 3
+  },
+  "key_files": [
+    "README_BATCH_03.md",
+    "17_batch_03_source_update/official_source_snapshot_2026-06-04.json",
+    "18_batch_03_approved_document_hubs/approved_document_hub_index.json",
+    "19_batch_03_project_deep_dives/project_deep_dive_index.json",
+    "19_batch_03_project_deep_dives/project_approved_document_crosswalk.json",
+    "20_batch_03_tool_rules/approved_document_router_rules_v2.json",
+    "21_batch_03_codex_handoff/CODEX_BATCH_03_MASTER_PROMPT.md",
+    "22_batch_03_validation/BATCH_03_QA_CHECKLIST.md"
+  ]
+}

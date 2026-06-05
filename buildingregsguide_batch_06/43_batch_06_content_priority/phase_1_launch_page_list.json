@@ -1,0 +1,632 @@
+[
+  {
+    "path": "/",
+    "title": "Building regulations checker for UK home projects",
+    "family": "homepage",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/",
+    "title": "Building regulations for home projects",
+    "family": "hub",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/do-i-need-building-regulations-approval/",
+    "title": "Do I need building regulations approval?",
+    "family": "guide",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/planning-permission-vs-building-regulations/",
+    "title": "Planning permission vs building regulations",
+    "family": "guide",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/building-control-body/",
+    "title": "What is a building control body?",
+    "family": "guide",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/full-plans-application/",
+    "title": "Full plans building regulations application",
+    "family": "approval_route",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/building-notice/",
+    "title": "Building notice for building regulations",
+    "family": "approval_route",
+    "priority": "high",
+    "primary_source_id": "planning_portal_building_notice",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/full-plans-vs-building-notice/",
+    "title": "Full plans vs building notice",
+    "family": "approval_route",
+    "priority": "high",
+    "primary_source_id": "planning_portal_building_notice",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/regularisation-certificate/",
+    "title": "Regularisation certificate for unauthorised building work",
+    "family": "approval_route",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/competent-person-schemes/",
+    "title": "Competent person schemes",
+    "family": "approval_route",
+    "priority": "high",
+    "primary_source_id": "govuk_use_competent_person",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/completion-certificate/",
+    "title": "Building regulations completion certificate",
+    "family": "approval_route",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/building-control-inspections/",
+    "title": "Building control inspections",
+    "family": "approval_route",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/building-regulations/structural-calculations/",
+    "title": "Structural calculations and building regulations",
+    "family": "approval_route",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/extensions-building-regulations/",
+    "title": "Building regulations for extensions",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/loft-conversion-building-regulations/",
+    "title": "Loft conversion building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/garage-conversion-building-regulations/",
+    "title": "Garage conversion building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/outbuilding-building-regulations/",
+    "title": "Outbuilding building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/garden-room-building-regulations/",
+    "title": "Garden room building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/structural-alteration-building-regulations/",
+    "title": "Structural alteration building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/removing-load-bearing-wall-building-regulations/",
+    "title": "Removing a load-bearing wall building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/windows-doors-building-regulations/",
+    "title": "Windows and doors building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_use_competent_person",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/electrical-work-building-regulations/",
+    "title": "Electrical work building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_use_competent_person",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/boiler-heating-building-regulations/",
+    "title": "Boiler and heating building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_use_competent_person",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/projects/drainage-waste-building-regulations/",
+    "title": "Drainage and waste building regulations",
+    "family": "project",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/approved-document-a-structure/",
+    "title": "Approved Document A: Structure",
+    "family": "approved_document",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/approved-document-b-fire-safety/",
+    "title": "Approved Document B: Fire safety",
+    "family": "approved_document",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/approved-document-f-ventilation/",
+    "title": "Approved Document F: Ventilation",
+    "family": "approved_document",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_document_f_2026",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/approved-document-h-drainage-waste/",
+    "title": "Approved Document H: Drainage and waste disposal",
+    "family": "approved_document",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/approved-document-k-falling-collision-impact/",
+    "title": "Approved Document K: Protection from falling, collision and impact",
+    "family": "approved_document",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/approved-document-l-conservation-fuel-power/",
+    "title": "Approved Document L: Conservation of fuel and power",
+    "family": "approved_document",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_document_l_2026",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/approved-document-p-electrical-safety/",
+    "title": "Approved Document P: Electrical safety - dwellings",
+    "family": "approved_document",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/building-control-route-checker/",
+    "title": "Building Control Route Checker",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/full-plans-vs-building-notice-checker/",
+    "title": "Full Plans vs Building Notice Checker",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/competent-person-scheme-checker/",
+    "title": "Competent Person Scheme Checker",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/completion-certificate-readiness-checker/",
+    "title": "Completion Certificate Readiness Checker",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/inspection-stage-checklist-generator/",
+    "title": "Inspection Stage Checklist Generator",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/approved-document-router/",
+    "title": "Approved Document Router",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/extension-regs-prep-pack/",
+    "title": "Extension Building Regs Prep Pack",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/loft-fire-safety-prep-checker/",
+    "title": "Loft Fire Safety Prep Checker",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/garage-conversion-regs-checker/",
+    "title": "Garage Conversion Building Regs Checker",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/structural-alteration-readiness-checker/",
+    "title": "Structural Alteration Readiness Checker",
+    "family": "tool",
+    "priority": "high",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/drainage-waste-route-checker/",
+    "title": "Drainage and Waste Route Checker",
+    "family": "tool",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/windows-doors-certificate-checker/",
+    "title": "Windows and Doors Certificate Checker",
+    "family": "tool",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/electrical-work-notifiable-checker/",
+    "title": "Electrical Work Notifiable Checker",
+    "family": "tool",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/heating-boiler-evidence-checker/",
+    "title": "Heating and Boiler Evidence Checker",
+    "family": "tool",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/regularisation-risk-triage/",
+    "title": "Regularisation Risk Triage",
+    "family": "tool",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/sale-remortgage-evidence-pack-builder/",
+    "title": "Sale or Remortgage Evidence Pack Builder",
+    "family": "tool",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/tools/jurisdiction-route-selector/",
+    "title": "England, Wales or Scotland Route Selector",
+    "family": "tool",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/extension-building-regulations-checklist/",
+    "title": "Extension building regulations checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/loft-conversion-building-regulations-checklist/",
+    "title": "Loft conversion building regulations checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/garage-conversion-building-regulations-checklist/",
+    "title": "Garage conversion building regulations checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/building-notice-vs-full-plans-worksheet/",
+    "title": "Building notice vs full plans worksheet",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/completion-certificate-record-sheet/",
+    "title": "Completion certificate record sheet",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/competent-person-certificate-checklist/",
+    "title": "Competent person certificate checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/inspection-stage-record-sheet/",
+    "title": "Inspection stage record sheet",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/structural-calculations-briefing-sheet/",
+    "title": "Structural calculations briefing sheet",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/drainage-and-waste-checklist/",
+    "title": "Drainage and waste checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/windows-and-doors-certificate-checklist/",
+    "title": "Windows and doors certificate checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/electrical-work-evidence-checklist/",
+    "title": "Electrical work evidence checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/heating-boiler-certificate-checklist/",
+    "title": "Heating and boiler certificate checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/regularisation-evidence-pack/",
+    "title": "Regularisation evidence pack",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/approved-document-router-summary/",
+    "title": "Approved Document router summary",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/building-control-phone-call-script/",
+    "title": "Building control phone call script",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/builder-quote-building-regs-questions/",
+    "title": "Builder quote building regs questions",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/sale-remortgage-proof-folder/",
+    "title": "Sale/remortgage building regs proof folder",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/garden-room-building-regs-checklist/",
+    "title": "Garden room building regs checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/load-bearing-wall-removal-checklist/",
+    "title": "Load-bearing wall removal checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/downloads/rooflight-building-regs-checklist/",
+    "title": "Rooflight building regs checklist",
+    "family": "download",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/a-structure/",
+    "title": "Approved Document A: Structure",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  },
+  {
+    "path": "/approved-documents/b-fire-safety/",
+    "title": "Approved Document B: Fire safety",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "launch_candidate",
+    "gate": "must pass source panel, internal links, schema, body completeness and no-thin-page checks"
+  }
+]

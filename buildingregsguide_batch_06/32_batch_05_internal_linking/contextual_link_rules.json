@@ -1,0 +1,24 @@
+{
+  "global_rules": [
+    "Every indexable route needs at least 5 outgoing internal links except short tool utility pages, which need at least 3.",
+    "Every long-tail question must link to its parent project page in the first half of the page.",
+    "Every Approved Document long-tail page must link to the parent AD hub and to at least 2 relevant project pages.",
+    "Every project page must link to relevant Approved Document hubs and at least one tool and one download.",
+    "Every download page must link back to a project or evidence page, not only to the downloads hub.",
+    "UKPlanningGuide cross-links should only appear where planning permission/permitted development is genuinely part of the user's next question."
+  ],
+  "anchor_text_rules": {
+    "avoid": [
+      "click here",
+      "read more",
+      "this page"
+    ],
+    "prefer": [
+      "building control route checker",
+      "loft conversion building regulations",
+      "completion certificate evidence folder",
+      "Approved Document B fire safety"
+    ]
+  },
+  "orphan_policy": "Fail validation if a route has zero incoming links in internal_link_graph_v5.json unless intentionally noindex/draft."
+}

@@ -1,0 +1,1219 @@
+[
+  {
+    "id": "building-regs-before-you-start-checklist",
+    "title": "Building regs before-you-start checklist",
+    "category": "before_you_start",
+    "category_label": "Before-you-start packs",
+    "primary_project": "All projects",
+    "url": "/downloads/building-regs-before-you-start-checklist/",
+    "recommended_cta": "Start with the route checker, then download this pack before asking builders for quotes.",
+    "trigger_keywords": [
+      "approval route",
+      "planning overlap",
+      "project evidence",
+      "risk flags"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Top-of-funnel lead magnet and universal CTA."
+  },
+  {
+    "id": "planning-vs-building-regs-one-page-comparison",
+    "title": "Planning permission vs building regulations one-page comparison",
+    "category": "before_you_start",
+    "category_label": "Before-you-start packs",
+    "primary_project": "All projects",
+    "url": "/downloads/planning-vs-building-regs-one-page-comparison/",
+    "recommended_cta": "Start with the route checker, then download this pack before asking builders for quotes.",
+    "trigger_keywords": [
+      "planning overlap",
+      "approval route"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Cross-site link bridge to UKPlanningGuide."
+  },
+  {
+    "id": "building-control-route-decision-sheet",
+    "title": "Building control route decision sheet",
+    "category": "before_you_start",
+    "category_label": "Before-you-start packs",
+    "primary_project": "All projects",
+    "url": "/downloads/building-control-route-decision-sheet/",
+    "recommended_cta": "Start with the route checker, then download this pack before asking builders for quotes.",
+    "trigger_keywords": [
+      "local authority",
+      "registered building control approver",
+      "competent person",
+      "BSR"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Pairs with route checker tool."
+  },
+  {
+    "id": "homeowner-building-regs-risk-audit",
+    "title": "Homeowner building regs risk audit",
+    "category": "before_you_start",
+    "category_label": "Before-you-start packs",
+    "primary_project": "All projects",
+    "url": "/downloads/homeowner-building-regs-risk-audit/",
+    "recommended_cta": "Start with the route checker, then download this pack before asking builders for quotes.",
+    "trigger_keywords": [
+      "structure",
+      "fire",
+      "drainage",
+      "energy",
+      "flat/common parts"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "High-retention audit checklist."
+  },
+  {
+    "id": "pre-start-conversation-script-for-builders",
+    "title": "Pre-start conversation script for builders",
+    "category": "before_you_start",
+    "category_label": "Before-you-start packs",
+    "primary_project": "All projects",
+    "url": "/downloads/pre-start-conversation-script-for-builders/",
+    "recommended_cta": "Start with the route checker, then download this pack before asking builders for quotes.",
+    "trigger_keywords": [
+      "builder questions",
+      "certificates",
+      "inspection timing"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Useful printable for non-technical users."
+  },
+  {
+    "id": "building-control-application-prep-sheet",
+    "title": "Building control application prep sheet",
+    "category": "before_you_start",
+    "category_label": "Before-you-start packs",
+    "primary_project": "Application routes",
+    "url": "/downloads/building-control-application-prep-sheet/",
+    "recommended_cta": "Start with the route checker, then download this pack before asking builders for quotes.",
+    "trigger_keywords": [
+      "plans",
+      "specification",
+      "calculations",
+      "fee",
+      "inspection plan"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Practical conversion asset."
+  },
+  {
+    "id": "extension-building-control-prep-pack",
+    "title": "Extension building control prep pack",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Extensions",
+    "url": "/downloads/extension-building-control-prep-pack/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "structure",
+      "foundations",
+      "drainage",
+      "Part L",
+      "Part F",
+      "inspection stages"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Core high-value project pack."
+  },
+  {
+    "id": "single-storey-extension-site-checklist",
+    "title": "Single-storey extension site checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Single-storey extensions",
+    "url": "/downloads/single-storey-extension-site-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "foundations",
+      "drainage",
+      "thermal envelope",
+      "openings"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Project long-tail printable."
+  },
+  {
+    "id": "two-storey-extension-risk-checklist",
+    "title": "Two-storey extension risk checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Two-storey extensions",
+    "url": "/downloads/two-storey-extension-risk-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "structure",
+      "fire",
+      "stairs",
+      "foundations",
+      "drainage"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Project long-tail printable."
+  },
+  {
+    "id": "loft-conversion-fire-and-structure-checklist",
+    "title": "Loft conversion fire and structure checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Loft conversions",
+    "url": "/downloads/loft-conversion-fire-and-structure-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "Part A",
+      "Part B",
+      "stairs",
+      "fire doors",
+      "insulation",
+      "escape"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Core high-value project pack."
+  },
+  {
+    "id": "garage-conversion-building-regs-pack",
+    "title": "Garage conversion building regs pack",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Garage conversions",
+    "url": "/downloads/garage-conversion-building-regs-pack/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "floor",
+      "damp",
+      "insulation",
+      "ventilation",
+      "fire separation"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Core high-value project pack."
+  },
+  {
+    "id": "load-bearing-wall-removal-evidence-checklist",
+    "title": "Load-bearing wall removal evidence checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Structural alterations",
+    "url": "/downloads/load-bearing-wall-removal-evidence-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "structural calculations",
+      "beam spec",
+      "temporary works",
+      "inspection"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Strong high-intent lead magnet."
+  },
+  {
+    "id": "chimney-breast-removal-checklist",
+    "title": "Chimney breast removal checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Chimney breast removal",
+    "url": "/downloads/chimney-breast-removal-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "structure",
+      "party wall",
+      "fireplace/flue",
+      "inspection"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "High-risk project long-tail."
+  },
+  {
+    "id": "new-bathroom-and-ensuite-regs-checklist",
+    "title": "New bathroom and ensuite regs checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Bathrooms",
+    "url": "/downloads/new-bathroom-and-ensuite-regs-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "plumbing",
+      "ventilation",
+      "electrics",
+      "drainage",
+      "hot water safety"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Accessible homeowner pack."
+  },
+  {
+    "id": "kitchen-building-regs-and-ventilation-checklist",
+    "title": "Kitchen building regs and ventilation checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Kitchens",
+    "url": "/downloads/kitchen-building-regs-and-ventilation-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "ventilation",
+      "electrics",
+      "drainage",
+      "gas",
+      "fire"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Useful for renovations."
+  },
+  {
+    "id": "windows-and-doors-certificate-checklist",
+    "title": "Windows and doors certificate checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Windows and doors",
+    "url": "/downloads/windows-and-doors-certificate-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "competent person",
+      "Part L",
+      "safety glazing",
+      "means of escape"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Good search-intent fit."
+  },
+  {
+    "id": "rooflight-building-regs-checklist",
+    "title": "Rooflight building regs checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Rooflights",
+    "url": "/downloads/rooflight-building-regs-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "structure",
+      "fire escape",
+      "glazing",
+      "insulation"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Low-volume but conversion-friendly."
+  },
+  {
+    "id": "garden-room-building-regs-risk-checklist",
+    "title": "Garden room building regs risk checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Garden rooms",
+    "url": "/downloads/garden-room-building-regs-risk-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "size",
+      "sleeping use",
+      "electrics",
+      "drainage",
+      "fire boundary"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Pairs with UKPlanningGuide outbuilding content."
+  },
+  {
+    "id": "solar-panel-building-regs-and-roof-checklist",
+    "title": "Solar panel building regs and roof checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Solar panels",
+    "url": "/downloads/solar-panel-building-regs-and-roof-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "roof structure",
+      "electrics",
+      "fire access",
+      "Part P"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Future energy content route."
+  },
+  {
+    "id": "heat-pump-installation-paperwork-checklist",
+    "title": "Heat pump installation paperwork checklist",
+    "category": "project_specific",
+    "category_label": "Project-specific checklists",
+    "primary_project": "Heat pumps",
+    "url": "/downloads/heat-pump-installation-paperwork-checklist/",
+    "recommended_cta": "Run the project checker, save your answers, then print this checklist for builder and building control conversations.",
+    "trigger_keywords": [
+      "competent person",
+      "commissioning",
+      "Part L",
+      "Part F",
+      "handover"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Future Homes/FHS-adjacent asset."
+  },
+  {
+    "id": "completion-certificate-evidence-folder",
+    "title": "Completion certificate evidence folder",
+    "category": "evidence",
+    "category_label": "Evidence and certificate trackers",
+    "primary_project": "All controlled projects",
+    "url": "/downloads/completion-certificate-evidence-folder/",
+    "recommended_cta": "Use this as a live project record. Update it each time an inspection, certificate or photo is added.",
+    "trigger_keywords": [
+      "completion certificate",
+      "inspection records",
+      "photos",
+      "certificates"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Core retention asset."
+  },
+  {
+    "id": "competent-person-certificate-tracker",
+    "title": "Competent person certificate tracker",
+    "category": "evidence",
+    "category_label": "Evidence and certificate trackers",
+    "primary_project": "Installer self-certification",
+    "url": "/downloads/competent-person-certificate-tracker/",
+    "recommended_cta": "Use this as a live project record. Update it each time an inspection, certificate or photo is added.",
+    "trigger_keywords": [
+      "installer",
+      "scheme",
+      "date",
+      "certificate due",
+      "certificate received"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Pairs with competent person tool."
+  },
+  {
+    "id": "project-photo-evidence-log",
+    "title": "Project photo evidence log",
+    "category": "evidence",
+    "category_label": "Evidence and certificate trackers",
+    "primary_project": "All projects",
+    "url": "/downloads/project-photo-evidence-log/",
+    "recommended_cta": "Use this as a live project record. Update it each time an inspection, certificate or photo is added.",
+    "trigger_keywords": [
+      "before cover-up",
+      "date",
+      "location",
+      "inspection stage"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Encourages repeat use throughout project."
+  },
+  {
+    "id": "building-control-contact-log",
+    "title": "Building control contact log",
+    "category": "evidence",
+    "category_label": "Evidence and certificate trackers",
+    "primary_project": "All projects",
+    "url": "/downloads/building-control-contact-log/",
+    "recommended_cta": "Use this as a live project record. Update it each time an inspection, certificate or photo is added.",
+    "trigger_keywords": [
+      "contact",
+      "date",
+      "advice",
+      "inspection",
+      "outcome"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Practical record keeper."
+  },
+  {
+    "id": "builder-document-request-list",
+    "title": "Builder document request list",
+    "category": "evidence",
+    "category_label": "Evidence and certificate trackers",
+    "primary_project": "All projects",
+    "url": "/downloads/builder-document-request-list/",
+    "recommended_cta": "Use this as a live project record. Update it each time an inspection, certificate or photo is added.",
+    "trigger_keywords": [
+      "calculations",
+      "certificates",
+      "product datasheets",
+      "warranties"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Keeps user returning."
+  },
+  {
+    "id": "structural-calculation-record-sheet",
+    "title": "Structural calculation record sheet",
+    "category": "evidence",
+    "category_label": "Evidence and certificate trackers",
+    "primary_project": "Structural projects",
+    "url": "/downloads/structural-calculation-record-sheet/",
+    "recommended_cta": "Use this as a live project record. Update it each time an inspection, certificate or photo is added.",
+    "trigger_keywords": [
+      "engineer",
+      "calculation reference",
+      "beam spec",
+      "building control"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Project evidence sheet."
+  },
+  {
+    "id": "energy-and-ventilation-evidence-folder",
+    "title": "Energy and ventilation evidence folder",
+    "category": "evidence",
+    "category_label": "Evidence and certificate trackers",
+    "primary_project": "Part L and Part F projects",
+    "url": "/downloads/energy-and-ventilation-evidence-folder/",
+    "recommended_cta": "Use this as a live project record. Update it each time an inspection, certificate or photo is added.",
+    "trigger_keywords": [
+      "U-values",
+      "ventilation",
+      "commissioning",
+      "handover"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Version-aware energy asset."
+  },
+  {
+    "id": "regularisation-evidence-gatherer",
+    "title": "Regularisation evidence gatherer",
+    "category": "evidence",
+    "category_label": "Evidence and certificate trackers",
+    "primary_project": "Retrospective work",
+    "url": "/downloads/regularisation-evidence-gatherer/",
+    "recommended_cta": "Use this as a live project record. Update it each time an inspection, certificate or photo is added.",
+    "trigger_keywords": [
+      "what was done",
+      "when",
+      "photos",
+      "certificates",
+      "unknowns"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "High-anxiety, high-intent asset."
+  },
+  {
+    "id": "inspection-stage-checklist",
+    "title": "Building control inspection-stage checklist",
+    "category": "inspection",
+    "category_label": "Inspection-stage printables",
+    "primary_project": "All controlled projects",
+    "url": "/downloads/inspection-stage-checklist/",
+    "recommended_cta": "Print this before the stage is reached. Do not wait until work has been covered up.",
+    "trigger_keywords": [
+      "excavation",
+      "foundation",
+      "drainage",
+      "structure",
+      "insulation",
+      "completion"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Pairs with inspection tool."
+  },
+  {
+    "id": "foundation-inspection-prep-sheet",
+    "title": "Foundation inspection prep sheet",
+    "category": "inspection",
+    "category_label": "Inspection-stage printables",
+    "primary_project": "Extensions and structural work",
+    "url": "/downloads/foundation-inspection-prep-sheet/",
+    "recommended_cta": "Print this before the stage is reached. Do not wait until work has been covered up.",
+    "trigger_keywords": [
+      "excavation",
+      "soil",
+      "depth",
+      "nearby drains",
+      "photos"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Printable on-site checklist."
+  },
+  {
+    "id": "drainage-inspection-prep-sheet",
+    "title": "Drainage inspection prep sheet",
+    "category": "inspection",
+    "category_label": "Inspection-stage printables",
+    "primary_project": "Drainage work",
+    "url": "/downloads/drainage-inspection-prep-sheet/",
+    "recommended_cta": "Print this before the stage is reached. Do not wait until work has been covered up.",
+    "trigger_keywords": [
+      "falls",
+      "connections",
+      "inspection chambers",
+      "testing"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Useful on-site asset."
+  },
+  {
+    "id": "insulation-before-cover-up-checklist",
+    "title": "Insulation before-cover-up checklist",
+    "category": "inspection",
+    "category_label": "Inspection-stage printables",
+    "primary_project": "Thermal work",
+    "url": "/downloads/insulation-before-cover-up-checklist/",
+    "recommended_cta": "Print this before the stage is reached. Do not wait until work has been covered up.",
+    "trigger_keywords": [
+      "U-values",
+      "thermal bridges",
+      "photos",
+      "ventilation"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Prevents missed evidence."
+  },
+  {
+    "id": "fire-safety-before-completion-checklist",
+    "title": "Fire safety before-completion checklist",
+    "category": "inspection",
+    "category_label": "Inspection-stage printables",
+    "primary_project": "Lofts, garages, flats",
+    "url": "/downloads/fire-safety-before-completion-checklist/",
+    "recommended_cta": "Print this before the stage is reached. Do not wait until work has been covered up.",
+    "trigger_keywords": [
+      "alarms",
+      "doors",
+      "escape",
+      "fire stopping"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "High-value safety asset."
+  },
+  {
+    "id": "final-completion-walkthrough",
+    "title": "Final completion walkthrough",
+    "category": "inspection",
+    "category_label": "Inspection-stage printables",
+    "primary_project": "All controlled projects",
+    "url": "/downloads/final-completion-walkthrough/",
+    "recommended_cta": "Print this before the stage is reached. Do not wait until work has been covered up.",
+    "trigger_keywords": [
+      "certificates",
+      "snags",
+      "commissioning",
+      "handover pack"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "End-of-project retention asset."
+  },
+  {
+    "id": "approved-document-router-printout",
+    "title": "Approved Document router printout",
+    "category": "approved_documents",
+    "category_label": "Approved Document quick packs",
+    "primary_project": "All projects",
+    "url": "/downloads/approved-document-router-printout/",
+    "recommended_cta": "Use the Approved Document router first, then read the official Approved Document before relying on the pack.",
+    "trigger_keywords": [
+      "Part A",
+      "Part B",
+      "Part F",
+      "Part L",
+      "Part P"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Printable result from AD router."
+  },
+  {
+    "id": "approved-document-a-structure-homeowner-pack",
+    "title": "Approved Document A structure homeowner pack",
+    "category": "approved_documents",
+    "category_label": "Approved Document quick packs",
+    "primary_project": "Structural work",
+    "url": "/downloads/approved-document-a-structure-homeowner-pack/",
+    "recommended_cta": "Use the Approved Document router first, then read the official Approved Document before relying on the pack.",
+    "trigger_keywords": [
+      "load paths",
+      "calculations",
+      "openings",
+      "foundations"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Part-specific asset."
+  },
+  {
+    "id": "approved-document-b-fire-safety-homeowner-pack",
+    "title": "Approved Document B fire safety homeowner pack",
+    "category": "approved_documents",
+    "category_label": "Approved Document quick packs",
+    "primary_project": "Fire-sensitive projects",
+    "url": "/downloads/approved-document-b-fire-safety-homeowner-pack/",
+    "recommended_cta": "Use the Approved Document router first, then read the official Approved Document before relying on the pack.",
+    "trigger_keywords": [
+      "escape",
+      "alarms",
+      "fire doors",
+      "fire stopping"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Part-specific asset."
+  },
+  {
+    "id": "approved-document-f-ventilation-homeowner-pack",
+    "title": "Approved Document F ventilation homeowner pack",
+    "category": "approved_documents",
+    "category_label": "Approved Document quick packs",
+    "primary_project": "Ventilation work",
+    "url": "/downloads/approved-document-f-ventilation-homeowner-pack/",
+    "recommended_cta": "Use the Approved Document router first, then read the official Approved Document before relying on the pack.",
+    "trigger_keywords": [
+      "extract",
+      "background ventilation",
+      "commissioning",
+      "mould risk"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Part-specific asset."
+  },
+  {
+    "id": "approved-document-l-energy-homeowner-pack",
+    "title": "Approved Document L energy homeowner pack",
+    "category": "approved_documents",
+    "category_label": "Approved Document quick packs",
+    "primary_project": "Energy-related work",
+    "url": "/downloads/approved-document-l-energy-homeowner-pack/",
+    "recommended_cta": "Use the Approved Document router first, then read the official Approved Document before relying on the pack.",
+    "trigger_keywords": [
+      "U-values",
+      "heating",
+      "controls",
+      "commissioning",
+      "2026 version note"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Part-specific asset."
+  },
+  {
+    "id": "approved-document-p-electrical-homeowner-pack",
+    "title": "Approved Document P electrical homeowner pack",
+    "category": "approved_documents",
+    "category_label": "Approved Document quick packs",
+    "primary_project": "Electrical work",
+    "url": "/downloads/approved-document-p-electrical-homeowner-pack/",
+    "recommended_cta": "Use the Approved Document router first, then read the official Approved Document before relying on the pack.",
+    "trigger_keywords": [
+      "notifiable work",
+      "competent person",
+      "certificate",
+      "safe zones"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Part-specific asset."
+  },
+  {
+    "id": "installer-quote-building-regs-questions",
+    "title": "Installer quote building regs questions",
+    "category": "installer",
+    "category_label": "Installer and competent-person forms",
+    "primary_project": "Getting quotes",
+    "url": "/downloads/installer-quote-building-regs-questions/",
+    "recommended_cta": "Use this before accepting a quote so certificate promises are recorded upfront.",
+    "trigger_keywords": [
+      "scheme registration",
+      "notification",
+      "certificate",
+      "warranty",
+      "scope"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Good pre-conversion asset."
+  },
+  {
+    "id": "registered-installer-confirmation-form",
+    "title": "Registered installer confirmation form",
+    "category": "installer",
+    "category_label": "Installer and competent-person forms",
+    "primary_project": "Competent person work",
+    "url": "/downloads/registered-installer-confirmation-form/",
+    "recommended_cta": "Use this before accepting a quote so certificate promises are recorded upfront.",
+    "trigger_keywords": [
+      "scheme",
+      "registration number",
+      "certificate promise",
+      "handover"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Good evidence asset."
+  },
+  {
+    "id": "electrician-part-p-certificate-request",
+    "title": "Electrician Part P certificate request",
+    "category": "installer",
+    "category_label": "Installer and competent-person forms",
+    "primary_project": "Electrical work",
+    "url": "/downloads/electrician-part-p-certificate-request/",
+    "recommended_cta": "Use this before accepting a quote so certificate promises are recorded upfront.",
+    "trigger_keywords": [
+      "Part P",
+      "EIC",
+      "building regulations compliance certificate"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Practical homeowner template."
+  },
+  {
+    "id": "gas-boiler-paperwork-request",
+    "title": "Gas boiler paperwork request",
+    "category": "installer",
+    "category_label": "Installer and competent-person forms",
+    "primary_project": "Boilers and heating",
+    "url": "/downloads/gas-boiler-paperwork-request/",
+    "recommended_cta": "Use this before accepting a quote so certificate promises are recorded upfront.",
+    "trigger_keywords": [
+      "Gas Safe",
+      "commissioning",
+      "benchmark",
+      "notification"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Practical homeowner template."
+  },
+  {
+    "id": "home-sale-building-regs-document-pack",
+    "title": "Home sale building regs document pack",
+    "category": "sale_and_handover",
+    "category_label": "Sale, handover and record-keeping packs",
+    "primary_project": "Selling a home",
+    "url": "/downloads/home-sale-building-regs-document-pack/",
+    "recommended_cta": "Use this to avoid missing paperwork when selling, buying or handing over a property.",
+    "trigger_keywords": [
+      "completion certificates",
+      "competent person certificates",
+      "warranties",
+      "drawings"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Future monetisation/affiliate route later."
+  },
+  {
+    "id": "buyer-questions-building-regs-pack",
+    "title": "Buyer questions building regs pack",
+    "category": "sale_and_handover",
+    "category_label": "Sale, handover and record-keeping packs",
+    "primary_project": "Buying a home",
+    "url": "/downloads/buyer-questions-building-regs-pack/",
+    "recommended_cta": "Use this to avoid missing paperwork when selling, buying or handing over a property.",
+    "trigger_keywords": [
+      "alterations",
+      "certificates",
+      "regularisation",
+      "risks"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Future search cluster."
+  },
+  {
+    "id": "landlord-building-regs-record-pack",
+    "title": "Landlord building regs record pack",
+    "category": "sale_and_handover",
+    "category_label": "Sale, handover and record-keeping packs",
+    "primary_project": "Rental property works",
+    "url": "/downloads/landlord-building-regs-record-pack/",
+    "recommended_cta": "Use this to avoid missing paperwork when selling, buying or handing over a property.",
+    "trigger_keywords": [
+      "records",
+      "certificates",
+      "safety",
+      "maintenance"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Future B2B/B2C route."
+  },
+  {
+    "id": "homeowner-handover-file-index",
+    "title": "Homeowner handover file index",
+    "category": "sale_and_handover",
+    "category_label": "Sale, handover and record-keeping packs",
+    "primary_project": "All projects",
+    "url": "/downloads/homeowner-handover-file-index/",
+    "recommended_cta": "Use this to avoid missing paperwork when selling, buying or handing over a property.",
+    "trigger_keywords": [
+      "what to keep",
+      "where stored",
+      "expiry/renewal",
+      "who issued"
+    ],
+    "components": [
+      "source/version panel",
+      "project summary block",
+      "questions to answer before starting",
+      "evidence checklist",
+      "red flag warnings",
+      "next tool/page links",
+      "date generated and re-check warning"
+    ],
+    "codex_notes": "Core saved-dashboard output."
+  }
+]

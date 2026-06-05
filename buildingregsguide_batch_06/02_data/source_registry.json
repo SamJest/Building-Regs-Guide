@@ -1,0 +1,237 @@
+[
+  {
+    "id": "govuk_building_regs_approval",
+    "title": "GOV.UK: Building regulations approval",
+    "url": "https://www.gov.uk/building-regulations-approval",
+    "source_type": "official",
+    "jurisdiction": "England baseline; links onwards for Scotland and Northern Ireland",
+    "category": "approval_needed",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "Do I need approval?",
+      "planning-vs-building-regulations",
+      "project trigger pages"
+    ],
+    "notes": "States that building regulations approval is different from planning permission and that both may be needed."
+  },
+  {
+    "id": "govuk_how_to_apply",
+    "title": "GOV.UK: How to apply for building regulations approval",
+    "url": "https://www.gov.uk/building-regulations-approval/how-to-apply",
+    "source_type": "official",
+    "jurisdiction": "England baseline",
+    "category": "application_route",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "building-control-body pages",
+      "route checker",
+      "full-plans-vs-building-notice"
+    ],
+    "notes": "Use for the concept of contacting a building control body and for route selection around BCBs."
+  },
+  {
+    "id": "govuk_use_competent_person",
+    "title": "GOV.UK: Use a competent person scheme",
+    "url": "https://www.gov.uk/building-regulations-approval/use-a-competent-person-scheme",
+    "source_type": "official",
+    "jurisdiction": "England baseline",
+    "category": "competent_person_scheme",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "windows",
+      "electrics",
+      "heating",
+      "competent-person pages"
+    ],
+    "notes": "Use where the user may avoid a direct building-control application by using a registered installer."
+  },
+  {
+    "id": "govuk_competent_person_schemes",
+    "title": "GOV.UK: Competent person schemes",
+    "url": "https://www.gov.uk/building-regulations-competent-person-schemes",
+    "source_type": "official",
+    "jurisdiction": "England and Wales scheme framework",
+    "category": "competent_person_scheme",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "tradesperson-facing explanation",
+      "homeowner certificate checklists"
+    ],
+    "notes": "Use to explain self-certification, lower building-control fees and installer scheme context."
+  },
+  {
+    "id": "govuk_approved_documents_collection",
+    "title": "GOV.UK: Approved Documents collection",
+    "url": "https://www.gov.uk/government/collections/approved-documents",
+    "source_type": "official",
+    "jurisdiction": "England",
+    "category": "approved_documents",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "Approved Document hubs",
+      "technical topic pages"
+    ],
+    "notes": "Core collection for England Approved Documents. Verify individual document versions before content publication."
+  },
+  {
+    "id": "govuk_approved_document_f_2026",
+    "title": "GOV.UK: Approved Document F (2026)",
+    "url": "https://www.gov.uk/government/publications/approved-document-f-2026",
+    "source_type": "official",
+    "jurisdiction": "England",
+    "category": "approved_document_f",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "ventilation",
+      "extensions",
+      "loft conversions",
+      "bathrooms",
+      "kitchens"
+    ],
+    "notes": "Published 24 March 2026. Use for future ventilation pages and version-aware source blocks."
+  },
+  {
+    "id": "govuk_approved_document_l_2026",
+    "title": "GOV.UK: Approved Document L (2026)",
+    "url": "https://www.gov.uk/government/publications/approved-document-l-2026",
+    "source_type": "official",
+    "jurisdiction": "England",
+    "category": "approved_document_l",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "energy performance",
+      "extensions",
+      "insulation",
+      "heating",
+      "windows"
+    ],
+    "notes": "Published 24 March 2026. Must be version-aware because earlier versions may apply to older projects."
+  },
+  {
+    "id": "govuk_building_regs_circulars",
+    "title": "GOV.UK: Building regulations circulars",
+    "url": "https://www.gov.uk/government/collections/building-regulations-circulars",
+    "source_type": "official",
+    "jurisdiction": "England",
+    "category": "policy_updates",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "versioning",
+      "update monitoring",
+      "Approved Document amendment pages"
+    ],
+    "notes": "Use to keep 2026/2025 update watch accurate."
+  },
+  {
+    "id": "legislation_building_regs_2010",
+    "title": "Legislation.gov.uk: The Building Regulations 2010",
+    "url": "https://www.legislation.gov.uk/uksi/2010/2214/contents",
+    "source_type": "official_legislation",
+    "jurisdiction": "England and Wales, as amended",
+    "category": "legislation",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "legal baseline references",
+      "regulation pages"
+    ],
+    "notes": "Use sparingly for legal baseline; explain in plain English and point users to building control for project-specific decisions."
+  },
+  {
+    "id": "planning_portal_building_control_applications",
+    "title": "Planning Portal: Building control applications",
+    "url": "https://www.planningportal.co.uk/applications/building-control-applications/",
+    "source_type": "official_service_or_public_portal",
+    "jurisdiction": "England and Wales service coverage varies by BCB",
+    "category": "application_portal",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "application route pages",
+      "how-to-apply flows"
+    ],
+    "notes": "Use for the practical application portal and account/submission route."
+  },
+  {
+    "id": "planning_portal_building_notice",
+    "title": "Planning Portal: Building notice",
+    "url": "https://www.planningportal.co.uk/applications/building-control-applications/building-control/how-to-get-approval/pre-site-approval/building-notice/",
+    "source_type": "official_service_or_public_portal",
+    "jurisdiction": "England and Wales service guidance",
+    "category": "building_notice",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "building-notice pages",
+      "route checker result text"
+    ],
+    "notes": "Use for building notice characteristics: faster, less detail, often smaller domestic projects, inspections as work progresses."
+  },
+  {
+    "id": "planning_portal_competent_person",
+    "title": "Planning Portal: Competent person self-certification schemes",
+    "url": "https://www.planningportal.co.uk/applications/building-control-applications/building-control/how-to-get-approval/where-to-get-approval/competent-person-self-certification-schemes/",
+    "source_type": "official_service_or_public_portal",
+    "jurisdiction": "England and Wales service guidance",
+    "category": "competent_person_scheme",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "competent-person result text",
+      "certificate evidence assets"
+    ],
+    "notes": "Use for homeowner-friendly explanation of self-certification as an alternative to a building notice for covered work."
+  },
+  {
+    "id": "govwales_approved_documents",
+    "title": "Welsh Government: Building regulations approved documents",
+    "url": "https://www.gov.wales/building-regulations-approved-documents",
+    "source_type": "official",
+    "jurisdiction": "Wales",
+    "category": "approved_documents_wales",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "Wales route pages",
+      "devolved jurisdiction warning blocks"
+    ],
+    "notes": "Use when the site expands beyond England-first content. Wales has separate Approved Document pages and 2026 updates for F/L."
+  },
+  {
+    "id": "govscot_domestic_technical_handbook_2026",
+    "title": "Scottish Government: Building standards technical handbook domestic - April 2026",
+    "url": "https://www.gov.scot/publications/building-standards-technical-handbook-domestic-april-2026-pdf/",
+    "source_type": "official",
+    "jurisdiction": "Scotland",
+    "category": "scotland_building_standards",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "Scotland route pages",
+      "building warrant warning blocks"
+    ],
+    "notes": "Use for Scotland. Do not describe Scottish approvals as England-style building regulations approval."
+  },
+  {
+    "id": "govuk_bsr_higher_risk_buildings",
+    "title": "GOV.UK: Building control approval for higher-risk buildings",
+    "url": "https://www.gov.uk/guidance/building-control-approval-for-higher-risk-buildings",
+    "source_type": "official",
+    "jurisdiction": "England higher-risk buildings",
+    "category": "higher_risk_buildings",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "high-risk building exclusions",
+      "flat/block warning modules"
+    ],
+    "notes": "Use mainly as a warning/exclusion source. The first site build should avoid pretending to advise complex HRB routes."
+  },
+  {
+    "id": "labc_homeowners",
+    "title": "LABC: Homeowners",
+    "url": "https://www.labc.co.uk/discover/homeowners",
+    "source_type": "industry_public_body",
+    "jurisdiction": "England and Wales local authority building control",
+    "category": "homeowner_guidance",
+    "last_verified": "2026-06-04",
+    "use_for": [
+      "plain-English homeowner support",
+      "secondary explanation blocks"
+    ],
+    "notes": "Use as secondary support, not as replacement for official GOV.UK or legislation sources."
+  }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "path": "/building-regulations/local-authority-building-control-vs-registered-approver/",
+    "title": "Local authority building control vs registered approver",
+    "family": "guide",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/building-regulations/drawings-and-specifications/",
+    "title": "Building regulations drawings and specifications",
+    "family": "approval_route",
+    "priority": "medium",
+    "primary_source_id": "govuk_how_to_apply",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/building-regulations/higher-risk-buildings/",
+    "title": "Higher-risk buildings and building control approval",
+    "family": "guardrail",
+    "priority": "medium",
+    "primary_source_id": "govuk_bsr_higher_risk_buildings",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/building-regulations/wales/",
+    "title": "Building regulations in Wales",
+    "family": "jurisdiction",
+    "priority": "medium",
+    "primary_source_id": "govwales_approved_documents",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/building-regulations/scotland/",
+    "title": "Building standards in Scotland",
+    "family": "jurisdiction",
+    "priority": "medium",
+    "primary_source_id": "govscot_domestic_technical_handbook_2026",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/single-storey-extension-building-regulations/",
+    "title": "Single-storey extension building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/two-storey-extension-building-regulations/",
+    "title": "Two-storey extension building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/porch-building-regulations/",
+    "title": "Porch building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/chimney-breast-removal-building-regulations/",
+    "title": "Chimney breast removal building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/roof-alteration-building-regulations/",
+    "title": "Roof alteration building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/rooflight-building-regulations/",
+    "title": "Rooflight building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/heat-pump-building-regulations/",
+    "title": "Heat pump building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_use_competent_person",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/solar-panel-building-regulations/",
+    "title": "Solar panel building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_use_competent_person",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/bathroom-building-regulations/",
+    "title": "Bathroom building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/kitchen-building-regulations/",
+    "title": "Kitchen building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/insulation-building-regulations/",
+    "title": "Insulation building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_document_l_2026",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/driveway-drainage-building-regulations/",
+    "title": "Driveway drainage building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/basement-conversion-building-regulations/",
+    "title": "Basement conversion building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/underpinning-building-regulations/",
+    "title": "Underpinning building regulations",
+    "family": "project",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-c-site-preparation-moisture/",
+    "title": "Approved Document C: Site preparation and resistance to contaminants and moisture",
+    "family": "approved_document",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-e-sound/",
+    "title": "Approved Document E: Resistance to sound",
+    "family": "approved_document",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-g-sanitation-hot-water-water-efficiency/",
+    "title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "family": "approved_document",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-j-combustion-appliances/",
+    "title": "Approved Document J: Combustion appliances and fuel storage systems",
+    "family": "approved_document",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-m-access/",
+    "title": "Approved Document M: Access to and use of buildings",
+    "family": "approved_document",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-o-overheating/",
+    "title": "Approved Document O: Overheating",
+    "family": "approved_document",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-q-security/",
+    "title": "Approved Document Q: Security - dwellings",
+    "family": "approved_document",
+    "priority": "low",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-r-physical-infrastructure/",
+    "title": "Approved Document R: Physical infrastructure for high-speed electronic communications networks",
+    "family": "approved_document",
+    "priority": "low",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-s-electric-vehicle-charging/",
+    "title": "Approved Document S: Infrastructure for charging electric vehicles",
+    "family": "approved_document",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/approved-document-t-toilets/",
+    "title": "Approved Document T: Toilet accommodation",
+    "family": "approved_document",
+    "priority": "low",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/regulation-7-materials-workmanship/",
+    "title": "Regulation 7: Materials and workmanship",
+    "family": "approved_document",
+    "priority": "medium",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/heat-pump-building-regs-evidence-sheet/",
+    "title": "Heat pump building regs evidence sheet",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/solar-panel-structure-electrical-checklist/",
+    "title": "Solar panel structure and electrical checklist",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/bathroom-building-regs-checklist/",
+    "title": "Bathroom building regs checklist",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/kitchen-building-regs-checklist/",
+    "title": "Kitchen building regs checklist",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/wales-scotland-source-checklist/",
+    "title": "Wales/Scotland source checklist",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/higher-risk-building-warning-sheet/",
+    "title": "Higher-risk building warning sheet",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/building-regs-project-file-index/",
+    "title": "Building regs project file index",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/approved-document-version-record/",
+    "title": "Approved Document version record",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/before-you-start-building-regs-checklist/",
+    "title": "Before-you-start building regs checklist",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/downloads/completion-day-handover-checklist/",
+    "title": "Completion day handover checklist",
+    "family": "download",
+    "priority": "medium",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/c-site-preparation-moisture/",
+    "title": "Approved Document C: Site preparation, contaminants and moisture",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/d-toxic-substances/",
+    "title": "Approved Document D: Toxic substances",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/e-sound/",
+    "title": "Approved Document E: Resistance to sound",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/f-ventilation/",
+    "title": "Approved Document F: Ventilation",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/g-sanitation-hot-water-water-efficiency/",
+    "title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/h-drainage-waste/",
+    "title": "Approved Document H: Drainage and waste disposal",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/j-combustion-appliances/",
+    "title": "Approved Document J: Combustion appliances and fuel storage",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/k-falling-collision-impact/",
+    "title": "Approved Document K: Protection from falling, collision and impact",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/l-conservation-fuel-power/",
+    "title": "Approved Document L: Conservation of fuel and power",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/m-access/",
+    "title": "Approved Document M: Access to and use of buildings",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/o-overheating/",
+    "title": "Approved Document O: Overheating",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/p-electrical-safety/",
+    "title": "Approved Document P: Electrical safety",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/q-security/",
+    "title": "Approved Document Q: Security in dwellings",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/r-physical-infrastructure/",
+    "title": "Approved Document R: Physical infrastructure for electronic communications",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/s-electric-vehicle-charging/",
+    "title": "Approved Document S: Electric vehicle charging infrastructure",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/t-toilets/",
+    "title": "Approved Document T: Toilet accommodation",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/approved-documents/7-materials-and-workmanship/",
+    "title": "Approved Document 7: Materials and workmanship",
+    "family": "approved_document_hub",
+    "priority": "high",
+    "primary_source_id": "govuk_approved_documents_collection",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/replacement-windows-doors-building-regulations/",
+    "title": "Replacement windows and doors building regulations",
+    "family": "project_deep_dive",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/solar-panels-building-regulations/",
+    "title": "Solar panels building regulations",
+    "family": "project_deep_dive",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/rooflights-building-regulations/",
+    "title": "Rooflights building regulations",
+    "family": "project_deep_dive",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/roof-alterations-building-regulations/",
+    "title": "Roof alterations building regulations",
+    "family": "project_deep_dive",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/insulation-upgrades-building-regulations/",
+    "title": "Insulation upgrades building regulations",
+    "family": "project_deep_dive",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/flat-alterations-building-regulations/",
+    "title": "Flat alterations building regulations",
+    "family": "project_deep_dive",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/projects/creating-new-dwelling-building-regulations/",
+    "title": "Creating a new dwelling building regulations",
+    "family": "project_deep_dive",
+    "priority": "high",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-single-storey-extension/",
+    "title": "Do I need building regulations for Single-storey extension?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-single-storey-extension/",
+    "title": "Building notice or full plans for Single-storey extension?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-single-storey-extension/",
+    "title": "Building control inspections for Single-storey extension",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-single-storey-extension/",
+    "title": "Completion certificate for Single-storey extension",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-single-storey-extension/",
+    "title": "What documents do I need for Single-storey extension?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-single-storey-extension/",
+    "title": "Common building regulations mistakes with Single-storey extension",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-two-storey-extension/",
+    "title": "Do I need building regulations for Two-storey extension?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-two-storey-extension/",
+    "title": "Building notice or full plans for Two-storey extension?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-two-storey-extension/",
+    "title": "Building control inspections for Two-storey extension",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-two-storey-extension/",
+    "title": "Completion certificate for Two-storey extension",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-two-storey-extension/",
+    "title": "What documents do I need for Two-storey extension?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-two-storey-extension/",
+    "title": "Common building regulations mistakes with Two-storey extension",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-loft-conversion/",
+    "title": "Do I need building regulations for Loft conversion?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-loft-conversion/",
+    "title": "Building notice or full plans for Loft conversion?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-loft-conversion/",
+    "title": "Building control inspections for Loft conversion",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-loft-conversion/",
+    "title": "Completion certificate for Loft conversion",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-loft-conversion/",
+    "title": "What documents do I need for Loft conversion?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-loft-conversion/",
+    "title": "Common building regulations mistakes with Loft conversion",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-garage-conversion/",
+    "title": "Do I need building regulations for Garage conversion?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-garage-conversion/",
+    "title": "Building notice or full plans for Garage conversion?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-garage-conversion/",
+    "title": "Building control inspections for Garage conversion",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-garage-conversion/",
+    "title": "Completion certificate for Garage conversion",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-garage-conversion/",
+    "title": "What documents do I need for Garage conversion?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-garage-conversion/",
+    "title": "Common building regulations mistakes with Garage conversion",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-removing-load-bearing-wall/",
+    "title": "Do I need building regulations for Removing a load-bearing wall?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-removing-load-bearing-wall/",
+    "title": "Building notice or full plans for Removing a load-bearing wall?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-removing-load-bearing-wall/",
+    "title": "Building control inspections for Removing a load-bearing wall",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-removing-load-bearing-wall/",
+    "title": "Completion certificate for Removing a load-bearing wall",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-removing-load-bearing-wall/",
+    "title": "What documents do I need for Removing a load-bearing wall?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-removing-load-bearing-wall/",
+    "title": "Common building regulations mistakes with Removing a load-bearing wall",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-chimney-breast-removal/",
+    "title": "Do I need building regulations for Chimney breast removal?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-chimney-breast-removal/",
+    "title": "Building notice or full plans for Chimney breast removal?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-chimney-breast-removal/",
+    "title": "Building control inspections for Chimney breast removal",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-chimney-breast-removal/",
+    "title": "Completion certificate for Chimney breast removal",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-chimney-breast-removal/",
+    "title": "What documents do I need for Chimney breast removal?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-chimney-breast-removal/",
+    "title": "Common building regulations mistakes with Chimney breast removal",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-bathroom/",
+    "title": "Do I need building regulations for Bathroom?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-bathroom/",
+    "title": "Building notice or full plans for Bathroom?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-bathroom/",
+    "title": "Building control inspections for Bathroom",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-bathroom/",
+    "title": "Completion certificate for Bathroom",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-bathroom/",
+    "title": "What documents do I need for Bathroom?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-bathroom/",
+    "title": "Common building regulations mistakes with Bathroom",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-kitchen/",
+    "title": "Do I need building regulations for Kitchen?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-kitchen/",
+    "title": "Building notice or full plans for Kitchen?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-kitchen/",
+    "title": "Building control inspections for Kitchen",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-kitchen/",
+    "title": "Completion certificate for Kitchen",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-kitchen/",
+    "title": "What documents do I need for Kitchen?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-kitchen/",
+    "title": "Common building regulations mistakes with Kitchen",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-replacement-windows-doors/",
+    "title": "Do I need building regulations for Replacement windows and doors?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-replacement-windows-doors/",
+    "title": "Building notice or full plans for Replacement windows and doors?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-control-inspections-for-replacement-windows-doors/",
+    "title": "Building control inspections for Replacement windows and doors",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/completion-certificate-for-replacement-windows-doors/",
+    "title": "Completion certificate for Replacement windows and doors",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/what-documents-do-i-need-for-replacement-windows-doors/",
+    "title": "What documents do I need for Replacement windows and doors?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/common-building-regs-mistakes-replacement-windows-doors/",
+    "title": "Common building regulations mistakes with Replacement windows and doors",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/do-i-need-building-regulations-for-boiler-heating/",
+    "title": "Do I need building regulations for Boiler and heating?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  },
+  {
+    "path": "/questions/building-notice-or-full-plans-for-boiler-heating/",
+    "title": "Building notice or full plans for Boiler and heating?",
+    "family": "programmatic_question_page",
+    "priority": "",
+    "primary_source_id": "govuk_building_regs_approval",
+    "publish_state": "draft_or_noindex_until_complete",
+    "gate": "source-specific unique body content required before indexable publication"
+  }
+]

@@ -1,0 +1,529 @@
+[
+  {
+    "slug": "building-control-route-checker",
+    "path": "/tools/building-control-route-checker/",
+    "title": "Building Control Route Checker",
+    "summary": "Chooses likely next route: planning-first, full plans, building notice, competent person, regularisation, or specialist advice.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "full-plans-vs-building-notice-checker",
+    "path": "/tools/full-plans-vs-building-notice-checker/",
+    "title": "Full Plans vs Building Notice Checker",
+    "summary": "Compares project complexity, certainty needs, start timing and structural risk.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "competent-person-scheme-checker",
+    "path": "/tools/competent-person-scheme-checker/",
+    "title": "Competent Person Scheme Checker",
+    "summary": "Checks whether the work type commonly fits registered installer self-certification.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "completion-certificate-readiness-checker",
+    "path": "/tools/completion-certificate-readiness-checker/",
+    "title": "Completion Certificate Readiness Checker",
+    "summary": "Creates a record list for inspections, certificates and missing evidence before completion.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "inspection-stage-checklist-generator",
+    "path": "/tools/inspection-stage-checklist-generator/",
+    "title": "Inspection Stage Checklist Generator",
+    "summary": "Builds likely inspection/evidence stages for extensions, lofts, garages and structural work.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "approved-document-router",
+    "path": "/tools/approved-document-router/",
+    "title": "Approved Document Router",
+    "summary": "Maps project features to relevant Approved Documents and source pages.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "extension-regs-prep-pack",
+    "path": "/tools/extension-regs-prep-pack/",
+    "title": "Extension Building Regs Prep Pack",
+    "summary": "Generates a pre-application pack for extension building control conversations.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "loft-fire-safety-prep-checker",
+    "path": "/tools/loft-fire-safety-prep-checker/",
+    "title": "Loft Fire Safety Prep Checker",
+    "summary": "Flags loft conversion fire, escape and stair questions to settle before quotes.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "garage-conversion-regs-checker",
+    "path": "/tools/garage-conversion-regs-checker/",
+    "title": "Garage Conversion Building Regs Checker",
+    "summary": "Checks common garage conversion triggers: damp, insulation, ventilation, structure and fire.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "structural-alteration-readiness-checker",
+    "path": "/tools/structural-alteration-readiness-checker/",
+    "title": "Structural Alteration Readiness Checker",
+    "summary": "Creates a checklist for beams, openings, calculations, party wall risk and inspections.",
+    "priority": "batch_1",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "drainage-waste-route-checker",
+    "path": "/tools/drainage-waste-route-checker/",
+    "title": "Drainage and Waste Route Checker",
+    "summary": "Checks whether drainage changes need early building control/design input.",
+    "priority": "batch_2_candidate",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "windows-doors-certificate-checker",
+    "path": "/tools/windows-doors-certificate-checker/",
+    "title": "Windows and Doors Certificate Checker",
+    "summary": "Helps homeowners know what certificate/evidence to request and keep.",
+    "priority": "batch_2_candidate",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "electrical-work-notifiable-checker",
+    "path": "/tools/electrical-work-notifiable-checker/",
+    "title": "Electrical Work Notifiable Checker",
+    "summary": "Routes electrical work to competent person, building control or non-notifiable evidence reminder.",
+    "priority": "batch_2_candidate",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "heating-boiler-evidence-checker",
+    "path": "/tools/heating-boiler-evidence-checker/",
+    "title": "Heating and Boiler Evidence Checker",
+    "summary": "Shows certificate and installer evidence to keep for heating/boiler work.",
+    "priority": "batch_2_candidate",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "regularisation-risk-triage",
+    "path": "/tools/regularisation-risk-triage/",
+    "title": "Regularisation Risk Triage",
+    "summary": "For missing historic approvals; outputs what records to collect before approaching building control.",
+    "priority": "batch_2_candidate",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "sale-remortgage-evidence-pack-builder",
+    "path": "/tools/sale-remortgage-evidence-pack-builder/",
+    "title": "Sale or Remortgage Evidence Pack Builder",
+    "summary": "Creates a record sheet for building-control evidence when selling or remortgaging.",
+    "priority": "batch_2_candidate",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  },
+  {
+    "slug": "jurisdiction-route-selector",
+    "path": "/tools/jurisdiction-route-selector/",
+    "title": "England, Wales or Scotland Route Selector",
+    "summary": "Prevents users relying on the wrong jurisdiction guidance.",
+    "priority": "batch_2_candidate",
+    "input_model": [
+      "project_type",
+      "work_status",
+      "structural_change",
+      "services_changed",
+      "certificate_missing",
+      "jurisdiction"
+    ],
+    "result_types": [
+      "planning_first",
+      "full_plans",
+      "building_notice",
+      "competent_person",
+      "regularisation",
+      "specialist_advice",
+      "evidence_pack"
+    ],
+    "official_source_ids": [
+      "govuk_building_regs_approval",
+      "govuk_how_to_apply",
+      "govuk_use_competent_person",
+      "planning_portal_building_notice"
+    ],
+    "related_download_assets": []
+  }
+]

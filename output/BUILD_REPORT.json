@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-05",
+  "build_env": "production",
+  "base_url": "https://buildingregsguide.co.uk",
+  "domain": "buildingregsguide.co.uk",
+  "published_count": 78,
+  "phase_1_count": 70,
+  "extra_navigation_pages": [
+    "/projects/",
+    "/tools/",
+    "/downloads/",
+    "/approved-documents/",
+    "/dashboard/",
+    "/search/"
+  ],
+  "draft_noindex_count": 0,
+  "blocked": [],
+  "notes": [
+    "Built from the batch 6 phase-1 launch queue.",
+    "Tool results are client-side prompts and never claim to grant approval.",
+    "Sitemap includes published/indexable pages only.",
+    "Dashboard is localStorage only; no backend is implemented."
+  ]
+}

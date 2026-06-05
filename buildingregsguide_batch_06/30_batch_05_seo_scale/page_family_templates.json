@@ -1,0 +1,131 @@
+{
+  "question_project_template_v1": {
+    "purpose": "Capture long-tail homeowner questions without creating thin pages.",
+    "url_pattern": "/questions/{question-slug}/",
+    "required_data": [
+      "parent_project",
+      "source_ids",
+      "red_flags",
+      "inspection_stages",
+      "evidence_items",
+      "related_approved_documents"
+    ],
+    "required_sections": [
+      "answer_box",
+      "when_approval_is_likely",
+      "route_options",
+      "evidence_checklist",
+      "inspection_risks",
+      "related_parts",
+      "tool_cta",
+      "official_sources"
+    ],
+    "min_words_guidance": 850,
+    "schema": [
+      "WebPage",
+      "BreadcrumbList",
+      "FAQPage if genuine FAQs are present"
+    ],
+    "noindex_until": "has at least 4 unique source-backed blocks and 5 contextual internal links"
+  },
+  "approved_document_longtail_template_v1": {
+    "purpose": "Translate an Approved Document into homeowner use cases and related project pages.",
+    "url_pattern": "/approved-documents/{part-slug}-{modifier}/",
+    "required_data": [
+      "approved_document",
+      "homeowner_focus",
+      "evidence",
+      "red_flags",
+      "related_parts",
+      "source_version"
+    ],
+    "required_sections": [
+      "what_it_covers",
+      "home_projects",
+      "evidence",
+      "red_flags",
+      "related_documents",
+      "source_version_notice"
+    ],
+    "min_words_guidance": 900,
+    "schema": [
+      "Article",
+      "BreadcrumbList"
+    ],
+    "noindex_until": "source version block is visible and related projects are populated"
+  },
+  "download_landing_template_v1": {
+    "purpose": "Turn each printable asset into an indexable page with real preview value.",
+    "url_pattern": "/downloads/{asset-slug}/",
+    "required_data": [
+      "asset_title",
+      "asset_sections",
+      "project_relevance",
+      "source_ids"
+    ],
+    "required_sections": [
+      "asset_preview",
+      "who_it_is_for",
+      "when_to_use",
+      "how_to_use",
+      "related_tools",
+      "print_save_cta",
+      "official_source_warning"
+    ],
+    "min_words_guidance": 600,
+    "schema": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "noindex_until": "asset preview and print function exist"
+  },
+  "comparison_template_v1": {
+    "purpose": "Win comparison searches and reduce user confusion.",
+    "url_pattern": "/compare/{comparison-slug}/",
+    "required_data": [
+      "comparison_items",
+      "source_ids",
+      "common_misunderstandings",
+      "next_steps"
+    ],
+    "required_sections": [
+      "plain_answer",
+      "comparison_table",
+      "examples",
+      "mistakes",
+      "what_to_do_next",
+      "official_sources"
+    ],
+    "min_words_guidance": 900,
+    "schema": [
+      "Article",
+      "BreadcrumbList",
+      "FAQPage if genuine FAQs are present"
+    ],
+    "noindex_until": "table, examples and source block are present"
+  },
+  "evidence_template_v1": {
+    "purpose": "Capture certificate/document searches and push users into project dashboard retention.",
+    "url_pattern": "/evidence/{evidence-slug}/",
+    "required_data": [
+      "document_list",
+      "risk_level",
+      "related_download",
+      "source_ids"
+    ],
+    "required_sections": [
+      "what_to_keep",
+      "why_it_matters",
+      "when_to_ask",
+      "download_cta",
+      "dashboard_cta",
+      "official_sources"
+    ],
+    "min_words_guidance": 750,
+    "schema": [
+      "Article",
+      "BreadcrumbList"
+    ],
+    "noindex_until": "document checklist and related download are rendered"
+  }
+}

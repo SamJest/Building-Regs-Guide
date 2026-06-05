@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "home",
+    "title": "Home",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Homeowner-first hub for building regulations, approvals, building control bodies, project checklists and certificates.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "building-regulations",
+    "title": "Building Regulations Explained",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Plain-English overview of what building regulations are, how they differ from planning, and when they bite.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "do-i-need-building-regulations-approval",
+    "title": "Do I Need Building Regulations Approval?",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Decision page for whether a project needs approval, a competent person certificate, or further checking.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "planning-permission-vs-building-regulations",
+    "title": "Planning Permission vs Building Regulations",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Clear split between land-use/design permission and technical construction compliance.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "building-control-body",
+    "title": "What Is a Building Control Body?",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Explain local authority building control, registered building control approvers, and when BSR applies.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "local-authority-building-control-vs-registered-approver",
+    "title": "Local Authority Building Control vs Registered Approver",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Comparison page to help homeowners choose a route without giving legal advice.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "full-plans-application",
+    "title": "Full Plans Application",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Explain the safer pre-check route, what plans/specifications are needed, and when it is best.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "building-notice",
+    "title": "Building Notice",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Explain the lighter domestic route, limitations, risk, and when not to use it.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "full-plans-vs-building-notice",
+    "title": "Full Plans vs Building Notice",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Tool-supporting comparison page with conversion prompts and risk flags.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "regularisation-certificate",
+    "title": "Regularisation Certificate",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "For unauthorised historic building work and sale/mortgage evidence problems.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "competent-person-schemes",
+    "title": "Competent Person Schemes",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Explain self-certification and evidence for windows, electrics, heating, renewables and more.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "completion-certificate",
+    "title": "Completion Certificate",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Explain why completion evidence matters and how users can avoid missing sign-off.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "building-control-inspections",
+    "title": "Building Control Inspections",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Explain likely inspection stages and why users must notify before covering work.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "drawings-and-specifications",
+    "title": "Drawings and Specifications",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "What a homeowner may need to prepare before applying for approval.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "structural-calculations",
+    "title": "Structural Calculations",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "When calculations are likely, especially for walls, lofts, extensions and roof changes.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "higher-risk-buildings",
+    "title": "Higher-Risk Buildings",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Safe routing page for BSR/high-rise rules and why normal domestic guidance is not enough.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "extensions",
+    "title": "Extensions",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Hub for single-storey, two-storey and side/rear extensions with regs-first checklist.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "single-storey-extensions",
+    "title": "Single-Storey Extensions",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Project page covering foundations, drains, structure, insulation, ventilation and completion.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "two-storey-extensions",
+    "title": "Two-Storey Extensions",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Project page covering structure, fire escape, stairs, foundations and full plans preference.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "loft-conversions",
+    "title": "Loft Conversions",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Project page focused on structure, stairs, protected escape, fire doors, alarms, ventilation and insulation.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "garage-conversions",
+    "title": "Garage Conversions",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Project page for garage-to-room conversions, damp, insulation, ventilation, floor build-up and escape.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "removing-load-bearing-wall",
+    "title": "Removing a Load-Bearing Wall",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Structural alteration page: calculations, beams, padstones, fire protection, inspection sequencing.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "chimney-breast-removal",
+    "title": "Chimney Breast Removal",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Structural support and party-wall-aware guidance for partial/full chimney breast removal.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "windows-and-doors",
+    "title": "Windows and Doors",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Competent person route, ventilation, safety glazing and escape window issues.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "electrical-work",
+    "title": "Electrical Work",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Part P, notifiable work, registered electricians and evidence retention.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "bathrooms",
+    "title": "Bathrooms",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "New bathroom routing for drainage, ventilation, hot water safety and bathroom-zone electrics.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "boilers-heating",
+    "title": "Boilers and Heating",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Heating system routing through competent installers, flues, controls and completion evidence.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  },
+  {
+    "slug": "solar-panels",
+    "title": "Solar Panels",
+    "status": "batch_02_full_markdown_draft",
+    "primary_intent": "Structural/electrical/project overlap page for roof-mounted solar and batteries.",
+    "word_target": "900-1400 after Codex polish",
+    "component_needs": [
+      "answer_panel",
+      "route_card",
+      "evidence_checklist",
+      "inspection_checklist",
+      "approved_document_links",
+      "faq_schema"
+    ]
+  }
+]

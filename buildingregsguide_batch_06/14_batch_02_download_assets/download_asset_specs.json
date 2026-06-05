@@ -1,0 +1,84 @@
+[
+  {
+    "id": "building-regs-before-you-start-checklist",
+    "title": "Building Regulations Before You Start Checklist",
+    "type": "printable checklist",
+    "sections": [
+      "Project description",
+      "Approval route",
+      "Competent person evidence",
+      "Drawings/specifications",
+      "Inspection stages",
+      "Separate permissions"
+    ]
+  },
+  {
+    "id": "extension-building-control-prep-pack",
+    "title": "Extension Building Control Prep Pack",
+    "type": "download pack",
+    "sections": [
+      "Plans",
+      "Structural calculations",
+      "Foundations",
+      "Drainage",
+      "Insulation and energy",
+      "Fire safety",
+      "Inspections"
+    ]
+  },
+  {
+    "id": "loft-conversion-fire-and-structure-checklist",
+    "title": "Loft Conversion Fire and Structure Checklist",
+    "type": "printable checklist",
+    "sections": [
+      "Structure",
+      "Stairs",
+      "Protected route",
+      "Fire doors/alarms",
+      "Insulation",
+      "Ventilation",
+      "Final evidence"
+    ]
+  },
+  {
+    "id": "completion-certificate-evidence-folder",
+    "title": "Completion Certificate Evidence Folder",
+    "type": "document organiser",
+    "sections": [
+      "Application details",
+      "Inspection notes",
+      "Installer certificates",
+      "Photos",
+      "Calculations",
+      "Product specs",
+      "Final certificate"
+    ]
+  },
+  {
+    "id": "competent-person-certificate-tracker",
+    "title": "Competent Person Certificate Tracker",
+    "type": "tracker",
+    "sections": [
+      "Work type",
+      "Installer",
+      "Scheme",
+      "Certificate expected",
+      "Date received",
+      "Where stored"
+    ]
+  },
+  {
+    "id": "regularisation-evidence-gatherer",
+    "title": "Regularisation Evidence Gatherer",
+    "type": "evidence checklist",
+    "sections": [
+      "What work was done",
+      "When it was done",
+      "Photos",
+      "Invoices",
+      "Certificates",
+      "Open-up evidence",
+      "Council contact log"
+    ]
+  }
+]

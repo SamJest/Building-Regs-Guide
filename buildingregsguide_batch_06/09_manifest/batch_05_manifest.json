@@ -1,0 +1,30 @@
+{
+  "batch": 5,
+  "created": "2026-06-04",
+  "cumulative": true,
+  "new_candidate_routes": 259,
+  "combined_candidate_routes": 393,
+  "internal_link_edges": 878,
+  "new_directories": [
+    "30_batch_05_seo_scale",
+    "31_batch_05_schema",
+    "32_batch_05_internal_linking",
+    "33_batch_05_sitemaps_and_indexing",
+    "34_batch_05_validation",
+    "35_batch_05_codex_handoff",
+    "36_batch_05_wireframes",
+    "37_batch_05_overlay_source",
+    "38_batch_05_search_and_discovery"
+  ],
+  "key_files": [
+    "README_BATCH_05.md",
+    "30_batch_05_seo_scale/seo_route_expansion_registry.json",
+    "30_batch_05_seo_scale/route_registry_v5_candidate_combined.json",
+    "31_batch_05_schema/schemaFactory.js",
+    "32_batch_05_internal_linking/internal_link_graph_v5.json",
+    "33_batch_05_sitemaps_and_indexing/sitemapGenerator.js",
+    "34_batch_05_validation/seo_build_gate.js",
+    "35_batch_05_codex_handoff/CODEX_BATCH_05_MASTER_PROMPT.md"
+  ],
+  "validation_policy": "Candidate pages should remain noindex until route, content, source, schema and internal-link gates pass."
+}

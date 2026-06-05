@@ -1,0 +1,653 @@
+[
+  {
+    "part": "A",
+    "title": "Approved Document A: Structure",
+    "slug": "approved-document-a-structure",
+    "path": "/approved-documents/a-structure/",
+    "purpose": "structural safety: loads, ground movement, disproportionate collapse and stability of buildings and building work",
+    "homeowner_focus": [
+      "load-bearing wall removal",
+      "chimney breast removal",
+      "loft conversions",
+      "extensions",
+      "basements",
+      "underpinning",
+      "new structural openings"
+    ],
+    "evidence": [
+      "structural engineer calculations",
+      "beam/steel schedules",
+      "foundation notes",
+      "existing/proposed plans",
+      "site photos before cover-up",
+      "inspection sign-off for structural stages"
+    ],
+    "red_flags": [
+      "any load-bearing element being removed",
+      "unknown wall construction",
+      "large openings into old walls",
+      "work near party walls or shared structures",
+      "cracks, movement, subsidence history"
+    ],
+    "related_parts": [
+      "B",
+      "C",
+      "K",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "B",
+    "title": "Approved Document B: Fire safety",
+    "slug": "approved-document-b-fire-safety",
+    "path": "/approved-documents/b-fire-safety/",
+    "purpose": "means of warning and escape, internal fire spread, external fire spread and fire service access",
+    "homeowner_focus": [
+      "loft conversions",
+      "garage conversions",
+      "open-plan layouts",
+      "extensions affecting escape routes",
+      "flats and higher-risk buildings",
+      "replacement doors in flats"
+    ],
+    "evidence": [
+      "fire strategy notes",
+      "smoke/heat alarm specification",
+      "protected stair/escape route notes",
+      "fire door schedule where relevant",
+      "completion certificates for alarms/electrics"
+    ],
+    "red_flags": [
+      "new room in the roof",
+      "open-plan ground floor below upper-storey bedrooms",
+      "work to flats/common parts",
+      "removing doors that protected escape routes",
+      "combustible cladding or balcony alterations"
+    ],
+    "related_parts": [
+      "A",
+      "F",
+      "K",
+      "M"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "C",
+    "title": "Approved Document C: Site preparation, contaminants and moisture",
+    "slug": "approved-document-c-site-preparation-moisture",
+    "path": "/approved-documents/c-site-preparation-moisture/",
+    "purpose": "site preparation, moisture resistance, radon/contaminants and damp protection",
+    "homeowner_focus": [
+      "extensions",
+      "basements",
+      "garage conversions",
+      "solid floor upgrades",
+      "work on damp-prone walls",
+      "new floors over ground"
+    ],
+    "evidence": [
+      "damp-proof course/damp-proof membrane details",
+      "ground condition notes",
+      "radon/contaminant checks where relevant",
+      "floor build-up specification",
+      "photos before covering membranes"
+    ],
+    "red_flags": [
+      "below-ground rooms",
+      "historic damp",
+      "made ground/contaminated land possibility",
+      "floor levels close to external ground",
+      "bridged damp-proof courses"
+    ],
+    "related_parts": [
+      "A",
+      "F",
+      "H",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "D",
+    "title": "Approved Document D: Toxic substances",
+    "slug": "approved-document-d-toxic-substances",
+    "path": "/approved-documents/d-toxic-substances/",
+    "purpose": "limiting risks from toxic substances, especially cavity insulation formaldehyde-related issues",
+    "homeowner_focus": [
+      "cavity wall insulation",
+      "insulation upgrades",
+      "retrofit energy work"
+    ],
+    "evidence": [
+      "product datasheets",
+      "installer certificate",
+      "specification confirming suitable materials"
+    ],
+    "red_flags": [
+      "unknown insulation products",
+      "unverified installer claims",
+      "older cavity fill records missing"
+    ],
+    "related_parts": [
+      "C",
+      "F",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "E",
+    "title": "Approved Document E: Resistance to sound",
+    "slug": "approved-document-e-sound",
+    "path": "/approved-documents/e-sound/",
+    "purpose": "sound insulation between dwellings, rooms for residential purposes and acoustic separation in relevant building work",
+    "homeowner_focus": [
+      "flat conversions",
+      "garage conversions to habitable rooms",
+      "new dwellings",
+      "walls/floors between separate homes",
+      "some change-of-use projects"
+    ],
+    "evidence": [
+      "acoustic design notes",
+      "robust details where applicable",
+      "pre-completion test certificates if required",
+      "floor/wall build-up specification"
+    ],
+    "red_flags": [
+      "creating separate dwelling units",
+      "working in flats or maisonettes",
+      "lightweight floors between separate occupancies",
+      "party wall acoustic weakness"
+    ],
+    "related_parts": [
+      "B",
+      "M",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "F",
+    "title": "Approved Document F: Ventilation",
+    "slug": "approved-document-f-ventilation",
+    "path": "/approved-documents/f-ventilation/",
+    "purpose": "adequate ventilation to buildings, rooms and wet areas, including extract and background ventilation",
+    "homeowner_focus": [
+      "bathrooms",
+      "kitchens",
+      "utility rooms",
+      "extensions",
+      "loft conversions",
+      "window replacement",
+      "insulation upgrades that reduce air leakage"
+    ],
+    "evidence": [
+      "extract fan specification",
+      "ventilation calculations/strategy",
+      "commissioning certificates where needed",
+      "trickle vent/window details",
+      "handover/user information"
+    ],
+    "red_flags": [
+      "new or moved bathroom/kitchen",
+      "sealed-up fireplaces or draught reduction",
+      "highly insulated retrofit",
+      "condensation or mould history",
+      "rooms without openable windows"
+    ],
+    "related_parts": [
+      "C",
+      "G",
+      "L",
+      "O"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "G",
+    "title": "Approved Document G: Sanitation, hot water safety and water efficiency",
+    "slug": "approved-document-g-sanitation-hot-water-water-efficiency",
+    "path": "/approved-documents/g-sanitation-hot-water-water-efficiency/",
+    "purpose": "sanitary conveniences, washing facilities, hot water safety, water efficiency and wholesome water",
+    "homeowner_focus": [
+      "new bathrooms",
+      "ensuites",
+      "kitchens",
+      "utility rooms",
+      "extensions with new plumbing",
+      "new dwellings"
+    ],
+    "evidence": [
+      "hot water safety details",
+      "water efficiency calculation where required",
+      "sanitary layout",
+      "plumbing/commissioning certificates"
+    ],
+    "red_flags": [
+      "unvented hot water cylinders",
+      "new bathrooms without ventilation",
+      "layout reducing accessible WC provision",
+      "high water-use fittings in new dwellings"
+    ],
+    "related_parts": [
+      "F",
+      "H",
+      "M",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "H",
+    "title": "Approved Document H: Drainage and waste disposal",
+    "slug": "approved-document-h-drainage-waste",
+    "path": "/approved-documents/h-drainage-waste/",
+    "purpose": "foul water, rainwater drainage, solid waste storage and related drainage arrangements",
+    "homeowner_focus": [
+      "extensions near drains",
+      "new bathrooms/kitchens",
+      "driveways and surface water",
+      "garden rooms with drainage",
+      "basements",
+      "new rainwater connections"
+    ],
+    "evidence": [
+      "existing/proposed drainage layout",
+      "inspection chamber locations",
+      "sewer build-over approval where relevant",
+      "photos of drains before backfill",
+      "air/admittance/venting details"
+    ],
+    "red_flags": [
+      "building over or near a public sewer",
+      "moving inspection chambers",
+      "new foul drainage to outbuildings",
+      "surface water discharged to combined sewer unnecessarily",
+      "unknown drain ownership"
+    ],
+    "related_parts": [
+      "C",
+      "G",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "J",
+    "title": "Approved Document J: Combustion appliances and fuel storage",
+    "slug": "approved-document-j-combustion-appliances",
+    "path": "/approved-documents/j-combustion-appliances/",
+    "purpose": "safe combustion appliances, flues, hearths, ventilation, carbon monoxide safety and fuel storage",
+    "homeowner_focus": [
+      "boilers",
+      "wood burners",
+      "chimneys/flues",
+      "oil/gas/LPG appliances",
+      "fireplaces",
+      "biomass appliances"
+    ],
+    "evidence": [
+      "Gas Safe/OFTEC/HETAS certificate where applicable",
+      "flue specification",
+      "CO alarm details",
+      "ventilation provision",
+      "commissioning certificate"
+    ],
+    "red_flags": [
+      "new stove or flue",
+      "boiler relocation",
+      "sealed rooms with combustion appliances",
+      "blocked chimneys",
+      "DIY fuel appliance work"
+    ],
+    "related_parts": [
+      "F",
+      "L",
+      "P"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "K",
+    "title": "Approved Document K: Protection from falling, collision and impact",
+    "slug": "approved-document-k-falling-collision-impact",
+    "path": "/approved-documents/k-falling-collision-impact/",
+    "purpose": "stairs, ramps, guards, glazing collision risk and protection from falling",
+    "homeowner_focus": [
+      "loft stairs",
+      "new staircases",
+      "balconies",
+      "rooflights",
+      "large glazed doors",
+      "raised decking",
+      "split-level alterations"
+    ],
+    "evidence": [
+      "stair dimensions",
+      "guarding/balustrade spec",
+      "safety glazing location plan",
+      "manufacturer data",
+      "photos before completion"
+    ],
+    "red_flags": [
+      "steep loft stairs",
+      "low guarding",
+      "unprotected drops",
+      "large panes near doors/floors",
+      "roof access or balcony works"
+    ],
+    "related_parts": [
+      "B",
+      "M",
+      "Q"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "L",
+    "title": "Approved Document L: Conservation of fuel and power",
+    "slug": "approved-document-l-conservation-fuel-power",
+    "path": "/approved-documents/l-conservation-fuel-power/",
+    "purpose": "energy performance, insulation, heating efficiency, airtightness, glazing and services efficiency",
+    "homeowner_focus": [
+      "extensions",
+      "loft conversions",
+      "garage conversions",
+      "windows and doors",
+      "boilers and heating",
+      "insulation retrofits",
+      "solar/low-carbon upgrades"
+    ],
+    "evidence": [
+      "U-value calculations",
+      "SAP/energy calculations if required",
+      "insulation specification",
+      "heating controls details",
+      "air-tightness/commissioning information",
+      "photos before covering insulation"
+    ],
+    "red_flags": [
+      "large glazed extensions",
+      "solid wall insulation",
+      "thermal bridges",
+      "uninsulated converted garages",
+      "changing heating systems",
+      "using old Part L assumptions after 2026 updates"
+    ],
+    "related_parts": [
+      "F",
+      "O",
+      "S"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "M",
+    "title": "Approved Document M: Access to and use of buildings",
+    "slug": "approved-document-m-access",
+    "path": "/approved-documents/m-access/",
+    "purpose": "accessibility and use, including accessible entrances, circulation, sanitary provision and visitability",
+    "homeowner_focus": [
+      "new dwellings",
+      "extensions affecting entrances",
+      "ground-floor WC changes",
+      "level thresholds",
+      "flats/common parts"
+    ],
+    "evidence": [
+      "access layout",
+      "threshold details",
+      "door/corridor widths where relevant",
+      "WC layout",
+      "ramp/step details"
+    ],
+    "red_flags": [
+      "removing only ground-floor WC",
+      "narrowing circulation routes",
+      "steps at new entrances",
+      "work to communal residential access"
+    ],
+    "related_parts": [
+      "K",
+      "G",
+      "B"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "O",
+    "title": "Approved Document O: Overheating",
+    "slug": "approved-document-o-overheating",
+    "path": "/approved-documents/o-overheating/",
+    "purpose": "limiting unwanted solar gains and providing means to remove excess heat in new residential buildings",
+    "homeowner_focus": [
+      "new dwellings",
+      "some residential change-of-use work",
+      "large glazing design checks",
+      "top-floor/roof-space homes"
+    ],
+    "evidence": [
+      "overheating assessment",
+      "glazing areas and orientation",
+      "ventilation/opening strategy",
+      "shading details"
+    ],
+    "red_flags": [
+      "large south/west-facing glazing",
+      "restricted window opening due to noise/security",
+      "single-aspect flats",
+      "roof rooms with high solar gain"
+    ],
+    "related_parts": [
+      "F",
+      "L",
+      "K"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "P",
+    "title": "Approved Document P: Electrical safety",
+    "slug": "approved-document-p-electrical-safety",
+    "path": "/approved-documents/p-electrical-safety/",
+    "purpose": "electrical safety in dwellings and associated building work",
+    "homeowner_focus": [
+      "new circuits",
+      "consumer unit changes",
+      "bathroom/kitchen electrics",
+      "outdoor power",
+      "garden rooms",
+      "solar/battery/EV work"
+    ],
+    "evidence": [
+      "Electrical Installation Certificate",
+      "Building Regulations compliance certificate or notice",
+      "minor works certificate where relevant",
+      "installer details",
+      "circuit schedule"
+    ],
+    "red_flags": [
+      "DIY notifiable electrical work",
+      "work in special locations",
+      "new consumer unit",
+      "outdoor circuits",
+      "missing certificate when selling/remortgaging"
+    ],
+    "related_parts": [
+      "J",
+      "L",
+      "S"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "Q",
+    "title": "Approved Document Q: Security in dwellings",
+    "slug": "approved-document-q-security",
+    "path": "/approved-documents/q-security/",
+    "purpose": "security standards for doors, windows and accessible openings in new dwellings and relevant conversions",
+    "homeowner_focus": [
+      "new dwellings",
+      "new residential units from conversion",
+      "accessible windows and doors",
+      "some new-build extensions where specified by design team"
+    ],
+    "evidence": [
+      "door/window security specification",
+      "PAS/standard compliance evidence",
+      "manufacturer certificates",
+      "location schedule"
+    ],
+    "red_flags": [
+      "new homes or new flats",
+      "easily accessible glazing/doors",
+      "cheap replacement units with no security documentation"
+    ],
+    "related_parts": [
+      "K",
+      "B",
+      "M"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "R",
+    "title": "Approved Document R: Physical infrastructure for electronic communications",
+    "slug": "approved-document-r-physical-infrastructure",
+    "path": "/approved-documents/r-physical-infrastructure/",
+    "purpose": "in-building physical infrastructure for high-speed electronic communications networks",
+    "homeowner_focus": [
+      "new dwellings",
+      "major residential new-build projects",
+      "some conversion/new unit projects"
+    ],
+    "evidence": [
+      "ducting/infrastructure specification",
+      "network termination point location",
+      "developer/installer notes"
+    ],
+    "red_flags": [
+      "creating new dwellings",
+      "omitting telecoms infrastructure until late build",
+      "routes blocked by structure/insulation"
+    ],
+    "related_parts": [
+      "P",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "S",
+    "title": "Approved Document S: Electric vehicle charging infrastructure",
+    "slug": "approved-document-s-electric-vehicle-charging",
+    "path": "/approved-documents/s-electric-vehicle-charging/",
+    "purpose": "EV charge point and cable-route provision for new residential and certain other building work",
+    "homeowner_focus": [
+      "new dwellings",
+      "major residential renovations",
+      "new parking provision",
+      "some non-residential works"
+    ],
+    "evidence": [
+      "charge point/cable route design",
+      "electrical load assessment",
+      "Part P/EIC paperwork",
+      "parking bay plan"
+    ],
+    "red_flags": [
+      "new homes with parking",
+      "major renovation with parking",
+      "consumer unit capacity concerns",
+      "leasehold/communal parking constraints"
+    ],
+    "related_parts": [
+      "P",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "T",
+    "title": "Approved Document T: Toilet accommodation",
+    "slug": "approved-document-t-toilets",
+    "path": "/approved-documents/t-toilets/",
+    "purpose": "toilet accommodation requirements introduced as a separate Approved Document for relevant buildings",
+    "homeowner_focus": [
+      "mostly non-domestic projects",
+      "mixed-use projects",
+      "some publicly accessible building work"
+    ],
+    "evidence": [
+      "toilet layout",
+      "accessibility notes",
+      "separate accommodation schedule where relevant"
+    ],
+    "red_flags": [
+      "publicly accessible premises",
+      "conversion to commercial/mixed-use",
+      "assuming domestic-only rules apply to non-domestic use"
+    ],
+    "related_parts": [
+      "G",
+      "M"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  },
+  {
+    "part": "7",
+    "title": "Approved Document 7: Materials and workmanship",
+    "slug": "approved-document-7-materials-and-workmanship",
+    "path": "/approved-documents/7-materials-and-workmanship/",
+    "purpose": "suitability of materials and workmanship standards used to meet building regulation requirements",
+    "homeowner_focus": [
+      "all regulated work",
+      "product substitutions",
+      "insulation/fire products",
+      "structural materials",
+      "windows/doors"
+    ],
+    "evidence": [
+      "product datasheets",
+      "CE/UKCA or equivalent evidence where applicable",
+      "installer records",
+      "substitution log",
+      "photos of installed products before cover-up"
+    ],
+    "red_flags": [
+      "unapproved substitutions",
+      "missing product data",
+      "using unsuitable reclaimed materials",
+      "installer cannot evidence specification"
+    ],
+    "related_parts": [
+      "A",
+      "B",
+      "C",
+      "L"
+    ],
+    "source_primary": "govuk_approved_documents_collection",
+    "batch_status": "batch_3_full_hub_draft"
+  }
+]

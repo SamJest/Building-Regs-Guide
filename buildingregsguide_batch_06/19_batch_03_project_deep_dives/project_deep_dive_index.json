@@ -1,0 +1,709 @@
+[
+  {
+    "id": "single_storey_extension",
+    "title": "Single-storey extension building regulations",
+    "slug": "single-storey-extension-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "O"
+    ],
+    "route": "Full plans is the safest default if foundations, drainage, steelwork, large glazing or open-plan changes are involved. A building notice may be acceptable for simple domestic work, but it gives less design certainty before work starts.",
+    "inspections": [
+      "commencement",
+      "foundation excavation",
+      "foundation concrete",
+      "oversite/dpc",
+      "drainage before cover",
+      "structural beams/openings",
+      "insulation before cover",
+      "roof structure",
+      "final completion"
+    ],
+    "red_flags": [
+      "building over/near drains",
+      "large glazed areas triggering Part L checks",
+      "altered escape routes",
+      "party wall issues",
+      "uncertain ground conditions"
+    ],
+    "path": "/projects/single-storey-extension-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "two_storey_extension",
+    "title": "Two-storey extension building regulations",
+    "slug": "two-storey-extension-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "O"
+    ],
+    "route": "Use full plans unless a professional confirms a simpler route is suitable. Two-storey work increases structural, fire, drainage and neighbour risk.",
+    "inspections": [
+      "commencement",
+      "foundation excavation",
+      "foundation concrete",
+      "drainage",
+      "structural frame/steelwork",
+      "floor/roof structure",
+      "insulation",
+      "fire safety elements",
+      "final completion"
+    ],
+    "red_flags": [
+      "upper-storey escape",
+      "foundation design near existing house",
+      "overlooking/planning overlap",
+      "structural load transfer",
+      "drainage diversions"
+    ],
+    "path": "/projects/two-storey-extension-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "loft_conversion",
+    "title": "Loft conversion building regulations",
+    "slug": "loft-conversion-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "F",
+      "K",
+      "L",
+      "P"
+    ],
+    "route": "Full plans should be the default because structure, stairs, fire safety and insulation need design before work starts.",
+    "inspections": [
+      "commencement",
+      "structural floor/steelwork",
+      "stairs opening",
+      "roof structure",
+      "fire protection before cover",
+      "insulation before cover",
+      "electrics first fix/final",
+      "final completion"
+    ],
+    "red_flags": [
+      "unprotected escape route",
+      "undersized joists",
+      "unsafe stairs",
+      "poor headroom",
+      "missing smoke alarm/fire door strategy"
+    ],
+    "path": "/projects/loft-conversion-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "garage_conversion",
+    "title": "Garage conversion building regulations",
+    "slug": "garage-conversion-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "L",
+      "P",
+      "K"
+    ],
+    "route": "Usually needs building regulations approval. Full plans is better where the garage floor, wall insulation, damp proofing and fire separation need checking.",
+    "inspections": [
+      "commencement",
+      "floor/damp proofing",
+      "wall insulation before cover",
+      "structural opening",
+      "fire separation",
+      "electrics",
+      "final completion"
+    ],
+    "red_flags": [
+      "single-skin walls",
+      "low floor levels/damp",
+      "garage under bedroom",
+      "poor ventilation",
+      "missing insulation evidence"
+    ],
+    "path": "/projects/garage-conversion-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "removing_load_bearing_wall",
+    "title": "Removing a load-bearing wall building regulations",
+    "slug": "removing-load-bearing-wall-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "K"
+    ],
+    "route": "Treat as structural work. Use full plans or a clear building control route with structural calculations before work starts.",
+    "inspections": [
+      "pre-start design check",
+      "temporary works where agreed",
+      "beam/bearing inspection",
+      "fire protection to steel",
+      "final completion"
+    ],
+    "red_flags": [
+      "no structural engineer",
+      "unknown wall status",
+      "chimney/upper walls bearing above",
+      "padstone/bearing omitted",
+      "steel left unprotected where protection needed"
+    ],
+    "path": "/projects/removing-load-bearing-wall-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "chimney_breast_removal",
+    "title": "Chimney breast removal building regulations",
+    "slug": "chimney-breast-removal-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "J"
+    ],
+    "route": "Use structural design and building control approval before removal. Party wall and fireplace/flue issues may be separate.",
+    "inspections": [
+      "pre-start design check",
+      "support installation",
+      "fire protection if required",
+      "flue/ventilation checks",
+      "final completion"
+    ],
+    "red_flags": [
+      "stack remains unsupported",
+      "neighbour shared chimney",
+      "gallows brackets used where unsuitable",
+      "blocked flues causing damp/vent issues"
+    ],
+    "path": "/projects/chimney-breast-removal-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "bathroom",
+    "title": "Bathroom building regulations",
+    "slug": "bathroom-building-regulations",
+    "parts": [
+      "F",
+      "G",
+      "H",
+      "P",
+      "K"
+    ],
+    "route": "Minor like-for-like changes may not need an application, but new drainage, electrical work, ventilation and structural changes can trigger approval/certification.",
+    "inspections": [
+      "drainage alterations",
+      "ventilation installation",
+      "electrics certification",
+      "final completion"
+    ],
+    "red_flags": [
+      "new bathroom without extract",
+      "DIY electrics in special location",
+      "poor falls on waste pipes",
+      "unvented hot water cylinder work"
+    ],
+    "path": "/projects/bathroom-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "kitchen",
+    "title": "Kitchen building regulations",
+    "slug": "kitchen-building-regulations",
+    "parts": [
+      "F",
+      "G",
+      "H",
+      "P",
+      "J",
+      "L"
+    ],
+    "route": "Simple replacement may be low-risk, but moving drainage, gas, electrics, extract, walls or windows changes the compliance picture.",
+    "inspections": [
+      "services first fix",
+      "extract route",
+      "electrics/gas certification",
+      "final completion"
+    ],
+    "red_flags": [
+      "no cooker extract strategy",
+      "gas work without Gas Safe",
+      "new circuits uncertified",
+      "extract terminating into loft void"
+    ],
+    "path": "/projects/kitchen-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "windows_doors",
+    "title": "Replacement windows and doors building regulations",
+    "slug": "replacement-windows-doors-building-regulations",
+    "parts": [
+      "L",
+      "K",
+      "B",
+      "Q",
+      "F"
+    ],
+    "route": "Often handled through a competent person scheme for registered installers. Keep the compliance certificate.",
+    "inspections": [
+      "installer measurement/specification",
+      "installation",
+      "certificate receipt"
+    ],
+    "red_flags": [
+      "missing FENSA/CERTASS certificate or building control sign-off",
+      "reduced ventilation/trickle vents",
+      "safety glazing locations",
+      "fire escape windows changed"
+    ],
+    "path": "/projects/replacement-windows-doors-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "boiler_heating",
+    "title": "Boiler and heating building regulations",
+    "slug": "boiler-heating-building-regulations",
+    "parts": [
+      "J",
+      "L",
+      "F",
+      "P"
+    ],
+    "route": "Use a registered competent person where possible. Keep Gas Safe/OFTEC/HETAS or other relevant certificates and commissioning records.",
+    "inspections": [
+      "installer design",
+      "flue/ventilation check",
+      "commissioning",
+      "certificate receipt"
+    ],
+    "red_flags": [
+      "flue too close to openings",
+      "condensate discharge issues",
+      "sealed combustion ventilation errors",
+      "no commissioning certificate"
+    ],
+    "path": "/projects/boiler-heating-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "electrical_work",
+    "title": "Electrical work building regulations",
+    "slug": "electrical-work-building-regulations",
+    "parts": [
+      "P",
+      "L",
+      "S"
+    ],
+    "route": "Notifiable domestic electrical work needs either building control involvement or a registered installer who can self-certify.",
+    "inspections": [
+      "design/circuit plan",
+      "first fix where needed",
+      "testing",
+      "certificate receipt"
+    ],
+    "red_flags": [
+      "new consumer unit",
+      "new circuit",
+      "bathroom/shower work",
+      "outdoor power",
+      "missing EIC/compliance certificate"
+    ],
+    "path": "/projects/electrical-work-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "solar_panels",
+    "title": "Solar panels building regulations",
+    "slug": "solar-panels-building-regulations",
+    "parts": [
+      "A",
+      "P",
+      "L",
+      "B"
+    ],
+    "route": "Building regulations can cover structure, electrics and fire/equipment safety even where planning is permitted development.",
+    "inspections": [
+      "roof structural suitability",
+      "electrical installation",
+      "inverter/battery details",
+      "handover certificates"
+    ],
+    "red_flags": [
+      "weak roof structure",
+      "battery storage location",
+      "electrical certification missing",
+      "planning/Article 4/listed building overlap"
+    ],
+    "path": "/projects/solar-panels-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "heat_pump",
+    "title": "Heat pump building regulations",
+    "slug": "heat-pump-building-regulations",
+    "parts": [
+      "L",
+      "P",
+      "F",
+      "J"
+    ],
+    "route": "Use competent installers and keep commissioning, electrical and product records. Planning/noise constraints may still apply.",
+    "inspections": [
+      "system design",
+      "electrical provision",
+      "commissioning",
+      "certificate/handover pack"
+    ],
+    "red_flags": [
+      "undersized emitters",
+      "poor insulation first",
+      "noise/location issues",
+      "no commissioning data"
+    ],
+    "path": "/projects/heat-pump-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "garden_room",
+    "title": "Garden room building regulations",
+    "slug": "garden-room-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "L",
+      "P",
+      "H"
+    ],
+    "route": "Detached small buildings can be exempt only in limited circumstances. Sleep accommodation, services, size, boundary proximity and construction change the route.",
+    "inspections": [
+      "foundation/base",
+      "damp proofing",
+      "insulation",
+      "electrics",
+      "drainage if any",
+      "final completion"
+    ],
+    "red_flags": [
+      "sleeping accommodation",
+      "close to boundary and combustible construction",
+      "toilet/shower drainage",
+      "mains electrics uncertified"
+    ],
+    "path": "/projects/garden-room-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "outbuilding",
+    "title": "Outbuilding building regulations",
+    "slug": "outbuilding-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "C",
+      "P",
+      "H"
+    ],
+    "route": "Check exemption rules early; do not assume every shed, office or gym is exempt.",
+    "inspections": [
+      "base/foundation",
+      "structure",
+      "electrics",
+      "drainage if any",
+      "final completion"
+    ],
+    "red_flags": [
+      "large floor area",
+      "sleeping use",
+      "near boundary",
+      "services installed",
+      "public/commercial use"
+    ],
+    "path": "/projects/outbuilding-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "basement",
+    "title": "Basement conversion building regulations",
+    "slug": "basement-conversion-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "C",
+      "F",
+      "H",
+      "K",
+      "L",
+      "P"
+    ],
+    "route": "Use full plans and specialist design. Basements are high-risk because structure, water, escape, ventilation and drainage interact.",
+    "inspections": [
+      "structural works",
+      "waterproofing before cover",
+      "drainage/pumps",
+      "fire escape provisions",
+      "ventilation",
+      "final completion"
+    ],
+    "red_flags": [
+      "no waterproofing strategy",
+      "single escape route",
+      "party wall/excavation risk",
+      "pump failure risk",
+      "groundwater uncertainty"
+    ],
+    "path": "/projects/basement-conversion-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "underpinning",
+    "title": "Underpinning building regulations",
+    "slug": "underpinning-building-regulations",
+    "parts": [
+      "A",
+      "C"
+    ],
+    "route": "Use full plans and engineer-led design. Local authority/approver inspection timing matters because work is concealed quickly.",
+    "inspections": [
+      "trial pits",
+      "excavation bays",
+      "reinforcement/formwork if any",
+      "concrete pours",
+      "completion records"
+    ],
+    "red_flags": [
+      "movement cause not diagnosed",
+      "working near drains",
+      "neighbouring foundations affected",
+      "no sequencing plan"
+    ],
+    "path": "/projects/underpinning-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "rooflights",
+    "title": "Rooflights building regulations",
+    "slug": "rooflights-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "K",
+      "L",
+      "F"
+    ],
+    "route": "Small rooflights may be simple, but structure, insulation, safety glass, ventilation and fire escape roles must be checked.",
+    "inspections": [
+      "roof opening/structure",
+      "weathering",
+      "insulation reveals",
+      "safety glazing",
+      "final completion"
+    ],
+    "red_flags": [
+      "cut rafters without trimming",
+      "roof escape window changed",
+      "poor thermal bridging",
+      "unsafe access/fall risk"
+    ],
+    "path": "/projects/rooflights-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "roof_alterations",
+    "title": "Roof alterations building regulations",
+    "slug": "roof-alterations-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "K",
+      "L"
+    ],
+    "route": "Treat structural roof changes as building control work unless clearly minor and non-structural.",
+    "inspections": [
+      "structural design",
+      "opening/trimming",
+      "insulation",
+      "fire/weathering",
+      "final completion"
+    ],
+    "red_flags": [
+      "removing purlins/struts",
+      "changing roof covering weight",
+      "dormers without design",
+      "works close to boundary"
+    ],
+    "path": "/projects/roof-alterations-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "driveway_drainage",
+    "title": "Driveway drainage building regulations",
+    "slug": "driveway-drainage-building-regulations",
+    "parts": [
+      "H",
+      "C"
+    ],
+    "route": "Planning and drainage rules often overlap. Building regulations are mainly relevant where drainage connects, diverts or affects building fabric.",
+    "inspections": [
+      "surface water route",
+      "soakaway/drainage construction",
+      "connection permissions if needed",
+      "completion evidence"
+    ],
+    "red_flags": [
+      "surface water to public sewer",
+      "slope toward building",
+      "covering air bricks/DPC",
+      "poor soakaway location"
+    ],
+    "path": "/projects/driveway-drainage-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "insulation",
+    "title": "Insulation upgrades building regulations",
+    "slug": "insulation-upgrades-building-regulations",
+    "parts": [
+      "L",
+      "C",
+      "F",
+      "B"
+    ],
+    "route": "Thermal upgrades can trigger Part L and can create moisture/ventilation/fire risks if treated as decoration only.",
+    "inspections": [
+      "specification check",
+      "vapour/moisture strategy",
+      "installation before cover",
+      "ventilation check",
+      "final evidence photos"
+    ],
+    "red_flags": [
+      "solid walls insulated without moisture design",
+      "blocking roof ventilation",
+      "downlights/fire breaks affected",
+      "condensation/mould history"
+    ],
+    "path": "/projects/insulation-upgrades-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "porch",
+    "title": "Porch building regulations",
+    "slug": "porch-building-regulations",
+    "parts": [
+      "A",
+      "C",
+      "L",
+      "K",
+      "P"
+    ],
+    "route": "Some small porches may be exempt if conditions are met, but glazing, electrics, thermal separation and structure still matter.",
+    "inspections": [
+      "foundation/base",
+      "damp proofing",
+      "glazing/doors",
+      "electrics if installed",
+      "final completion"
+    ],
+    "red_flags": [
+      "front entrance access worsened",
+      "no external-quality door between house and porch",
+      "electrics added",
+      "large/non-exempt size"
+    ],
+    "path": "/projects/porch-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "flat_alterations",
+    "title": "Flat alterations building regulations",
+    "slug": "flat-alterations-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "P"
+    ],
+    "route": "Work to flats is higher sensitivity. Check lease/freeholder, fire strategy, sound, structure and building control before starting.",
+    "inspections": [
+      "management/freeholder consent record",
+      "structure/fire/sound design",
+      "services first fix",
+      "fire stopping before cover",
+      "final completion"
+    ],
+    "red_flags": [
+      "front door replacement",
+      "penetrations through fire/sound separation",
+      "communal areas affected",
+      "leasehold restrictions",
+      "HRB possibility"
+    ],
+    "path": "/projects/flat-alterations-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  },
+  {
+    "id": "new_dwelling_conversion",
+    "title": "Creating a new dwelling building regulations",
+    "slug": "creating-new-dwelling-building-regulations",
+    "parts": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "route": "Use full plans and professional design. Creating a new dwelling pulls in the widest set of Approved Documents and usually has planning/change-of-use overlap.",
+    "inspections": [
+      "pre-start design approval",
+      "structure",
+      "fire separation/escape",
+      "sound testing",
+      "drainage/services",
+      "energy/ventilation commissioning",
+      "final completion"
+    ],
+    "red_flags": [
+      "poor fire separation",
+      "sound testing missed",
+      "overheating ignored",
+      "no access strategy",
+      "missing new-dwelling certificates"
+    ],
+    "path": "/projects/creating-new-dwelling-building-regulations/",
+    "batch_status": "batch_3_deep_dive_draft"
+  }
+]

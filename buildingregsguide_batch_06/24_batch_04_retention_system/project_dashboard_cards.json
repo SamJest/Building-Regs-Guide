@@ -1,0 +1,44 @@
+[
+  {
+    "id": "route_status",
+    "title": "Approval route status",
+    "copy": "Shows whether the user is leaning toward full plans, building notice, competent person scheme, registered building control approver, local authority or BSR route.",
+    "priority": 1
+  },
+  {
+    "id": "approved_document_flags",
+    "title": "Likely Approved Document flags",
+    "copy": "Lists triggered Parts and why each one may matter.",
+    "priority": 2
+  },
+  {
+    "id": "inspection_timeline",
+    "title": "Inspection timeline",
+    "copy": "Shows expected inspection stages, whether each stage is done, and which evidence is still missing.",
+    "priority": 3
+  },
+  {
+    "id": "evidence_folder",
+    "title": "Evidence folder",
+    "copy": "Metadata log for photos, drawings, calculations, certificates and commissioning records.",
+    "priority": 4
+  },
+  {
+    "id": "certificate_chaser",
+    "title": "Certificate chaser",
+    "copy": "Tracks certificates expected from building control or competent person schemes.",
+    "priority": 5
+  },
+  {
+    "id": "downloads",
+    "title": "Project downloads",
+    "copy": "Lists generated checklists and pack downloads for the selected project.",
+    "priority": 6
+  },
+  {
+    "id": "source_recheck",
+    "title": "Source re-check",
+    "copy": "Warns when saved project data may be stale or Part L/F version sensitive.",
+    "priority": 7
+  }
+]

@@ -1,0 +1,101 @@
+hub,spoke,type,priority,required_anchor
+/projects/,/projects/single-storey-extension-building-regulations/,project,high,Single-storey extension building regulations
+/projects/,/projects/two-storey-extension-building-regulations/,project,high,Two-storey extension building regulations
+/projects/,/projects/loft-conversion-building-regulations/,project,high,Loft conversion building regulations
+/projects/,/projects/garage-conversion-building-regulations/,project,high,Garage conversion building regulations
+/projects/,/projects/removing-load-bearing-wall-building-regulations/,project,high,Removing a load-bearing wall building regulations
+/projects/,/projects/chimney-breast-removal-building-regulations/,project,high,Chimney breast removal building regulations
+/projects/,/projects/bathroom-building-regulations/,project,high,Bathroom building regulations
+/projects/,/projects/kitchen-building-regulations/,project,high,Kitchen building regulations
+/projects/,/projects/replacement-windows-doors-building-regulations/,project,high,Replacement windows and doors building regulations
+/projects/,/projects/boiler-heating-building-regulations/,project,high,Boiler and heating building regulations
+/projects/,/projects/electrical-work-building-regulations/,project,high,Electrical work building regulations
+/projects/,/projects/solar-panels-building-regulations/,project,high,Solar panels building regulations
+/projects/,/projects/heat-pump-building-regulations/,project,high,Heat pump building regulations
+/projects/,/projects/garden-room-building-regulations/,project,high,Garden room building regulations
+/projects/,/projects/outbuilding-building-regulations/,project,high,Outbuilding building regulations
+/projects/,/projects/basement-conversion-building-regulations/,project,high,Basement conversion building regulations
+/projects/,/projects/underpinning-building-regulations/,project,high,Underpinning building regulations
+/projects/,/projects/rooflights-building-regulations/,project,high,Rooflights building regulations
+/projects/,/projects/roof-alterations-building-regulations/,project,high,Roof alterations building regulations
+/projects/,/projects/driveway-drainage-building-regulations/,project,high,Driveway drainage building regulations
+/projects/,/projects/insulation-upgrades-building-regulations/,project,high,Insulation upgrades building regulations
+/projects/,/projects/porch-building-regulations/,project,high,Porch building regulations
+/projects/,/projects/flat-alterations-building-regulations/,project,high,Flat alterations building regulations
+/projects/,/projects/creating-new-dwelling-building-regulations/,project,high,Creating a new dwelling building regulations
+/approved-documents/,/approved-documents/a-structure/,approved_document,high,Approved Document A: Structure
+/approved-documents/,/approved-documents/b-fire-safety/,approved_document,high,Approved Document B: Fire safety
+/approved-documents/,/approved-documents/c-site-preparation-moisture/,approved_document,high,"Approved Document C: Site preparation, contaminants and moisture"
+/approved-documents/,/approved-documents/d-toxic-substances/,approved_document,high,Approved Document D: Toxic substances
+/approved-documents/,/approved-documents/e-sound/,approved_document,high,Approved Document E: Resistance to sound
+/approved-documents/,/approved-documents/f-ventilation/,approved_document,high,Approved Document F: Ventilation
+/approved-documents/,/approved-documents/g-sanitation-hot-water-water-efficiency/,approved_document,high,"Approved Document G: Sanitation, hot water safety and water efficiency"
+/approved-documents/,/approved-documents/h-drainage-waste/,approved_document,high,Approved Document H: Drainage and waste disposal
+/approved-documents/,/approved-documents/j-combustion-appliances/,approved_document,high,Approved Document J: Combustion appliances and fuel storage
+/approved-documents/,/approved-documents/k-falling-collision-impact/,approved_document,high,"Approved Document K: Protection from falling, collision and impact"
+/approved-documents/,/approved-documents/l-conservation-fuel-power/,approved_document,high,Approved Document L: Conservation of fuel and power
+/approved-documents/,/approved-documents/m-access/,approved_document,high,Approved Document M: Access to and use of buildings
+/approved-documents/,/approved-documents/o-overheating/,approved_document,high,Approved Document O: Overheating
+/approved-documents/,/approved-documents/p-electrical-safety/,approved_document,high,Approved Document P: Electrical safety
+/approved-documents/,/approved-documents/q-security/,approved_document,high,Approved Document Q: Security in dwellings
+/approved-documents/,/approved-documents/r-physical-infrastructure/,approved_document,high,Approved Document R: Physical infrastructure for electronic communications
+/approved-documents/,/approved-documents/s-electric-vehicle-charging/,approved_document,high,Approved Document S: Electric vehicle charging infrastructure
+/approved-documents/,/approved-documents/t-toilets/,approved_document,high,Approved Document T: Toilet accommodation
+/approved-documents/,/approved-documents/7-materials-and-workmanship/,approved_document,high,Approved Document 7: Materials and workmanship
+/downloads/,/downloads/building-regs-before-you-start-checklist/,download_landing_page,medium,Building regs before-you-start checklist
+/downloads/,/downloads/planning-permission-vs-building-regulations-one-page-comparison/,download_landing_page,medium,Planning permission vs building regulations one-page comparison
+/downloads/,/downloads/building-control-route-decision-sheet/,download_landing_page,medium,Building control route decision sheet
+/downloads/,/downloads/homeowner-building-regs-risk-audit/,download_landing_page,medium,Homeowner building regs risk audit
+/downloads/,/downloads/pre-start-conversation-script-for-builders/,download_landing_page,medium,Pre-start conversation script for builders
+/downloads/,/downloads/building-control-application-prep-sheet/,download_landing_page,medium,Building control application prep sheet
+/downloads/,/downloads/extension-building-control-prep-pack/,download_landing_page,medium,Extension building control prep pack
+/downloads/,/downloads/single-storey-extension-site-checklist/,download_landing_page,medium,Single-storey extension site checklist
+/downloads/,/downloads/two-storey-extension-risk-checklist/,download_landing_page,medium,Two-storey extension risk checklist
+/downloads/,/downloads/loft-conversion-fire-and-structure-checklist/,download_landing_page,medium,Loft conversion fire and structure checklist
+/downloads/,/downloads/garage-conversion-building-regs-pack/,download_landing_page,medium,Garage conversion building regs pack
+/downloads/,/downloads/load-bearing-wall-removal-evidence-checklist/,download_landing_page,medium,Load-bearing wall removal evidence checklist
+/downloads/,/downloads/chimney-breast-removal-checklist/,download_landing_page,medium,Chimney breast removal checklist
+/downloads/,/downloads/new-bathroom-and-ensuite-regs-checklist/,download_landing_page,medium,New bathroom and ensuite regs checklist
+/downloads/,/downloads/kitchen-building-regs-and-ventilation-checklist/,download_landing_page,medium,Kitchen building regs and ventilation checklist
+/downloads/,/downloads/garden-room-building-regs-risk-checklist/,download_landing_page,medium,Garden room building regs risk checklist
+/downloads/,/downloads/solar-panel-building-regs-and-roof-checklist/,download_landing_page,medium,Solar panel building regs and roof checklist
+/downloads/,/downloads/heat-pump-installation-paperwork-checklist/,download_landing_page,medium,Heat pump installation paperwork checklist
+/downloads/,/downloads/completion-certificate-evidence-folder/,download_landing_page,medium,Completion certificate evidence folder
+/downloads/,/downloads/competent-person-certificate-tracker/,download_landing_page,medium,Competent person certificate tracker
+/downloads/,/downloads/project-photo-evidence-log/,download_landing_page,medium,Project photo evidence log
+/downloads/,/downloads/building-control-contact-log/,download_landing_page,medium,Building control contact log
+/downloads/,/downloads/builder-document-request-list/,download_landing_page,medium,Builder document request list
+/downloads/,/downloads/structural-calculation-record-sheet/,download_landing_page,medium,Structural calculation record sheet
+/downloads/,/downloads/energy-and-ventilation-evidence-folder/,download_landing_page,medium,Energy and ventilation evidence folder
+/downloads/,/downloads/regularisation-evidence-gatherer/,download_landing_page,medium,Regularisation evidence gatherer
+/downloads/,/downloads/building-control-inspection-stage-checklist/,download_landing_page,medium,Building control inspection-stage checklist
+/downloads/,/downloads/foundation-inspection-prep-sheet/,download_landing_page,medium,Foundation inspection prep sheet
+/downloads/,/downloads/drainage-inspection-prep-sheet/,download_landing_page,medium,Drainage inspection prep sheet
+/downloads/,/downloads/insulation-before-cover-up-checklist/,download_landing_page,medium,Insulation before-cover-up checklist
+/downloads/,/downloads/fire-safety-before-completion-checklist/,download_landing_page,medium,Fire safety before-completion checklist
+/downloads/,/downloads/final-completion-walkthrough/,download_landing_page,medium,Final completion walkthrough
+/downloads/,/downloads/approved-document-router-printout/,download_landing_page,medium,Approved Document router printout
+/downloads/,/downloads/approved-document-a-structure-homeowner-pack/,download_landing_page,medium,Approved Document A structure homeowner pack
+/downloads/,/downloads/approved-document-b-fire-safety-homeowner-pack/,download_landing_page,medium,Approved Document B fire safety homeowner pack
+/downloads/,/downloads/approved-document-f-ventilation-homeowner-pack/,download_landing_page,medium,Approved Document F ventilation homeowner pack
+/downloads/,/downloads/approved-document-l-energy-homeowner-pack/,download_landing_page,medium,Approved Document L energy homeowner pack
+/downloads/,/downloads/approved-document-p-electrical-homeowner-pack/,download_landing_page,medium,Approved Document P electrical homeowner pack
+/downloads/,/downloads/installer-quote-building-regs-questions/,download_landing_page,medium,Installer quote building regs questions
+/downloads/,/downloads/registered-installer-confirmation-form/,download_landing_page,medium,Registered installer confirmation form
+/downloads/,/downloads/electrician-part-p-certificate-request/,download_landing_page,medium,Electrician Part P certificate request
+/downloads/,/downloads/gas-boiler-paperwork-request/,download_landing_page,medium,Gas boiler paperwork request
+/downloads/,/downloads/home-sale-building-regs-document-pack/,download_landing_page,medium,Home sale building regs document pack
+/downloads/,/downloads/buyer-questions-building-regs-pack/,download_landing_page,medium,Buyer questions building regs pack
+/downloads/,/downloads/landlord-building-regs-record-pack/,download_landing_page,medium,Landlord building regs record pack
+/compare/,/compare/planning-permission-vs-building-regulations/,comparison_page,medium,Planning permission vs building regulations
+/compare/,/compare/lawful-development-certificate-vs-building-regulations/,comparison_page,medium,Lawful development certificate vs building regulations
+/compare/,/compare/building-notice-vs-full-plans/,comparison_page,medium,Building notice vs full plans
+/compare/,/compare/competent-person-scheme-vs-building-control/,comparison_page,medium,Competent person scheme vs building control
+/compare/,/compare/completion-certificate-vs-regularisation-certificate/,comparison_page,medium,Completion certificate vs regularisation certificate
+/compare/,/compare/local-authority-building-control-vs-registered-building-control-approver/,comparison_page,medium,Local authority building control vs registered building control approver
+/evidence/,/evidence/completion-certificate-evidence-checklist/,evidence_page,medium,Completion certificate evidence checklist
+/evidence/,/evidence/building-regs-documents-when-selling-house/,evidence_page,medium,Building regulations documents when selling a house
+/evidence/,/evidence/missing-building-regulations-certificate/,evidence_page,medium,Missing building regulations certificate
+/evidence/,/evidence/builder-did-not-get-building-control/,evidence_page,medium,Builder did not get building control
+/evidence/,/evidence/regularisation-certificate-homeowner-guide/,evidence_page,medium,Regularisation certificate homeowner guide
+/evidence/,/evidence/building-control-inspection-photo-log/,evidence_page,medium,Building control inspection photo log

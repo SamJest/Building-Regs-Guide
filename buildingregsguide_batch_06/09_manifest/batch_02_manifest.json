@@ -1,0 +1,25 @@
+{
+  "batch": 2,
+  "created": "2026-06-04",
+  "cumulative": true,
+  "expected_total_batches": 6,
+  "new_files_focus": [
+    "official source update notes",
+    "28 implementation-ready markdown page drafts",
+    "project requirements matrix",
+    "inspection stage library",
+    "competent person routing data",
+    "approved document router rules",
+    "decision engine JavaScript",
+    "tool component contract and specs",
+    "six download asset specs",
+    "Codex prompts for implementing tools and importing content"
+  ],
+  "counts": {
+    "new_page_drafts": 28,
+    "project_matrix_records": 14,
+    "source_records_checked": 7,
+    "download_asset_specs": 6,
+    "tool_specs_deepened": 5
+  }
+}

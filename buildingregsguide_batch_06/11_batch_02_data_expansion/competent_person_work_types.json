@@ -1,0 +1,53 @@
+[
+  {
+    "type": "replacement_windows_and_doors",
+    "plain": "Replacement windows and doors",
+    "common_schemes": [
+      "FENSA",
+      "CERTASS or equivalent scheme providers"
+    ],
+    "site_rule": "If a registered installer self-certifies, the homeowner should receive evidence/certificate. If not, route to building control."
+  },
+  {
+    "type": "electrical_work",
+    "plain": "Certain electrical work",
+    "common_schemes": [
+      "NICEIC",
+      "NAPIT or equivalent scheme providers"
+    ],
+    "site_rule": "Notifiable electrical work should be done by a registered electrician or notified to building control before work where required."
+  },
+  {
+    "type": "gas_boiler_heating",
+    "plain": "Gas boiler/heating work",
+    "common_schemes": [
+      "Gas Safe registration for gas safety; building regulations compliance certificate via installer route"
+    ],
+    "site_rule": "Do not offer gas-safety advice beyond routing to a competent registered installer and evidence retention."
+  },
+  {
+    "type": "oil_solid_fuel_biomass",
+    "plain": "Oil, solid fuel and biomass appliances",
+    "common_schemes": [
+      "OFTEC",
+      "HETAS or relevant registered schemes"
+    ],
+    "site_rule": "Route to competent installer and highlight flue/combustion/ventilation evidence."
+  },
+  {
+    "type": "renewables_heat_pumps_solar",
+    "plain": "Heat pumps, solar and some renewable systems",
+    "common_schemes": [
+      "MCS and relevant electrical/installer schemes"
+    ],
+    "site_rule": "Separate planning/noise/structural checks may still apply."
+  },
+  {
+    "type": "unvented_hot_water",
+    "plain": "Unvented hot water systems",
+    "common_schemes": [
+      "Registered competent installer routes vary"
+    ],
+    "site_rule": "Flag high-risk/scalding/pressure safety and require competent installer or building control route."
+  }
+]

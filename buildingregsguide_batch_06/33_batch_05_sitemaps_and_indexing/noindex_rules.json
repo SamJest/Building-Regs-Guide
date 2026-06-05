@@ -1,0 +1,18 @@
+{
+  "noindex_when": [
+    "route.batch_status contains draft and route has no completed content file",
+    "thin_page_risk is medium/high and content_guard_validator fails",
+    "page is a print-only variant",
+    "tool result page has user-specific saved state",
+    "route lacks official source block",
+    "route has zero incoming links and is not a core hub",
+    "route is a local page created from thin location substitution only"
+  ],
+  "index_when": [
+    "route passes route_validator",
+    "content passes source and uniqueness checks",
+    "canonical URL is valid",
+    "schema parses without unresolved placeholders",
+    "page has useful next-step CTAs"
+  ]
+}

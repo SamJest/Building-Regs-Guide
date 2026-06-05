@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gov_building_regulations_approval",
+    "title": "GOV.UK - Building regulations approval",
+    "url": "https://www.gov.uk/building-regulations-approval",
+    "checked": "2026-06-04",
+    "notes": [
+      "Approval may be needed before constructing or changing buildings.",
+      "Competent person scheme work can remove the need for the homeowner to apply separately.",
+      "Building regulations approval is different from planning permission; a project may need both.",
+      "GOV.UK lists examples including fuse boxes/electrics, plumbing bathrooms, windows and doors, roof coverings, heating systems and extra radiators.",
+      "Higher-risk building rules route relevant work to the Building Safety Regulator."
+    ]
+  },
+  {
+    "id": "gov_approved_documents_collection",
+    "title": "GOV.UK - Approved Documents collection",
+    "url": "https://www.gov.uk/government/collections/approved-documents",
+    "checked": "2026-06-04",
+    "notes": [
+      "Approved Documents provide guidance on ways to meet the building regulations.",
+      "The collection links to individual Approved Documents and the merged approved documents.",
+      "Use this as the primary source for Approved Document hubs and update checks."
+    ]
+  },
+  {
+    "id": "gov_approved_document_l_2026",
+    "title": "GOV.UK - Approved Document L (2026)",
+    "url": "https://www.gov.uk/government/publications/approved-document-l-2026",
+    "checked": "2026-06-04",
+    "notes": [
+      "Approved Document L (2026) was published on 24 March 2026 and supports Part L of Schedule 1 to the Building Regulations 2010.",
+      "Earlier versions continue to apply to buildings subject to previous regulatory standards.",
+      "Batch 2 flags Part L pages as needing version-aware implementation."
+    ]
+  },
+  {
+    "id": "gov_higher_risk_building_control_approval",
+    "title": "GOV.UK - Building control approval for higher-risk buildings",
+    "url": "https://www.gov.uk/guidance/building-control-approval-for-higher-risk-buildings",
+    "checked": "2026-06-04",
+    "notes": [
+      "BSR approval is needed before starting construction of a new higher-risk building or relevant work to an existing higher-risk building.",
+      "The guidance states that competent person scheme work and exempt work do not need building control approval where the project consists only of that work.",
+      "For staged applications, work must not start until the relevant stage is approved."
+    ]
+  },
+  {
+    "id": "gov_bsr_application_data_collection",
+    "title": "GOV.UK - BSR building control approval application data collection",
+    "url": "https://www.gov.uk/government/collections/building-safety-regulator-building-control-approval-application-data",
+    "checked": "2026-06-04",
+    "notes": [
+      "Defines higher-risk buildings in this collection as at least 7 storeys or at least 18 metres high plus relevant use thresholds.",
+      "States HSE as BSR became the building control authority for higher-risk buildings in England on 1 October 2023.",
+      "Collection last updated 3 June 2026 at time of check."
+    ]
+  },
+  {
+    "id": "gov_building_control_independent_panel_2026",
+    "title": "GOV.UK - Building Control Independent Panel report",
+    "url": "https://www.gov.uk/government/publications/building-control-independent-panel-report/building-control-independent-panel-report",
+    "checked": "2026-06-04",
+    "notes": [
+      "Useful for editorial framing: building control is a regulatory oversight function, not a guarantee of construction quality.",
+      "The report explains the mixed economy of local authority building control and private registered building control approvers for most buildings.",
+      "Use only for context pages, not consumer decision rules unless cited carefully."
+    ]
+  },
+  {
+    "id": "planning_portal_building_control_applications",
+    "title": "Planning Portal - Building control and planning application procedure",
+    "url": "https://www.planningportal.gov.uk/planning/applications/howtoapply/videotutorials",
+    "checked": "2026-06-04",
+    "notes": [
+      "Planning Portal is useful for user journey and application-start links.",
+      "GOV.UK remains the primary source for rules; Planning Portal can support practical application guidance."
+    ]
+  }
+]

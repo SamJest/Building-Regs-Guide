@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Building Regs Project</title>
+  <style>
+    body{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;margin:0;background:#f6f4ee;color:#111827;line-height:1.55}
+    main{max-width:1180px;margin:0 auto;padding:28px 18px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .card,.hero{background:#fff;border:1px solid #ded8ca;border-radius:18px;padding:20px}
+    .badge{display:inline-block;border-radius:999px;background:#e7efe4;padding:4px 10px;font-size:13px;font-weight:700}
+    .warning{background:#fff7e8;border-left:5px solid #8a4b00;padding:12px;border-radius:12px}
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <span class="badge">No-login local dashboard</span>
+    <h1>My Building Regs Project</h1>
+    <p>Save checklists, likely Approved Document flags, inspection stages and certificate records in this browser.</p>
+    <div class="warning">This dashboard stores metadata locally. It does not submit anything to building control.</div>
+  </section>
+  <section class="grid">
+    <article class="card"><h2>Approval route</h2><p>{{ likely_route }}</p><button>Re-run route checker</button></article>
+    <article class="card"><h2>Approved Document flags</h2><p>{{ part_flags }}</p><button>Open router printout</button></article>
+    <article class="card"><h2>Inspection timeline</h2><p>{{ next_stage }}</p><button>Update stages</button></article>
+    <article class="card"><h2>Evidence folder</h2><p>{{ evidence_count }} items recorded.</p><button>Add evidence item</button></article>
+    <article class="card"><h2>Certificates</h2><p>{{ certificates_due }} expected.</p><button>Update certificates</button></article>
+    <article class="card"><h2>Downloads</h2><p>{{ downloads_count }} packs saved.</p><button>View downloads</button></article>
+  </section>
+</main>
+</body>
+</html>

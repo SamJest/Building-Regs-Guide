@@ -1,0 +1,12 @@
+{
+  "created": "2026-06-04",
+  "site_name": "BuildingRegsGuide",
+  "placeholder_domain": "https://buildingregsguide.co.uk",
+  "route_count": 108,
+  "source_count": 16,
+  "approved_document_count": 18,
+  "tool_count": 17,
+  "download_asset_count": 30,
+  "included_reference_scaffold": true,
+  "next_batch_recommendation": "Write detailed page content and implementation-ready JS decision trees for the first 25 routes and 5 tools."
+}

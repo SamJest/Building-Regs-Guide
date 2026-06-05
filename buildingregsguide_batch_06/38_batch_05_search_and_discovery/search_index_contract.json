@@ -1,0 +1,68 @@
+{
+  "output_file": "/search.json",
+  "fields": [
+    {
+      "field": "title",
+      "source": "route.title",
+      "weight": 5
+    },
+    {
+      "field": "summary",
+      "source": "route.summary",
+      "weight": 3
+    },
+    {
+      "field": "family",
+      "source": "route.family",
+      "weight": 1
+    },
+    {
+      "field": "path",
+      "source": "route.path",
+      "weight": 1
+    },
+    {
+      "field": "project",
+      "source": "parent_project_slug",
+      "weight": 2
+    },
+    {
+      "field": "approved_document",
+      "source": "parent_approved_document",
+      "weight": 2
+    },
+    {
+      "field": "intent",
+      "source": "primary_intent",
+      "weight": 2
+    }
+  ],
+  "required_route_fields": [
+    "title",
+    "path",
+    "summary",
+    "family"
+  ],
+  "exclude_when": [
+    "noindex true",
+    "draft route",
+    "missing source block"
+  ],
+  "ui_filters": [
+    "Projects",
+    "Approved Documents",
+    "Tools",
+    "Downloads",
+    "Evidence",
+    "Compare",
+    "Questions"
+  ],
+  "recommended_searches": [
+    "loft conversion fire safety",
+    "building notice or full plans",
+    "completion certificate",
+    "garage conversion",
+    "Part L energy",
+    "competent person scheme"
+  ]
+}

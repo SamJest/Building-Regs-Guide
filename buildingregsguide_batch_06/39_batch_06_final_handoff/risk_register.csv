@@ -1,0 +1,11 @@
+risk_id,risk,impact,mitigation
+R-001,Regulatory guidance changes after launch,High,Visible checked_date/source panels; monthly source refresh; version-aware source registry.
+R-002,Site gives impression of formal approval,High,"Every tool result uses likely route/next steps wording, not approval guarantee wording."
+R-003,England guidance accidentally applied to other UK nations,High,Jurisdiction field required; Scotland/Wales/NI pages either separate or noindex/draft until sourced.
+R-004,Thin programmatic pages damage trust/SEO,High,No-thin-page publishing gate; candidate pages remain draft/noindex until completed.
+R-005,Approved Document L/F 2026 transition dates mishandled,High,Version-aware energy/ventilation pages; cite AD L 2026 and Circular 01/2026; source freshness gate.
+R-006,Higher-risk building cases routed through homeowner simplification flow,Critical,Hard stop to BSR/specialist route when HRB signals appear.
+R-007,UKPlanningGuide cannibalisation,Medium,Planning content remains summary only; detailed planning pages live on UKPlanningGuide.
+R-008,LocalStorage dashboard privacy confusion,Medium,Plain local-only notice; no account/server claims unless actually implemented.
+R-009,Download assets become outdated,Medium,Each printable includes generated date and source re-check note.
+R-010,Codex overbuilds with accounts/paywalls/complex CMS,Medium,"Static-first, no-login, no monetisation until traffic and trust layer are established."
