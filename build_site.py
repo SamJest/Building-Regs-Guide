@@ -4,6 +4,7 @@ import html
 import json
 import math
 import os
+import re
 import runpy
 import shutil
 from datetime import date
@@ -33,6 +34,109 @@ DOWNLOADS_PATH = PACK / "02_data" / "download_assets_registry.json"
 SOURCE_SNAPSHOT_PATH = PACK / "44_batch_06_citations_and_sources" / "current_source_snapshot_2026-06-05.json"
 ROUTE_DATA_PATH = PACK / "06_overlay_source" / "source" / "data" / "building_regs_routes.py"
 SOURCE_DATA_PATH = PACK / "06_overlay_source" / "source" / "data" / "building_regs_sources.py"
+DOWNLOAD_MARKDOWN_DIR = PACK / "23_batch_04_download_assets" / "full_asset_markdown"
+
+DOWNLOAD_MARKDOWN_MAP = {
+    "extension-building-regulations-checklist": "extension-building-control-prep-pack.md",
+    "loft-conversion-building-regulations-checklist": "loft-conversion-fire-and-structure-checklist.md",
+    "garage-conversion-building-regulations-checklist": "garage-conversion-building-regs-pack.md",
+    "building-notice-vs-full-plans-worksheet": "building-control-route-decision-sheet.md",
+    "completion-certificate-record-sheet": "completion-certificate-evidence-folder.md",
+    "competent-person-certificate-checklist": "competent-person-certificate-tracker.md",
+    "inspection-stage-record-sheet": "inspection-stage-checklist.md",
+    "structural-calculations-briefing-sheet": "structural-calculation-record-sheet.md",
+    "drainage-and-waste-checklist": "drainage-inspection-prep-sheet.md",
+    "windows-and-doors-certificate-checklist": "windows-and-doors-certificate-checklist.md",
+    "electrical-work-evidence-checklist": "electrician-part-p-certificate-request.md",
+    "heating-boiler-certificate-checklist": "gas-boiler-paperwork-request.md",
+    "regularisation-evidence-pack": "regularisation-evidence-gatherer.md",
+    "approved-document-router-summary": "approved-document-router-printout.md",
+    "building-control-phone-call-script": "building-control-contact-log.md",
+    "builder-quote-building-regs-questions": "installer-quote-building-regs-questions.md",
+    "sale-remortgage-proof-folder": "home-sale-building-regs-document-pack.md",
+    "garden-room-building-regs-checklist": "garden-room-building-regs-risk-checklist.md",
+    "load-bearing-wall-removal-checklist": "load-bearing-wall-removal-evidence-checklist.md",
+    "rooflight-building-regs-checklist": "rooflight-building-regs-checklist.md",
+}
+
+PROJECT_PROFILES = {
+    "extensions": {
+        "answer": "Most extensions need building regulations approval even when the planning route is permitted development. The key early decision is usually full plans versus building notice, with structure, foundations, insulation, drainage and ventilation settled before work is covered.",
+        "triggers": ["New foundations or altered ground levels", "Steel beams, roof structure or widened openings", "Drainage runs, public sewer proximity or new bathrooms", "Part L energy details and Part F ventilation strategy"],
+        "route": "Use full plans when you want detail checked before work starts, when the builder needs clear specifications, or where structure and energy details are not simple. A building notice may fit smaller straightforward domestic work, but it leaves more detail to be resolved on site.",
+        "evidence": ["Approved drawings/specification", "Structural calculations and beam details", "Inspection records for excavations, drains, insulation and completion", "Completion certificate and installer commissioning records"],
+    },
+    "loft-conversions": {
+        "answer": "A loft conversion is normally a building regulations project because it affects structure, stairs, insulation, fire safety, escape routes and ventilation. Treat fire strategy and structural design as early design questions, not end-of-job paperwork.",
+        "triggers": ["New floor structure or steel beams", "New stairs and protected escape route questions", "Roof windows, dormers, insulation and ventilation", "Fire doors, smoke alarms and separation from lower floors"],
+        "route": "Full plans are usually the safer route because lofts contain several linked design issues. Ask building control what drawings, sections, calculations and fire-safety details they expect before quotes are finalised.",
+        "evidence": ["Structural engineer calculations", "Stair and headroom drawings", "Fire safety specification and alarm records", "Insulation/ventilation evidence before plasterboard covers work"],
+    },
+    "garage-conversions": {
+        "answer": "A garage conversion commonly needs building regulations approval because a storage space becomes habitable accommodation. Damp, insulation, ventilation, fire separation, structure and floor build-up are the usual issues.",
+        "triggers": ["Raising or insulating the floor", "Replacing the garage door with a wall/window", "Adding heating, electrics, drainage or ventilation", "Changing fire separation to the house or boundary"],
+        "route": "Discuss full plans where damp-proofing, wall build-up or structure is unclear. A building notice may only suit very straightforward conversions where the specification is already settled.",
+        "evidence": ["Existing garage photos", "Floor, wall and roof insulation details", "Ventilation and heating records", "Completion certificate and electrical certificates"],
+    },
+    "outbuildings": {
+        "answer": "Some small detached outbuildings can be exempt, but size, sleeping use, electrics, drainage, boundary position and fire risk can pull the work back into building regulations territory.",
+        "triggers": ["Sleeping accommodation or regular habitable use", "Large floor area or close boundary position", "Electrical supply, heating or drainage", "Combustible construction near boundaries"],
+        "route": "Use the route checker before ordering the building. If it includes services or habitable use, get building control input early rather than treating it as a shed.",
+        "evidence": ["Supplier specification", "Electrical certificate if installed", "Foundation/base details", "Photos showing distance to boundaries and service routes"],
+    },
+    "garden-rooms": {
+        "answer": "A garden room can look simple but still raise building regulations questions if it is large, serviced, close to boundaries, heated, drained or used like accommodation.",
+        "triggers": ["Insulated or heated office use", "Electrical circuit from the house", "Toilet, sink or drainage connections", "Boundary/fire spread concerns"],
+        "route": "Confirm whether the building is exempt before purchase. If services or habitable use are included, ask whether building control or registered installers need to be involved.",
+        "evidence": ["Supplier drawings and fire classification", "Electrical installation certificate", "Drainage records if connected", "Photos of base, boundaries and service trenches"],
+    },
+    "structural-alterations": {
+        "answer": "Structural alterations usually need building control involvement because they affect how loads move through the building. Do not rely on a builder's verbal assurance for beams, supports or openings.",
+        "triggers": ["Removing or altering a load-bearing wall", "Forming a new opening", "Changing roof/floor structure", "Chimney breast or support alterations"],
+        "route": "Get structural calculations before work starts and agree inspection stages with building control. Full plans usually gives more certainty for non-trivial structural work.",
+        "evidence": ["Structural calculations", "Beam padstone and bearing details", "Photos before boxing-in", "Inspection notes and completion certificate"],
+    },
+    "removing-load-bearing-wall": {
+        "answer": "Removing a load-bearing wall is a building regulations and structural design issue. The approval question is not just whether a beam is present, but whether the load path, bearings, fire protection and installation are suitable.",
+        "triggers": ["Wall supports floors, roof or chimney", "Opening is widened or supports are changed", "Steel beam or lintel is installed", "Work is hidden before inspection"],
+        "route": "Use a structural engineer and agree building-control inspection points before demolition. Full plans is often the cleaner route for evidence and sale paperwork.",
+        "evidence": ["Engineer calculations", "Beam delivery/marking evidence", "Bearing and padstone photos", "Completion certificate"],
+    },
+    "windows-doors": {
+        "answer": "Replacement windows and doors may be covered by a competent person scheme, but you still need evidence. New openings or changed structure can need building control beyond installer self-certification.",
+        "triggers": ["Replacement glazing", "Widened openings or new lintels", "Escape window changes", "Thermal performance and safety glazing"],
+        "route": "Use a registered installer for covered replacement work, or contact building control where structural openings or unusual changes are involved.",
+        "evidence": ["Installer registration details", "Competent person certificate", "Glazing/product specification", "Photos of any structural opening work"],
+    },
+    "electrical-work": {
+        "answer": "Some domestic electrical work is notifiable under Part P. Registered electricians can often self-certify covered work, but homeowners should still check registration and keep certificates.",
+        "triggers": ["New circuits", "Consumer unit changes", "Work in bathrooms or special locations", "Electrical work as part of a larger project"],
+        "route": "Use a registered electrician where possible. If the installer cannot self-certify notifiable work, ask building control what notification route applies before work starts.",
+        "evidence": ["Electrical installation certificate", "Building regulations compliance certificate if applicable", "Installer scheme details", "Circuit schedule and test results"],
+    },
+    "boiler-heating": {
+        "answer": "Boiler, heating and heat-pump work often relies on registered installer certification. The building regulations value is in checking who certifies the work and keeping the handover records.",
+        "triggers": ["New or replacement boiler", "Heating system changes", "Heat pump installation", "Flue, ventilation or commissioning requirements"],
+        "route": "Use an appropriately registered installer and confirm what certificate or commissioning record will be issued. Building control may be needed if the work is outside self-certification.",
+        "evidence": ["Installer registration", "Commissioning certificate", "Benchmark or handover record", "Product manuals and warranty details"],
+    },
+    "drainage-waste": {
+        "answer": "Drainage and waste changes can need early building control input because defects may be hidden below floors, outside trenches or behind finishes.",
+        "triggers": ["New bathrooms, kitchens or utility rooms", "Moved soil pipes or waste runs", "Work near public sewers", "New inspection chambers or altered falls"],
+        "route": "Ask building control what inspection is needed before trenches or pipework are covered. Public sewer work may also need water company checks.",
+        "evidence": ["Drainage layout sketch", "Photos before backfill/cover-up", "Inspection notes", "Product and test records"],
+    },
+}
+
+APPROVED_DOCUMENT_PROFILES = {
+    "approved-document-a-structure": ("Structure", ["Foundations", "Beams and lintels", "Load-bearing walls", "Roof/floor changes"]),
+    "approved-document-b-fire-safety": ("Fire safety", ["Escape routes", "Fire doors", "Smoke alarms", "Separation and spread of fire"]),
+    "approved-document-f-ventilation": ("Ventilation", ["Bathrooms/kitchens", "New habitable rooms", "Extractor fans", "Background ventilation"]),
+    "approved-document-h-drainage-waste": ("Drainage and waste", ["Foul drainage", "Rainwater", "Pipe gradients", "Inspection chambers"]),
+    "approved-document-k-falling-collision-impact": ("Protection from falling, collision and impact", ["Stairs", "Guarding", "Glazing safety", "Headroom"]),
+    "approved-document-l-conservation-fuel-power": ("Conservation of fuel and power", ["Insulation", "Windows and doors", "Heating efficiency", "Thermal bridging"]),
+    "approved-document-p-electrical-safety": ("Electrical safety", ["Notifiable work", "Special locations", "Consumer units", "Certificates"]),
+}
 
 
 def read_json(path: Path):
@@ -165,7 +269,7 @@ def write_static_assets() -> None:
         dedent(
             """
             :root{--ink:#17202a;--muted:#59636d;--line:#d9dedb;--paper:#fbfaf6;--soft:#eef3ef;--navy:#17324d;--teal:#2f6f73;--green:#4d7d55;--gold:#d7a441;--red:#9b3d36}
-            *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.58}a{color:#195f66;text-underline-offset:3px}a:hover{color:#0d3d42}.site-header{position:sticky;top:0;z-index:3;background:rgba(251,250,246,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:1180px;margin:0 auto;padding:14px 20px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);text-decoration:none}.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:6px;background:var(--navy);color:#fff}.nav-links{display:flex;gap:14px;flex-wrap:wrap}.nav-links a{font-size:14px;color:var(--ink);text-decoration:none}.nav-links a:hover{text-decoration:underline}.hero{min-height:74vh;background:linear-gradient(90deg,rgba(15,31,45,.82),rgba(15,31,45,.55),rgba(15,31,45,.18)),url('/assets/images/building-control-hero.png') center/cover;display:flex;align-items:end;color:#fff}.hero-inner{width:min(1180px,100%);padding:68px 20px 56px;margin:0 auto}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:0;font-weight:700;color:#e9d18f}.hero h1{font-size:clamp(38px,7vw,74px);line-height:1.02;max-width:880px;margin:10px 0 16px}.hero p{font-size:20px;max-width:760px;margin:0 0 26px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:10px 15px;border-radius:7px;border:1px solid var(--navy);background:var(--navy);color:#fff;text-decoration:none;font-weight:700}.button.secondary{background:#fff;color:var(--navy);border-color:#fff}.button.ghost{background:transparent;color:var(--navy);border-color:var(--line)}main{max-width:1180px;margin:0 auto;padding:28px 20px 64px}.band{padding:34px 0;border-bottom:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;min-height:100%}.card h3{font-size:19px;margin:0 0 8px}.card p{color:var(--muted);margin:0 0 12px}.split{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.75fr);gap:24px;align-items:start}.panel{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px}.warning{border-left:5px solid var(--gold);background:#fff8df;padding:14px 16px;margin:18px 0}.stop{border-left-color:var(--red);background:#fff0ee}.source-panel{background:#edf4f1;border:1px solid #cadbd4;border-radius:8px;padding:18px;margin-top:28px}.source-panel ul{padding-left:20px}.breadcrumbs{font-size:14px;color:var(--muted);margin-bottom:18px}.page-title{font-size:42px;line-height:1.08;margin:0 0 12px;color:var(--navy)}.lede{font-size:19px;color:#31404a;max-width:850px}.section h2{font-size:26px;margin:30px 0 10px;color:#203648}.checklist li{margin-bottom:8px}.tag{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:4px 10px;background:var(--soft);font-size:13px}.tool-form{display:grid;gap:14px}.field label{display:block;font-weight:700;margin-bottom:5px}.field select,.field input{width:100%;min-height:42px;border:1px solid #bac3c2;border-radius:6px;padding:8px 10px;background:#fff;color:var(--ink)}.result{display:none;margin-top:18px;border:1px solid #b6cbc2;background:#f2f8f5;border-radius:8px;padding:18px}.result.show{display:block}.download-sheet{background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px}.blank-line{border-bottom:1px solid #7d878a;min-height:30px;margin:6px 0 16px}.site-footer{border-top:1px solid var(--line);padding:26px 20px;color:var(--muted);background:#fff}.footer-inner{max-width:1180px;margin:0 auto;display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}.search-box{display:flex;gap:8px}.search-box input{flex:1;min-height:42px;border:1px solid #bac3c2;border-radius:6px;padding:8px 10px}.local-note{font-size:14px;color:var(--muted)}@media(max-width:760px){.split{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.hero{min-height:68vh}.page-title{font-size:34px}.hero p{font-size:18px}.search-box{flex-direction:column}}@media print{.site-header,.site-footer,.hero-actions,.button,.nav-links{display:none!important}body{background:#fff;color:#000}main{max-width:none;padding:0}.panel,.card,.download-sheet,.source-panel{border-color:#777;break-inside:avoid}.page-title{font-size:28px}.band{padding:16px 0}.source-panel{background:#fff}}
+            *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.58}a{color:#195f66;text-underline-offset:3px}a:hover{color:#0d3d42}.site-header{position:sticky;top:0;z-index:3;background:rgba(251,250,246,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:1180px;margin:0 auto;padding:14px 20px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);text-decoration:none}.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:6px;background:var(--navy);color:#fff}.nav-links{display:flex;gap:14px;flex-wrap:wrap}.nav-links a{font-size:14px;color:var(--ink);text-decoration:none}.nav-links a:hover{text-decoration:underline}.hero{min-height:74vh;background:linear-gradient(90deg,rgba(15,31,45,.82),rgba(15,31,45,.55),rgba(15,31,45,.18)),url('/assets/images/building-control-hero.png') center/cover;display:flex;align-items:end;color:#fff}.hero-inner{width:min(1180px,100%);padding:68px 20px 56px;margin:0 auto}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:0;font-weight:700;color:#e9d18f}.hero h1{font-size:clamp(38px,7vw,74px);line-height:1.02;max-width:880px;margin:10px 0 16px}.hero p{font-size:20px;max-width:760px;margin:0 0 26px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:10px 15px;border-radius:7px;border:1px solid var(--navy);background:var(--navy);color:#fff;text-decoration:none;font-weight:700}.button.secondary{background:#fff;color:var(--navy);border-color:#fff}.button.ghost{background:transparent;color:var(--navy);border-color:var(--line)}main{max-width:1180px;margin:0 auto;padding:28px 20px 64px}.band{padding:34px 0;border-bottom:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;min-height:100%}.card h3{font-size:19px;margin:0 0 8px}.card p{color:var(--muted);margin:0 0 12px}.split{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.75fr);gap:24px;align-items:start}.panel{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px}.warning{border-left:5px solid var(--gold);background:#fff8df;padding:14px 16px;margin:18px 0}.stop{border-left-color:var(--red);background:#fff0ee}.source-panel{background:#edf4f1;border:1px solid #cadbd4;border-radius:8px;padding:18px;margin-top:28px}.source-panel ul{padding-left:20px}.breadcrumbs{font-size:14px;color:var(--muted);margin-bottom:18px}.page-title{font-size:42px;line-height:1.08;margin:0 0 12px;color:var(--navy)}.lede{font-size:19px;color:#31404a;max-width:850px}.section h2{font-size:26px;margin:30px 0 10px;color:#203648}.checklist li{margin-bottom:8px}.tag{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:4px 10px;background:var(--soft);font-size:13px}.tool-form{display:grid;gap:14px}.field label{display:block;font-weight:700;margin-bottom:5px}.field select,.field input{width:100%;min-height:42px;border:1px solid #bac3c2;border-radius:6px;padding:8px 10px;background:#fff;color:var(--ink)}.result{display:none;margin-top:18px;border:1px solid #b6cbc2;background:#f2f8f5;border-radius:8px;padding:18px}.result.show{display:block}.download-sheet{background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px}.blank-line{border-bottom:1px solid #7d878a;min-height:30px;margin:6px 0 16px}.site-footer{border-top:1px solid var(--line);padding:26px 20px;color:var(--muted);background:#fff}.footer-inner{max-width:1180px;margin:0 auto;display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}.search-box{display:flex;gap:8px}.search-box input{flex:1;min-height:42px;border:1px solid #bac3c2;border-radius:6px;padding:8px 10px}.local-note{font-size:14px;color:var(--muted)}.faq-item{border-top:1px solid var(--line);padding:12px 0}.faq-item summary{font-weight:700;cursor:pointer}.table-wrap{overflow-x:auto;margin:16px 0}.evidence-table{width:100%;border-collapse:collapse;background:#fff}.evidence-table th,.evidence-table td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}.evidence-table th{background:var(--soft)}.printable-content h2:first-child{margin-top:18px}.dashboard-actions{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.form-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.mini-input{width:100%;min-height:40px;border:1px solid #bac3c2;border-radius:6px;padding:8px;background:#fff}@media(max-width:760px){.split{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.hero{min-height:68vh}.page-title{font-size:34px}.hero p{font-size:18px}.search-box,.dashboard-actions{flex-direction:column}}@media print{.site-header,.site-footer,.hero-actions,.button,.nav-links{display:none!important}body{background:#fff;color:#000}main{max-width:none;padding:0}.panel,.card,.download-sheet,.source-panel{border-color:#777;break-inside:avoid}.page-title{font-size:28px}.band{padding:16px 0}.source-panel{background:#fff}}
             """
         ).strip(),
         encoding="utf-8",
@@ -175,52 +279,90 @@ def write_static_assets() -> None:
             """
             const routeAdvice = {
               full_plans: {
-                title: "Likely route: full plans or early building control discussion",
+                title: "Likely route: full plans or early building-control discussion",
                 confidence: "Medium",
-                points: ["Useful where structure, fire safety, drainage or energy details need checking before work starts.", "Ask what drawings, calculations and specifications the building control body expects."]
+                points: ["Best where structure, fire safety, drainage, ventilation or energy details need checking before work starts.", "Ask what drawings, calculations and specifications the building control body expects."],
+                downloads: ["/downloads/building-notice-vs-full-plans-worksheet/", "/downloads/structural-calculations-briefing-sheet/"]
               },
               building_notice: {
                 title: "Possible route: building notice",
                 confidence: "Medium",
-                points: ["Often used for smaller domestic work where the details are straightforward.", "You still need inspections and you carry more risk if details are found unsuitable during the build."]
+                points: ["Usually only worth considering for straightforward domestic work where the specification is already clear.", "You still need inspections and may carry more risk if details are found unsuitable during the build."],
+                downloads: ["/downloads/building-notice-vs-full-plans-worksheet/", "/downloads/inspection-stage-record-sheet/"]
               },
               competent_person: {
                 title: "Possible route: registered competent person",
                 confidence: "Medium",
-                points: ["Some electrical, heating, window and door work can be self-certified by a registered installer.", "Check the installer registration before work starts and keep the certificate."]
+                points: ["Some electrical, heating, window and door work can be self-certified by a registered installer.", "Check registration before work starts and keep the certificate because it may matter on sale or remortgage."],
+                downloads: ["/downloads/competent-person-certificate-checklist/", "/downloads/sale-remortgage-proof-folder/"]
               },
               regularisation: {
                 title: "Likely route: regularisation or missing-evidence discussion",
                 confidence: "Medium",
-                points: ["For completed work with missing approval records, gather photos, invoices, drawings and certificates before contacting building control.", "Regularisation is not automatic and may require opening up work."]
+                points: ["For completed work with missing approval records, gather photos, invoices, drawings and certificates before contacting building control.", "Regularisation is not automatic and may require opening up work."],
+                downloads: ["/downloads/regularisation-evidence-pack/", "/downloads/completion-certificate-record-sheet/"]
               },
               specialist: {
                 title: "Stop route: specialist or BSR guidance first",
                 confidence: "High",
-                points: ["Do not use a homeowner shortcut for higher-risk buildings, flats, major fire-safety work or unclear structural risk.", "Speak to building control, a competent professional or the relevant regulator before relying on general guidance."]
+                points: ["Do not use a homeowner shortcut for higher-risk buildings, flats, major fire-safety work or unclear structural risk.", "Speak to building control, a competent professional or the relevant regulator before relying on general guidance."],
+                downloads: ["/downloads/building-control-phone-call-script/", "/downloads/sale-remortgage-proof-folder/"]
               }
             };
 
-            function chooseRoute(values) {
+            const toolTweaks = {
+              "full-plans-vs-building-notice-checker": values => values.structuralChange === "yes" || ["extension", "loft", "structural", "drainage"].includes(values.projectType) ? "full_plans" : "building_notice",
+              "competent-person-scheme-checker": values => ["electrical", "heating", "windows"].includes(values.projectType) && values.workStatus !== "finished" ? "competent_person" : "full_plans",
+              "completion-certificate-readiness-checker": values => values.certificateMissing === "yes" || values.workStatus === "finished" ? "regularisation" : "full_plans",
+              "approved-document-router": values => values.higherRisk === "yes" ? "specialist" : "full_plans",
+              "inspection-stage-checklist-generator": values => values.structuralChange === "yes" || ["extension", "loft", "garage", "drainage"].includes(values.projectType) ? "full_plans" : "building_notice",
+              "jurisdiction-route-selector": values => values.jurisdiction !== "england" ? "specialist" : "full_plans"
+            };
+
+            const projectDocuments = {
+              extension: ["Approved Document A", "Approved Document L", "Approved Document F", "Approved Document H"],
+              loft: ["Approved Document A", "Approved Document B", "Approved Document K", "Approved Document L", "Approved Document F"],
+              garage: ["Approved Document C", "Approved Document L", "Approved Document F", "Approved Document B"],
+              structural: ["Approved Document A", "Approved Document B"],
+              windows: ["Approved Document L", "Approved Document K", "Approved Document B"],
+              electrical: ["Approved Document P"],
+              heating: ["Approved Document L", "Approved Document F"],
+              drainage: ["Approved Document H"]
+            };
+
+            const officialSources = [
+              ["GOV.UK building regulations approval", "https://www.gov.uk/building-regulations-approval"],
+              ["GOV.UK how to apply", "https://www.gov.uk/building-regulations-approval/how-to-apply"],
+              ["GOV.UK competent person scheme", "https://www.gov.uk/building-regulations-approval/use-a-competent-person-scheme"],
+              ["GOV.UK Approved Documents", "https://www.gov.uk/government/collections/approved-documents"]
+            ];
+
+            function chooseRoute(values, toolSlug) {
               if (values.jurisdiction !== "england" || values.higherRisk === "yes") return "specialist";
+              if (toolTweaks[toolSlug]) return toolTweaks[toolSlug](values);
               if (values.workStatus === "finished" || values.certificateMissing === "yes") return "regularisation";
-              if (values.projectType === "electrical" || values.projectType === "heating" || values.projectType === "windows") return "competent_person";
-              if (values.structuralChange === "yes" || values.projectType === "loft" || values.projectType === "extension") return "full_plans";
+              if (["electrical", "heating", "windows"].includes(values.projectType)) return "competent_person";
+              if (values.structuralChange === "yes" || ["loft", "extension", "garage", "structural", "drainage"].includes(values.projectType)) return "full_plans";
               return "building_notice";
             }
 
             function renderResult(form) {
               const values = Object.fromEntries(new FormData(form).entries());
-              const key = chooseRoute(values);
+              const toolSlug = form.closest("[data-tool]")?.dataset.tool || "building-control-route-checker";
+              const key = chooseRoute(values, toolSlug);
               const advice = routeAdvice[key];
+              const docs = projectDocuments[values.projectType] || ["Approved Documents collection"];
               const target = form.parentElement.querySelector(".result");
               const date = new Date().toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "numeric" });
               target.innerHTML = `
                 <h3>${advice.title}</h3>
-                <p><strong>Confidence:</strong> ${advice.confidence}. This tool gives a planning prompt for your next conversation; it does not grant approval or replace building control.</p>
+                <p><strong>Confidence:</strong> ${advice.confidence}. This tool does not grant approval or replace building control, a designer, installer, engineer or registered approver.</p>
                 <ul>${advice.points.map(point => `<li>${point}</li>`).join("")}</ul>
-                <p><strong>Red flags:</strong> higher-risk building, flat conversion, load-bearing changes, fire escape uncertainty, missing certificates, drainage changes or work outside England.</p>
-                <p><strong>Next actions:</strong> save this result, check the official source links on this page, and ask your building control body what they need before work starts.</p>
+                <p><strong>Likely documents to check:</strong> ${docs.join(", ")}.</p>
+                <p><strong>Red flags:</strong> higher-risk building, flat conversion, load-bearing changes, fire escape uncertainty, missing certificates, drainage changes, public sewer issues or work outside England.</p>
+                <p><strong>Next actions:</strong> ask building control what they need before work starts, record who issues each certificate, and save evidence before work is covered up.</p>
+                <p><strong>Official sources:</strong> ${officialSources.map(([label, url]) => `<a href="${url}">${label}</a>`).join(" / ")}</p>
+                <p><strong>Recommended downloads:</strong> ${advice.downloads.map(path => `<a href="${path}">${path.split("/").filter(Boolean).pop().replaceAll("-", " ")}</a>`).join(" / ")}</p>
                 <p class="local-note">Generated ${date}. Re-check official guidance before relying on this result.</p>
                 <button class="button ghost" type="button" onclick="window.print()">Print</button>
                 <button class="button ghost" type="button" data-save-result>Save locally</button>
@@ -248,7 +390,15 @@ def write_static_assets() -> None:
               const mount = document.querySelector("[data-dashboard]");
               if (mount) {
                 const saved = JSON.parse(localStorage.getItem("brg_saved_results") || "[]");
-                mount.innerHTML = saved.length ? saved.map((item, index) => `<article class="card"><h3>Saved result ${index + 1}</h3><p class="local-note">${new Date(item.savedAt).toLocaleString("en-GB")}</p><p>${item.text.replace(/[<>&]/g, "")}</p></article>`).join("") : `<p>No saved tool results on this device yet.</p>`;
+                const checklist = ["Route chosen", "Building control contacted", "Drawings/spec ready", "Inspection points recorded", "Certificates chased"];
+                mount.innerHTML = `
+                  <article class="card"><h3>Project evidence tracker</h3><ul>${checklist.map((item, index) => `<li><label><input type="checkbox" data-dashboard-check="${index}"> ${item}</label></li>`).join("")}</ul><button class="button ghost" type="button" onclick="window.print()">Print dashboard</button></article>
+                  ${saved.length ? saved.map((item, index) => `<article class="card"><h3>Saved result ${index + 1}</h3><p class="local-note">${new Date(item.savedAt).toLocaleString("en-GB")}</p><p>${item.text.replace(/[<>&]/g, "")}</p></article>`).join("") : `<article class="card"><h3>No saved results yet</h3><p>Run a checker, save the result locally, then use this dashboard as your device-only evidence prompt.</p></article>`}
+                `;
+                document.querySelectorAll("[data-dashboard-check]").forEach(input => {
+                  input.checked = localStorage.getItem(`brg_check_${input.dataset.dashboardCheck}`) === "true";
+                  input.addEventListener("change", () => localStorage.setItem(`brg_check_${input.dataset.dashboardCheck}`, input.checked));
+                });
               }
             });
             """
@@ -321,7 +471,29 @@ def breadcrumbs(path: str, title: str) -> str:
     return f'<div class="breadcrumbs">{" / ".join(crumbs)}</div>'
 
 
-def schema_for(page: dict) -> dict:
+def faqs_for(page: dict) -> list[tuple[str, str]]:
+    family = page.get("family", "")
+    title = page.get("title", "this project")
+    if family == "project":
+        return [
+            (f"Does {title.lower()} need building regulations approval?", "Often yes, especially where the work changes structure, fire safety, insulation, ventilation, drainage, electrics or heating. The exact route depends on the specification and building control body."),
+            ("Can planning permission and building regulations be separate?", "Yes. Planning permission controls whether development is allowed in planning terms; building regulations deal with safety, energy, ventilation, drainage, structure and completion evidence."),
+            ("What should I keep for sale or remortgage?", "Keep the application reference, drawings, inspection notes, photos before work is covered, installer certificates and the completion certificate or equivalent evidence."),
+        ]
+    if family in {"approval_route", "guide"}:
+        return [
+            ("Does this page give approval?", "No. It helps you prepare the right questions for building control, a registered approver, designer, installer or other competent professional."),
+            ("When should I stop and get specialist advice?", "Stop if the work involves flats, higher-risk buildings, major fire-safety implications, unclear structure, public sewers or work outside England."),
+        ]
+    if family in {"approved_document", "approved_document_hub"}:
+        return [
+            ("Are Approved Documents the law?", "They are statutory guidance showing common ways to meet building regulations in England. Other routes may be possible, but you should check the current version and project-specific route."),
+            ("Why does version date matter?", "Approved Documents can be amended. Older projects and transitional arrangements can depend on timing, so re-check the official source before work starts."),
+        ]
+    return []
+
+
+def schema_for(page: dict) -> dict | list[dict]:
     kind = "WebPage"
     if page["family"] == "tool":
         kind = "SoftwareApplication"
@@ -329,7 +501,7 @@ def schema_for(page: dict) -> dict:
         kind = "DigitalDocument"
     elif page["family"] in {"guide", "approval_route", "project", "approved_document"}:
         kind = "Article"
-    return {
+    main = {
         "@context": "https://schema.org",
         "@type": kind,
         "name": page["title"],
@@ -338,6 +510,26 @@ def schema_for(page: dict) -> dict:
         "dateModified": TODAY,
         "publisher": {"@type": "Organization", "name": "BuildingRegsGuide"},
     }
+    breadcrumbs_schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL + "/"},
+            {"@type": "ListItem", "position": 2, "name": page["title"], "item": BASE_URL + page["path"]},
+        ],
+    }
+    faq_items = faqs_for(page)
+    if not faq_items:
+        return [main, breadcrumbs_schema]
+    faq_schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": question, "acceptedAnswer": {"@type": "Answer", "text": answer}}
+            for question, answer in faq_items
+        ],
+    }
+    return [main, breadcrumbs_schema, faq_schema]
 
 
 def source_panel(source_ids: list[str], sources: dict) -> str:
@@ -395,9 +587,61 @@ def related_links(page: dict, all_pages: list[dict]) -> str:
     return f'<section class="section"><h2>Next useful checks</h2><div class="grid">{cards}</div></section>'
 
 
+def list_html(items: list[str]) -> str:
+    return "".join(f"<li>{escape(item)}</li>" for item in items)
+
+
+def profile_for(page: dict) -> dict:
+    slug = page.get("slug", slug_from_path(page.get("path", "")))
+    if slug in PROJECT_PROFILES:
+        return PROJECT_PROFILES[slug]
+    title = page.get("title", "this project")
+    return {
+        "answer": page.get("summary", f"Use this page to prepare the building regulations route and evidence questions for {title.lower()}."),
+        "triggers": ["Structure, fire safety, drainage, insulation, ventilation or controlled services", "Work already started or completed without clear records", "Missing certificates or unclear handover evidence", "Anything involving flats, higher-risk buildings or work outside England"],
+        "route": "Compare full plans, building notice, competent person self-certification, regularisation and specialist advice. The right route depends on risk, timing, drawings, installer registration and what building control wants to inspect.",
+        "evidence": ["Application references and notices", "Drawings, specifications and calculations", "Inspection dates and site photos before cover-up", "Completion certificate, competent person certificate and commissioning records"],
+    }
+
+
+def approved_document_section(page: dict) -> str:
+    slug = page.get("slug", "")
+    topic, checks = APPROVED_DOCUMENT_PROFILES.get(slug, (page["title"], ["Project relevance", "Version date", "Evidence needed", "Inspection timing"]))
+    return dedent(
+        f"""
+        <section class="section">
+          <h2>How this Approved Document usually comes up</h2>
+          <p>{escape(topic)} guidance can affect design choices, product evidence and inspection conversations. Treat the document as practical guidance for common ways to comply in England, not as a one-line pass/fail answer.</p>
+          <ul class="checklist">{list_html(checks)}</ul>
+        </section>
+        <section class="section">
+          <h2>Version and evidence notes</h2>
+          <p>Record the version checked, the date checked, and who is responsible for translating the guidance into drawings, specifications, calculations or installer certificates. Part F, Part L and fire-safety topics especially need source/version caution.</p>
+        </section>
+        """
+    )
+
+
+def faq_section(page: dict) -> str:
+    faqs = faqs_for(page)
+    if not faqs:
+        return ""
+    blocks = "".join(
+        f"""
+        <details class="faq-item">
+          <summary>{escape(question)}</summary>
+          <p>{escape(answer)}</p>
+        </details>
+        """
+        for question, answer in faqs
+    )
+    return f'<section class="section faq-list"><h2>Common questions</h2>{blocks}</section>'
+
+
 def page_sections(page: dict) -> str:
     title = page["title"]
     family = page["family"]
+    profile = profile_for(page)
     is_planning_overlap = "planning" in title.lower()
     planning_handoff = (
         f'<p>For the planning permission side, use <a href="{SISTER_URL}/">UKPlanningGuide</a>. Keep that separate from building regulations approval and completion evidence.</p>'
@@ -411,44 +655,33 @@ def page_sections(page: dict) -> str:
         if higher_risk
         else "This guide helps you prepare the right questions. It does not grant approval, replace building control or remove the need for competent design and installation."
     )
-    doc_version = ""
-    if family == "approved_document" or "Document F" in title or "Document L" in title:
-        doc_version = "<p>Approved Documents are guidance for ways to comply in England, not the only possible method. Part F and Part L pages are version-aware because 2026 editions may affect future projects while earlier versions can still matter for older work.</p>"
+    doc_version = approved_document_section(page) if family in {"approved_document", "approved_document_hub"} else ""
     return dedent(
         f"""
         <section class="section">
           <h2>Short answer</h2>
-          <p>{escape(page.get('summary', 'Use this page to understand the building-control route, evidence and certificate questions for the project.'))}</p>
+          <p>{escape(profile['answer'])}</p>
           <div class="{warning_class}">{escape(warning_text)}</div>
           {planning_handoff}
-          {doc_version}
         </section>
         <section class="section">
           <h2>What usually triggers extra checks</h2>
-          <ul class="checklist">
-            <li>Structural changes, new openings, beams, altered load paths or work that changes fire escape routes.</li>
-            <li>New or altered drainage, ventilation, insulation, glazing, heating, electrics or controlled services.</li>
-            <li>Work already completed without clear records, inspections or certificates.</li>
-            <li>Anything outside ordinary domestic England guidance, including Wales, Scotland, Northern Ireland or higher-risk building routes.</li>
-          </ul>
+          <ul class="checklist">{list_html(profile['triggers'])}</ul>
         </section>
         <section class="section">
           <h2>Route options to discuss</h2>
-          <p>Most homeowners are comparing full plans, a building notice, competent person self-certification, regularisation for historic work, or an early specialist route. The best fit depends on risk, timing, drawings, installer registration and what building control wants to inspect.</p>
+          <p>{escape(profile['route'])}</p>
         </section>
         <section class="section">
           <h2>Evidence to keep</h2>
-          <ul class="checklist">
-            <li>Application references, notices, plans, specifications and structural calculations.</li>
-            <li>Inspection dates, site photos before work is covered, installer details and product records.</li>
-            <li>Completion certificate, competent person certificate, warranties and handover notes.</li>
-            <li>A dated note of which official source/version you checked before work started.</li>
-          </ul>
+          <ul class="checklist">{list_html(profile['evidence'])}</ul>
         </section>
+        {doc_version}
         <section class="section">
           <h2>Mistakes to avoid</h2>
           <p>Do not assume planning permission, permitted development or a builder's quote answers the building regulations question. Do not cover up work before required inspections. Do not rely on a certificate claim without checking who issues it and how you will receive a copy.</p>
         </section>
+        {faq_section(page)}
         """
     )
 
@@ -474,11 +707,104 @@ def tool_form(tool: dict) -> str:
     )
 
 
+def markdown_table(lines: list[str]) -> str:
+    rows = []
+    for line in lines:
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if all(set(cell) <= {"-", ":"} for cell in cells):
+            continue
+        tag = "th" if not rows else "td"
+        rows.append("<tr>" + "".join(f"<{tag}>{escape(cell)}</{tag}>" for cell in cells) + "</tr>")
+    if not rows:
+        return ""
+    return f'<div class="table-wrap"><table class="evidence-table">{"".join(rows)}</table></div>'
+
+
+def markdown_to_html(markdown: str) -> str:
+    markdown = markdown.replace("{ generated_date }", TODAY).replace("{ source_snapshot_id }", "2026-06-05").replace("{ jurisdiction }", "England-first")
+    lines = markdown.splitlines()
+    if lines and lines[0].strip() == "---":
+        try:
+            end = lines[1:].index("---") + 1
+            lines = lines[end + 1 :]
+        except ValueError:
+            pass
+    html_parts: list[str] = []
+    paragraph: list[str] = []
+    list_items: list[str] = []
+    table_lines: list[str] = []
+
+    def flush_paragraph() -> None:
+        if paragraph:
+            html_parts.append(f"<p>{escape(' '.join(paragraph))}</p>")
+            paragraph.clear()
+
+    def flush_list() -> None:
+        if list_items:
+            html_parts.append(f'<ul class="checklist">{"".join(f"<li>{escape(item)}</li>" for item in list_items)}</ul>')
+            list_items.clear()
+
+    def flush_table() -> None:
+        if table_lines:
+            html_parts.append(markdown_table(table_lines))
+            table_lines.clear()
+
+    for raw in lines:
+        line = raw.strip()
+        if not line:
+            flush_paragraph()
+            flush_list()
+            flush_table()
+            continue
+        if line.startswith("|"):
+            flush_paragraph()
+            flush_list()
+            table_lines.append(line)
+            continue
+        flush_table()
+        if line.startswith("# "):
+            flush_paragraph()
+            flush_list()
+            html_parts.append(f"<h2>{escape(line[2:].strip())}</h2>")
+        elif line.startswith("## "):
+            flush_paragraph()
+            flush_list()
+            html_parts.append(f"<h2>{escape(line[3:].strip())}</h2>")
+        elif line.startswith("### "):
+            flush_paragraph()
+            flush_list()
+            html_parts.append(f"<h3>{escape(line[4:].strip())}</h3>")
+        elif line.startswith("- "):
+            flush_paragraph()
+            list_items.append(line[2:].strip())
+        elif re.match(r"^\d+\.\s+", line):
+            flush_paragraph()
+            list_items.append(re.sub(r"^\d+\.\s+", "", line))
+        else:
+            paragraph.append(line)
+    flush_paragraph()
+    flush_list()
+    flush_table()
+    return "\n".join(html_parts)
+
+
+def download_markdown_html(download: dict) -> str:
+    filename = DOWNLOAD_MARKDOWN_MAP.get(download.get("slug", ""))
+    if not filename:
+        return ""
+    path = DOWNLOAD_MARKDOWN_DIR / filename
+    if not path.exists():
+        return ""
+    return markdown_to_html(path.read_text(encoding="utf-8-sig"))
+
+
 def download_sheet(download: dict) -> str:
-    sections = "".join(
+    markdown_html = download_markdown_html(download)
+    fallback_sections = "".join(
         f"""
         <section class="section">
           <h2>{escape(section)}</h2>
+          <p class="local-note">Use this space to record the project-specific evidence, responsible person, source checked and follow-up action.</p>
           <div class="blank-line"></div>
           <div class="blank-line"></div>
           <div class="blank-line"></div>
@@ -486,6 +812,7 @@ def download_sheet(download: dict) -> str:
         """
         for section in download.get("sections", [])
     )
+    sections = markdown_html or fallback_sections
     return dedent(
         f"""
         <article class="download-sheet">
@@ -502,7 +829,7 @@ def download_sheet(download: dict) -> str:
             </ul>
           </section>
           <p class="warning">Generated {TODAY}. Re-check official guidance and your building control body's requirements before relying on this asset.</p>
-          {sections}
+          <div class="printable-content">{sections}</div>
           <section class="section">
             <h2>Handover note</h2>
             <p>At the end of the project, store this sheet with completion certificates, competent person certificates, warranties, product information and any building-control correspondence. It may help when selling, remortgaging or explaining historic work later.</p>
@@ -617,6 +944,14 @@ def render_homepage(all_pages: list[dict], sources: dict) -> str:
           </div>
         </section>
         <main>
+          <section class="band">
+            <h2>Start with the right question</h2>
+            <div class="grid">
+              <article class="card"><h3>1. Is this a building regulations issue?</h3><p>Look for structure, fire safety, insulation, ventilation, drainage, electrics, heating or missing certificates. Planning permission is a separate track.</p></article>
+              <article class="card"><h3>2. Which route fits?</h3><p>Compare full plans, building notice, competent person self-certification, regularisation or specialist/BSR advice before work starts.</p></article>
+              <article class="card"><h3>3. What proof should you keep?</h3><p>Record drawings, calculations, inspection notes, certificates, product records and photos before work is covered up.</p></article>
+            </div>
+          </section>
           <section class="band"><div class="grid">{card_html}</div></section>
           <section class="band"><h2>Project starting points</h2><div class="grid">{project_cards}</div></section>
           {source_panel(['govuk_building_regs_approval', 'govuk_competent_person_scheme', 'govuk_approved_documents_collection'], sources)}
@@ -777,10 +1112,28 @@ def render_dashboard(sources: dict) -> str:
         <main>
           {breadcrumbs('/dashboard/', 'Dashboard')}
           <h1 class="page-title">Building regs project dashboard</h1>
-          <p class="lede">Saved tool results appear here on this device only. There is no login, no account and no backend storage in this starter build.</p>
-          <div class="warning">Privacy note: saved results use your browser localStorage. Clear your browser data to remove them.</div>
+          <p class="lede">Use this as a device-only project file for saved checker results, inspection prompts and certificate follow-up. There is no login, no account and no backend storage in this build.</p>
+          <div class="warning">Privacy note: saved results use your browser localStorage. Do not enter sensitive personal data. Clear your browser data to remove saved items.</div>
+          <section class="panel">
+            <h2>Project note</h2>
+            <div class="form-row">
+              <input class="mini-input" id="dashboard-project" placeholder="Project, e.g. loft conversion">
+              <input class="mini-input" id="dashboard-address" placeholder="Address/reference, optional">
+              <input class="mini-input" id="dashboard-contact" placeholder="Building control contact, optional">
+            </div>
+            <div class="dashboard-actions">
+              <button class="button ghost" type="button" onclick="localStorage.setItem('brg_project_note', JSON.stringify({{project:document.getElementById('dashboard-project').value,address:document.getElementById('dashboard-address').value,contact:document.getElementById('dashboard-contact').value}})); location.reload();">Save note locally</button>
+              <button class="button ghost" type="button" onclick="window.print()">Print project file</button>
+            </div>
+          </section>
           <section class="grid" data-dashboard></section>
           {source_panel(['govuk_building_regs_approval'], sources)}
+          <script>
+            const note = JSON.parse(localStorage.getItem('brg_project_note') || '{{}}');
+            if (note.project) document.getElementById('dashboard-project').value = note.project;
+            if (note.address) document.getElementById('dashboard-address').value = note.address;
+            if (note.contact) document.getElementById('dashboard-contact').value = note.contact;
+          </script>
         </main>
         """
     )

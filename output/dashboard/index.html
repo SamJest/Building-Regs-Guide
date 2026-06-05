@@ -8,7 +8,7 @@
 
           <link rel="canonical" href="https://buildingregsguide.co.uk/dashboard/">
           <link rel="stylesheet" href="/assets/site.css">
-          <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Building regs project dashboard", "description": "Local-only project dashboard for saved building regulations tool results.", "url": "https://buildingregsguide.co.uk/dashboard/", "dateModified": "2026-06-05", "publisher": {"@type": "Organization", "name": "BuildingRegsGuide"}}</script>
+          <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebPage", "name": "Building regs project dashboard", "description": "Local-only project dashboard for saved building regulations tool results.", "url": "https://buildingregsguide.co.uk/dashboard/", "dateModified": "2026-06-05", "publisher": {"@type": "Organization", "name": "BuildingRegsGuide"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://buildingregsguide.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Building regs project dashboard", "item": "https://buildingregsguide.co.uk/dashboard/"}]}]</script>
         </head>
         <body>
           <header class="site-header">
@@ -21,8 +21,20 @@
         <main>
           <div class="breadcrumbs"><a href="/">Home</a> / Dashboard</div>
           <h1 class="page-title">Building regs project dashboard</h1>
-          <p class="lede">Saved tool results appear here on this device only. There is no login, no account and no backend storage in this starter build.</p>
-          <div class="warning">Privacy note: saved results use your browser localStorage. Clear your browser data to remove them.</div>
+          <p class="lede">Use this as a device-only project file for saved checker results, inspection prompts and certificate follow-up. There is no login, no account and no backend storage in this build.</p>
+          <div class="warning">Privacy note: saved results use your browser localStorage. Do not enter sensitive personal data. Clear your browser data to remove saved items.</div>
+          <section class="panel">
+            <h2>Project note</h2>
+            <div class="form-row">
+              <input class="mini-input" id="dashboard-project" placeholder="Project, e.g. loft conversion">
+              <input class="mini-input" id="dashboard-address" placeholder="Address/reference, optional">
+              <input class="mini-input" id="dashboard-contact" placeholder="Building control contact, optional">
+            </div>
+            <div class="dashboard-actions">
+              <button class="button ghost" type="button" onclick="localStorage.setItem('brg_project_note', JSON.stringify({project:document.getElementById('dashboard-project').value,address:document.getElementById('dashboard-address').value,contact:document.getElementById('dashboard-contact').value})); location.reload();">Save note locally</button>
+              <button class="button ghost" type="button" onclick="window.print()">Print project file</button>
+            </div>
+          </section>
           <section class="grid" data-dashboard></section>
 
 <aside class="source-panel" aria-label="Official source and version panel">
@@ -37,6 +49,12 @@
     </ul>
 </aside>
 
+          <script>
+            const note = JSON.parse(localStorage.getItem('brg_project_note') || '{}');
+            if (note.project) document.getElementById('dashboard-project').value = note.project;
+            if (note.address) document.getElementById('dashboard-address').value = note.address;
+            if (note.contact) document.getElementById('dashboard-contact').value = note.contact;
+          </script>
         </main>
 
           <footer class="site-footer">

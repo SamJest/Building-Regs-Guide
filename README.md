@@ -40,6 +40,18 @@ Remove-Item Env:\BRG_BASE_URL
 & 'C:\Users\Jest\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' prelaunch_check.py
 ```
 
+## GitHub Pages Deployment
+
+The repository includes `.github/workflows/pages.yml`. It builds the static site, runs both validation gates, uploads `output/` as the GitHub Pages artifact root, deploys it, then checks the live production URLs.
+
+In GitHub repository settings, set **Pages -> Build and deployment -> Source** to **GitHub Actions**. That makes `https://buildingregsguide.co.uk/` serve the generated site root instead of the repository README.
+
+After deployment, run:
+
+```powershell
+python live_check.py --base-url https://buildingregsguide.co.uk
+```
+
 ## Output
 
 Generated static files are written to `output/`.

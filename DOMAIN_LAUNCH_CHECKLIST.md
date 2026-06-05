@@ -44,6 +44,13 @@ Remove-Item Env:\BRG_BASE_URL
 - Confirm HTTPS certificate issuance before sharing the site.
 - Confirm `/sitemap.xml`, `/robots.txt`, `/search-index.json`, `/404.html`, `/legal/` and `/about/` work live.
 
+## GitHub Pages
+
+- In GitHub repository settings, set **Pages -> Build and deployment -> Source** to **GitHub Actions**.
+- Confirm the workflow named **Deploy BuildingRegsGuide** completes on `main`.
+- Confirm the root URL serves the generated site, not the repository README.
+- Run `python live_check.py --base-url https://buildingregsguide.co.uk` after the deployment completes.
+
 ## After Production
 
 - Submit `https://buildingregsguide.co.uk/sitemap.xml` in Google Search Console.
