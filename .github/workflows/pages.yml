@@ -36,6 +36,7 @@ jobs:
         run: |
           python validate.py
           python prelaunch_check.py
+          python quality_audit.py
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -1,9 +1,9 @@
 # BuildingRegsGuide starter build report
 
 - Generated: 2026-06-06
-- Published pages: 87
+- Published pages: 96
 - Phase 1 routes: 70
-- Focused expansion pages: 6
+- Focused expansion pages: 13
 - Draft/noindex pages: 0
 - Blocked pages: none in this starter pass
 - Build environment: production

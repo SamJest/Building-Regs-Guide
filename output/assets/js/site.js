@@ -58,6 +58,37 @@ const officialSources = [
   ["GOV.UK Approved Documents", "https://www.gov.uk/government/collections/approved-documents"]
 ];
 
+const downloadLabels = {
+  "/downloads/building-notice-vs-full-plans-worksheet/": "route decision worksheet",
+  "/downloads/structural-calculations-briefing-sheet/": "structural calculations briefing sheet",
+  "/downloads/inspection-stage-record-sheet/": "inspection stage record sheet",
+  "/downloads/competent-person-certificate-checklist/": "competent person certificate tracker",
+  "/downloads/sale-remortgage-proof-folder/": "sale or remortgage proof folder",
+  "/downloads/regularisation-evidence-pack/": "regularisation evidence pack",
+  "/downloads/completion-certificate-record-sheet/": "completion certificate record sheet",
+  "/downloads/building-control-phone-call-script/": "building control contact log"
+};
+
+const toolContext = {
+  "building-control-route-checker": "This result is about which building-control conversation to have next.",
+  "full-plans-vs-building-notice-checker": "This result compares certainty before work starts against speed and on-site risk.",
+  "competent-person-scheme-checker": "This result is about who can certify the work and what certificate you should expect.",
+  "completion-certificate-readiness-checker": "This result is about whether the project file is ready for final sign-off or sale questions.",
+  "inspection-stage-checklist-generator": "This result is about what should be visible before work is covered.",
+  "approved-document-router": "This result maps the project to likely Approved Document topics, not to a design answer.",
+  "extension-regs-prep-pack": "This result turns an extension brief into building-control questions for drawings, structure, insulation and drainage.",
+  "loft-fire-safety-prep-checker": "This result focuses on loft fire strategy, stairs, escape route, structure and insulation evidence.",
+  "garage-conversion-regs-checker": "This result focuses on the garage-to-room change: damp, floor, insulation, ventilation and fire separation.",
+  "structural-alteration-readiness-checker": "This result focuses on calculations, load paths, temporary works, inspection timing and photos before boxing-in.",
+  "drainage-waste-route-checker": "This result focuses on drainage layout, inspection chambers, falls, testing and public sewer warning signs.",
+  "windows-doors-certificate-checker": "This result focuses on whether installer self-certification is enough or whether structural opening work changes the route.",
+  "electrical-work-notifiable-checker": "This result focuses on Part P notification, certificates and registered electrician evidence.",
+  "heating-boiler-evidence-checker": "This result focuses on installer registration, commissioning and handover paperwork.",
+  "regularisation-risk-triage": "This result focuses on missing historic approval records and what evidence to gather before approaching building control.",
+  "sale-remortgage-evidence-pack-builder": "This result focuses on what a buyer, lender, surveyor or conveyancer may ask to see.",
+  "jurisdiction-route-selector": "This result checks whether you are still in the England-first guidance used by this site."
+};
+
 function chooseRoute(values, toolSlug) {
   if (values.jurisdiction !== "england" || values.higherRisk === "yes") return "specialist";
   if (toolTweaks[toolSlug]) return toolTweaks[toolSlug](values);
@@ -78,12 +109,13 @@ function renderResult(form) {
   target.innerHTML = `
     <h3>${advice.title}</h3>
     <p><strong>Confidence:</strong> ${advice.confidence}. This tool does not grant approval or replace building control, a designer, installer, engineer or registered approver.</p>
+    <p><strong>Why this result:</strong> ${toolContext[toolSlug] || "This result turns your answers into a next-step building-control prompt."}</p>
     <ul>${advice.points.map(point => `<li>${point}</li>`).join("")}</ul>
     <p><strong>Likely documents to check:</strong> ${docs.join(", ")}.</p>
     <p><strong>Red flags:</strong> higher-risk building, flat conversion, load-bearing changes, fire escape uncertainty, missing certificates, drainage changes, public sewer issues or work outside England.</p>
     <p><strong>Next actions:</strong> ask building control what they need before work starts, record who issues each certificate, and save evidence before work is covered up.</p>
     <p><strong>Official sources:</strong> ${officialSources.map(([label, url]) => `<a href="${url}">${label}</a>`).join(" / ")}</p>
-    <p><strong>Recommended downloads:</strong> ${advice.downloads.map(path => `<a href="${path}">${path.split("/").filter(Boolean).pop().replaceAll("-", " ")}</a>`).join(" / ")}</p>
+    <p><strong>Recommended downloads:</strong> ${advice.downloads.map(path => `<a href="${path}">${downloadLabels[path] || path.split("/").filter(Boolean).pop().replaceAll("-", " ")}</a>`).join(" / ")}</p>
     <p class="local-note">Generated ${date}. Re-check official guidance before relying on this result.</p>
     <button class="button ghost" type="button" onclick="window.print()">Print</button>
     <button class="button ghost" type="button" data-save-result>Save locally</button>

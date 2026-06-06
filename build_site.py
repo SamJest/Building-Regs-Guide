@@ -59,6 +59,108 @@ DOWNLOAD_MARKDOWN_MAP = {
     "rooflight-building-regs-checklist": "rooflight-building-regs-checklist.md",
 }
 
+DOWNLOAD_USE_CASES = {
+    "extension-building-regulations-checklist": {
+        "summary": "Extension pre-start pack for drawings, calculations, inspection stages, drainage notes, insulation evidence and completion paperwork.",
+        "use": "Take it to your designer or builder before quotes are final so building-control responsibilities are named early.",
+    },
+    "loft-conversion-building-regulations-checklist": {
+        "summary": "Loft conversion fire, stairs, structure and insulation checklist for the points that often need drawings before work starts.",
+        "use": "Use it to check whether the quote has allowed for protected escape routes, smoke alarms, steels, floor structure and before-cover-up evidence.",
+    },
+    "garage-conversion-building-regulations-checklist": {
+        "summary": "Garage conversion checklist for damp, floor build-up, insulation, ventilation, fire separation, electrics and completion evidence.",
+        "use": "Use it before stripping out the garage so hidden damp-proofing, floor and wall details are not guessed on site.",
+    },
+    "building-notice-vs-full-plans-worksheet": {
+        "summary": "Route-decision worksheet comparing certainty, speed, hidden-work risk and evidence for full plans versus a building notice.",
+        "use": "Fill it in before choosing the quicker route; the aim is to expose risk before the builder is booked.",
+    },
+    "completion-certificate-record-sheet": {
+        "summary": "Completion evidence record for application references, inspections, competent person certificates and the final certificate chase.",
+        "use": "Use it near the end of the project so the final paperwork is chased before trades disappear.",
+    },
+    "competent-person-certificate-checklist": {
+        "summary": "Registered installer certificate tracker for glazing, electrical, heating and other self-certified domestic work.",
+        "use": "Ask the installer to confirm the scheme, certificate type and issuing timescale before work begins.",
+    },
+    "inspection-stage-record-sheet": {
+        "summary": "Inspection-stage log for foundations, drains, structure, insulation, fire safety and completion visits.",
+        "use": "Keep it on site so photos and inspection notes are captured before anything is covered.",
+    },
+    "structural-calculations-briefing-sheet": {
+        "summary": "Briefing sheet for beams, openings, padstones, load paths, engineer calculations and building-control inspections.",
+        "use": "Give it to the engineer or builder before demolition so the evidence trail starts with the design, not the invoice.",
+    },
+    "drainage-and-waste-checklist": {
+        "summary": "Drainage checklist for new waste runs, soil pipes, inspection chambers, falls, testing and public sewer warning signs.",
+        "use": "Use it before trenches, pipework or floors are covered so the inspection evidence is not lost.",
+    },
+    "windows-and-doors-certificate-checklist": {
+        "summary": "Window and door certificate checklist for registered installer details, glazing evidence, lintels and escape-window changes.",
+        "use": "Use it before ordering units where a new opening, escape change or conservation/planning question is involved.",
+    },
+    "electrical-work-evidence-checklist": {
+        "summary": "Electrical evidence checklist for notifiable work, installer registration, test certificates and Part P records.",
+        "use": "Use it before agreeing electrical extras so the certificate route is clear in writing.",
+    },
+    "heating-boiler-certificate-checklist": {
+        "summary": "Heating and boiler handover checklist for installer registration, commissioning records, flue details and warranties.",
+        "use": "Use it before final payment so commissioning records and compliance certificates are not left vague.",
+    },
+    "regularisation-evidence-pack": {
+        "summary": "Missing-approval evidence pack for historic works, old invoices, photos, surveys and building-control conversations.",
+        "use": "Use it before contacting the council or conveyancer so you can explain what happened and what proof exists.",
+    },
+    "approved-document-router-summary": {
+        "summary": "Approved Document router printout for recording which Parts are likely to matter and who is checking each one.",
+        "use": "Attach it to the project file so Part A, B, F, H, K, L and P questions have named owners.",
+    },
+    "building-control-phone-call-script": {
+        "summary": "Phone and email log for building-control route questions, inspection stages, fees, evidence and completion paperwork.",
+        "use": "Use it before the first call so you leave with names, dates and next actions rather than a vague memory.",
+    },
+    "builder-quote-building-regs-questions": {
+        "summary": "Quote-question sheet for checking what the builder has allowed for in drawings, inspections, certificates and hidden work.",
+        "use": "Send it with quote requests so compliance responsibilities are priced before work starts.",
+    },
+    "sale-remortgage-proof-folder": {
+        "summary": "Sale and remortgage proof folder for building-control records, competent person certificates, photos and source notes.",
+        "use": "Use it when preparing for sale, remortgage or a future survey so missing paperwork is spotted early.",
+    },
+    "garden-room-building-regs-checklist": {
+        "summary": "Garden room risk checklist for exemption, electrics, heating, drainage, sleeping use, boundaries and fire spread.",
+        "use": "Use it before ordering a supplier package where services or year-round use are being added.",
+    },
+    "load-bearing-wall-removal-checklist": {
+        "summary": "Load-bearing wall evidence checklist for engineer calculations, temporary works, beams, bearings, fire protection and completion records.",
+        "use": "Use it before demolition so calculations, inspection timing and photos are agreed before the opening is made.",
+    },
+    "rooflight-building-regs-checklist": {
+        "summary": "Rooflight checklist for structure, weathering, insulation, ventilation, safety glazing and planning-sensitive roof changes.",
+        "use": "Use it before cutting the roof so building-control and planning-sensitive questions are separated.",
+    },
+}
+
+TOOL_DOWNLOAD_LABELS = {
+    "/downloads/building-notice-vs-full-plans-worksheet/": "route decision worksheet",
+    "/downloads/structural-calculations-briefing-sheet/": "structural calculations briefing sheet",
+    "/downloads/inspection-stage-record-sheet/": "inspection stage record sheet",
+    "/downloads/competent-person-certificate-checklist/": "competent person certificate tracker",
+    "/downloads/sale-remortgage-proof-folder/": "sale or remortgage proof folder",
+    "/downloads/regularisation-evidence-pack/": "regularisation evidence pack",
+    "/downloads/completion-certificate-record-sheet/": "completion certificate record sheet",
+    "/downloads/building-control-phone-call-script/": "building control contact log",
+}
+
+STANDARD_WARNINGS = {
+    "project": "Use this guide to brief the right people before work starts. It is not approval, and it cannot replace the judgement of building control, a designer, engineer or registered installer.",
+    "approval_route": "Use this as a route prompt, then confirm the application route with your building control body before spending money or covering work.",
+    "guide": "This page separates the decision points so you can ask better questions. It does not approve the work or remove the need for competent design, installation and inspection.",
+    "approved_document": "Approved Documents are guidance on common ways to comply in England. Check the current version and ask who is translating it into drawings, specifications or certificates.",
+    "approved_document_hub": "Approved Documents are guidance on common ways to comply in England. Check the current version and ask who is translating it into drawings, specifications or certificates.",
+}
+
 PROJECT_PROFILES = {
     "extensions": {
         "answer": "Most extensions need building regulations approval even when the planning route is permitted development. The key early decision is usually full plans versus building notice, with structure, foundations, insulation, drainage and ventilation settled before work is covered.",
@@ -258,6 +360,76 @@ EXPANSION_PAGES = [
         "kind": "question",
         "parent": "/projects/extensions-building-regulations/",
         "project_slug": "extensions",
+    },
+    {
+        "path": "/before-you-start/building-regulations-before-builder-quote/",
+        "title": "Building regulations checks before asking builders for quotes",
+        "summary": "Pre-quote checklist for homeowners who want comparable building quotes, clear certificate responsibility and fewer hidden compliance extras.",
+        "family": "evidence",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "evidence",
+        "documents": ["A one-line scope for the exact work being quoted", "Likely route: full plans, building notice, competent person or regularisation", "Drawing and calculation responsibility", "Known inspection stages and who books them", "Certificate responsibility for electrics, heating, glazing and completion", "Items excluded from the quote because building control may ask for them", "Planning or permitted development handoff notes from UKPlanningGuide where relevant"],
+        "download": "/downloads/builder-quote-building-regs-questions/",
+    },
+    {
+        "path": "/before-you-start/building-control-questions-to-ask-builder/",
+        "title": "Building control questions to ask a builder",
+        "summary": "The building regulations questions to ask before appointing a builder, with prompts for inspections, certificates, drawings, hidden work and final evidence.",
+        "family": "evidence",
+        "primary_source_id": "govuk_how_to_apply",
+        "kind": "evidence",
+        "documents": ["Who is making the building regulations application", "Whether full plans or building notice is being assumed", "Which drawings and calculations are included", "Which inspection stages the builder expects", "How photos will be taken before work is covered", "Which certificates are issued by installers rather than building control", "What final paperwork will be handed over before final payment"],
+        "download": "/downloads/building-control-phone-call-script/",
+    },
+    {
+        "path": "/evidence/building-regulations-when-selling-house/",
+        "title": "Building regulations paperwork when selling a house",
+        "summary": "What sellers and buyers commonly need to find for extensions, lofts, windows, electrics, boilers, drainage and historic alterations.",
+        "family": "evidence",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "evidence",
+        "documents": ["Completion certificate or final certificate where one was issued", "Competent person certificates for replacement windows, electrical or heating work", "Structural calculations and drawings for removed walls, beams or loft floors", "Building control correspondence and inspection notes", "Planning decision, lawful development certificate or planning handoff where relevant", "Invoices that identify the installer, engineer or contractor", "Photos and product records where formal records are missing"],
+        "download": "/downloads/sale-remortgage-proof-folder/",
+    },
+    {
+        "path": "/evidence/what-if-builder-did-not-get-building-regulations/",
+        "title": "What if my builder did not get building regulations approval?",
+        "summary": "Practical evidence steps when work has started or finished and the approval route, inspection record or certificate responsibility is unclear.",
+        "family": "evidence",
+        "primary_source_id": "govuk_how_to_apply",
+        "kind": "evidence",
+        "documents": ["Written description of the work and dates", "Photos of visible work and any hidden-stage photos", "Builder invoices, messages and specification notes", "Engineer calculations or drawings if structure changed", "Installer certificates for controlled services", "Any council, approved inspector or registered approver correspondence", "Surveyor or conveyancer questions already raised"],
+        "download": "/downloads/regularisation-evidence-pack/",
+    },
+    {
+        "path": "/inspections/building-control-inspection-stages-for-extensions/",
+        "title": "Building control inspection stages for extensions",
+        "summary": "Extension inspection-stage guide covering foundations, drains, structure, insulation, ventilation, completion and photos before cover-up.",
+        "family": "evidence",
+        "primary_source_id": "govuk_how_to_apply",
+        "kind": "evidence",
+        "documents": ["Commencement and excavation/foundation inspection notes", "Drainage layout and before-backfill photos", "Damp proof course and structural opening photos", "Insulation evidence before plasterboard or finishes", "Ventilation and heating commissioning records", "Electrical or glazing certificates where relevant", "Completion certificate chase log"],
+        "download": "/downloads/inspection-stage-record-sheet/",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-removing-internal-wall/",
+        "title": "Do I need building regulations for removing an internal wall?",
+        "summary": "Answer-first guide to internal wall removal, load-bearing risk, structural calculations, inspection timing, beam evidence and completion paperwork.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "question",
+        "parent": "/projects/removing-load-bearing-wall-building-regulations/",
+        "project_slug": "removing-load-bearing-wall",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-replacement-windows/",
+        "title": "Do I need building regulations for replacement windows?",
+        "summary": "Answer-first guide to replacement windows, competent person certificates, new openings, safety glazing, escape windows and evidence to keep.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_use_competent_person",
+        "kind": "question",
+        "parent": "/projects/windows-doors-building-regulations/",
+        "project_slug": "windows-doors",
     },
 ]
 
@@ -460,6 +632,37 @@ def write_static_assets() -> None:
               ["GOV.UK Approved Documents", "https://www.gov.uk/government/collections/approved-documents"]
             ];
 
+            const downloadLabels = {
+              "/downloads/building-notice-vs-full-plans-worksheet/": "route decision worksheet",
+              "/downloads/structural-calculations-briefing-sheet/": "structural calculations briefing sheet",
+              "/downloads/inspection-stage-record-sheet/": "inspection stage record sheet",
+              "/downloads/competent-person-certificate-checklist/": "competent person certificate tracker",
+              "/downloads/sale-remortgage-proof-folder/": "sale or remortgage proof folder",
+              "/downloads/regularisation-evidence-pack/": "regularisation evidence pack",
+              "/downloads/completion-certificate-record-sheet/": "completion certificate record sheet",
+              "/downloads/building-control-phone-call-script/": "building control contact log"
+            };
+
+            const toolContext = {
+              "building-control-route-checker": "This result is about which building-control conversation to have next.",
+              "full-plans-vs-building-notice-checker": "This result compares certainty before work starts against speed and on-site risk.",
+              "competent-person-scheme-checker": "This result is about who can certify the work and what certificate you should expect.",
+              "completion-certificate-readiness-checker": "This result is about whether the project file is ready for final sign-off or sale questions.",
+              "inspection-stage-checklist-generator": "This result is about what should be visible before work is covered.",
+              "approved-document-router": "This result maps the project to likely Approved Document topics, not to a design answer.",
+              "extension-regs-prep-pack": "This result turns an extension brief into building-control questions for drawings, structure, insulation and drainage.",
+              "loft-fire-safety-prep-checker": "This result focuses on loft fire strategy, stairs, escape route, structure and insulation evidence.",
+              "garage-conversion-regs-checker": "This result focuses on the garage-to-room change: damp, floor, insulation, ventilation and fire separation.",
+              "structural-alteration-readiness-checker": "This result focuses on calculations, load paths, temporary works, inspection timing and photos before boxing-in.",
+              "drainage-waste-route-checker": "This result focuses on drainage layout, inspection chambers, falls, testing and public sewer warning signs.",
+              "windows-doors-certificate-checker": "This result focuses on whether installer self-certification is enough or whether structural opening work changes the route.",
+              "electrical-work-notifiable-checker": "This result focuses on Part P notification, certificates and registered electrician evidence.",
+              "heating-boiler-evidence-checker": "This result focuses on installer registration, commissioning and handover paperwork.",
+              "regularisation-risk-triage": "This result focuses on missing historic approval records and what evidence to gather before approaching building control.",
+              "sale-remortgage-evidence-pack-builder": "This result focuses on what a buyer, lender, surveyor or conveyancer may ask to see.",
+              "jurisdiction-route-selector": "This result checks whether you are still in the England-first guidance used by this site."
+            };
+
             function chooseRoute(values, toolSlug) {
               if (values.jurisdiction !== "england" || values.higherRisk === "yes") return "specialist";
               if (toolTweaks[toolSlug]) return toolTweaks[toolSlug](values);
@@ -480,12 +683,13 @@ def write_static_assets() -> None:
               target.innerHTML = `
                 <h3>${advice.title}</h3>
                 <p><strong>Confidence:</strong> ${advice.confidence}. This tool does not grant approval or replace building control, a designer, installer, engineer or registered approver.</p>
+                <p><strong>Why this result:</strong> ${toolContext[toolSlug] || "This result turns your answers into a next-step building-control prompt."}</p>
                 <ul>${advice.points.map(point => `<li>${point}</li>`).join("")}</ul>
                 <p><strong>Likely documents to check:</strong> ${docs.join(", ")}.</p>
                 <p><strong>Red flags:</strong> higher-risk building, flat conversion, load-bearing changes, fire escape uncertainty, missing certificates, drainage changes, public sewer issues or work outside England.</p>
                 <p><strong>Next actions:</strong> ask building control what they need before work starts, record who issues each certificate, and save evidence before work is covered up.</p>
                 <p><strong>Official sources:</strong> ${officialSources.map(([label, url]) => `<a href="${url}">${label}</a>`).join(" / ")}</p>
-                <p><strong>Recommended downloads:</strong> ${advice.downloads.map(path => `<a href="${path}">${path.split("/").filter(Boolean).pop().replaceAll("-", " ")}</a>`).join(" / ")}</p>
+                <p><strong>Recommended downloads:</strong> ${advice.downloads.map(path => `<a href="${path}">${downloadLabels[path] || path.split("/").filter(Boolean).pop().replaceAll("-", " ")}</a>`).join(" / ")}</p>
                 <p class="local-note">Generated ${date}. Re-check official guidance before relying on this result.</p>
                 <button class="button ghost" type="button" onclick="window.print()">Print</button>
                 <button class="button ghost" type="button" data-save-result>Save locally</button>
@@ -605,9 +809,20 @@ def faqs_for(page: dict) -> list[tuple[str, str]]:
             ("What should I keep for sale or remortgage?", "Keep the application reference, drawings, inspection notes, photos before work is covered, installer certificates and the completion certificate or equivalent evidence."),
         ]
     if family in {"approval_route", "guide"}:
+        lower_title = title.lower()
+        if "planning" in lower_title:
+            return [
+                ("Can planning permission and building regulations both matter?", "Yes. Planning deals with whether the development is allowed; building regulations deal with how the work is designed, built, inspected and evidenced."),
+                ("Which site should I use first?", "Use UKPlanningGuide for the planning route, then use BuildingRegsGuide for building-control route choices, Approved Document prompts, certificates and completion evidence."),
+            ]
+        if "about" in lower_title or "legal" in lower_title:
+            return [
+                ("Who is this site for?", "It is built for homeowners trying to prepare better questions before speaking to building control, designers, builders, installers, surveyors or conveyancers."),
+                ("What should I do with official source panels?", "Use them as a re-check prompt. Guidance can change and project details matter, so source dates and official links should stay with your project notes."),
+            ]
         return [
-            ("Does this page give approval?", "No. It helps you prepare the right questions for building control, a registered approver, designer, installer or other competent professional."),
-            ("When should I stop and get specialist advice?", "Stop if the work involves flats, higher-risk buildings, major fire-safety implications, unclear structure, public sewers or work outside England."),
+            ("Can I rely on this without contacting building control?", "Use it as preparation, not permission. If the work is controlled or uncertain, confirm the route with building control, a registered approver or the competent person responsible for the work."),
+            ("When is a general homeowner guide not enough?", "Get specialist input where flats, higher-risk buildings, structural uncertainty, fire safety, public sewers or work outside England are involved."),
         ]
     if family in {"approved_document", "approved_document_hub"}:
         return [
@@ -710,14 +925,57 @@ def sister_handoff(page: dict) -> str:
 
 def related_links(page: dict, all_pages: list[dict]) -> str:
     candidates = []
-    preferred = [
+    family = page.get("family", "")
+    preferred_by_family = {
+        "project": [
+            "/before-you-start/building-regulations-before-builder-quote/",
+            "/tools/building-control-route-checker/",
+            "/tools/inspection-stage-checklist-generator/",
+            "/evidence/building-regulations-documents-to-keep/",
+            "/planning-and-building-regulations/",
+            "/evidence/building-regulations-when-selling-house/",
+        ],
+        "tool": [
+            "/evidence/building-regulations-documents-to-keep/",
+            "/downloads/building-notice-vs-full-plans-worksheet/",
+            "/dashboard/",
+            "/building-regulations/completion-certificate/",
+            "/compare/full-plans-building-notice-regularisation/",
+            "/before-you-start/building-control-questions-to-ask-builder/",
+        ],
+        "download": [
+            "/tools/building-control-route-checker/",
+            "/dashboard/",
+            "/evidence/building-regulations-documents-to-keep/",
+            "/before-you-start/building-control-questions-to-ask-builder/",
+            "/evidence/building-regulations-when-selling-house/",
+            "/building-regulations/completion-certificate/",
+        ],
+        "evidence": [
+            "/downloads/sale-remortgage-proof-folder/",
+            "/tools/completion-certificate-readiness-checker/",
+            "/evidence/missing-building-regulations-certificate/",
+            "/evidence/what-if-builder-did-not-get-building-regulations/",
+            "/before-you-start/building-control-questions-to-ask-builder/",
+            "/dashboard/",
+        ],
+        "programmatic_question_page": [
+            page.get("parent", "/projects/"),
+            "/tools/building-control-route-checker/",
+            "/evidence/building-regulations-documents-to-keep/",
+            "/before-you-start/building-regulations-before-builder-quote/",
+            "/planning-and-building-regulations/",
+            "/downloads/builder-quote-building-regs-questions/",
+        ],
+    }
+    preferred = preferred_by_family.get(family, [
         "/tools/building-control-route-checker/",
         "/tools/full-plans-vs-building-notice-checker/",
         "/building-regulations/completion-certificate/",
         "/evidence/building-regulations-documents-to-keep/",
         "/planning-and-building-regulations/",
         "/building-regulations/planning-permission-vs-building-regulations/",
-    ]
+    ])
     by_path = {item["path"]: item for item in all_pages}
     for path in preferred:
         if path in by_path and path != page["path"]:
@@ -800,7 +1058,7 @@ def page_sections(page: dict) -> str:
     warning_text = (
         "If the project involves a higher-risk building, flats, major fire-safety work or unclear structural risk, stop and get specialist building-control advice before relying on a general homeowner route."
         if higher_risk
-        else "This guide helps you prepare the right questions. It does not grant approval, replace building control or remove the need for competent design and installation."
+        else STANDARD_WARNINGS.get(family, STANDARD_WARNINGS["guide"])
     )
     doc_version = approved_document_section(page) if family in {"approved_document", "approved_document_hub"} else ""
     return dedent(
@@ -948,6 +1206,9 @@ def download_markdown_html(download: dict) -> str:
 
 def download_sheet(download: dict) -> str:
     markdown_html = download_markdown_html(download)
+    use_case = DOWNLOAD_USE_CASES.get(download.get("slug", ""), {})
+    summary = use_case.get("summary") or download.get("summary", "Printable checklist for building regulations evidence.")
+    use_note = use_case.get("use") or "Use it to turn a broad building regulations concern into named evidence, responsible people and follow-up actions."
     fallback_sections = "".join(
         f"""
         <section class="section">
@@ -964,8 +1225,9 @@ def download_sheet(download: dict) -> str:
     return dedent(
         f"""
         <article class="download-sheet">
-          <p class="tag">Printable HTML-first asset</p>
-          <p>{escape(download.get('summary', 'Printable checklist for building regulations evidence.'))}</p>
+          <p class="tag">Printable project file</p>
+          <p>{escape(summary)}</p>
+          <p><strong>Best used:</strong> {escape(use_note)}</p>
           <section class="section">
             <h2>Before you use this sheet</h2>
             <p>Use this as a project file prompt, not as proof that the work is compliant. Fill it in before speaking to building control, your designer, your builder or a registered installer so the conversation starts with the evidence that matters.</p>
@@ -1056,6 +1318,21 @@ def render_evidence_page(page: dict, all_pages: list[dict], sources: dict) -> st
             <ul class="checklist">{items}</ul>
           </section>
           <section class="section">
+            <h2>How to build a stronger file</h2>
+            <p>Keep evidence while the work is happening, not months later. The strongest file usually has a simple timeline: what was proposed, which route was chosen, who designed or certified each part, what building control inspected, and what was handed over at completion.</p>
+            <p>Photos matter most when they show work before it is covered: excavation depth, drainage runs, beam bearings, insulation, fire-stopping, ventilation routes and service trenches. Label them with the date and the stage so they are useful to a surveyor, conveyancer, building control officer or future buyer.</p>
+          </section>
+          <section class="section">
+            <h2>Questions to settle early</h2>
+            <ul class="checklist">
+              <li>Who will submit or manage the building regulations application?</li>
+              <li>Which parts are being self-certified by a registered installer?</li>
+              <li>Which inspection stages must happen before work is covered?</li>
+              <li>Which final certificates should exist before the last payment?</li>
+              <li>Which planning permission or lawful development records should sit beside the building regulations file?</li>
+            </ul>
+          </section>
+          <section class="section">
             <h2>When to ask before relying on old paperwork</h2>
             <p>Ask building control, your conveyancer or a competent professional where work is historic, certificates are missing, the work affects structure or fire safety, or the only evidence is a builder's verbal assurance.</p>
           </section>
@@ -1106,6 +1383,11 @@ def render_comparison_page(page: dict, all_pages: list[dict], sources: dict) -> 
               <li>Assuming planning permission removes the building regulations duty.</li>
               <li>Leaving completion certificate and competent person certificate checks until sale.</li>
             </ul>
+          </section>
+          <section class="section">
+            <h2>How to choose without guessing</h2>
+            <p>Start with the risk, not the form name. If the project has structural calculations, new habitable space, fire-safety links, complex drainage or energy details that the builder has not specified, full plans usually gives a clearer paper trail. If the job is genuinely simple and the builder already knows the inspection stages, a building notice may be enough, but it still needs records.</p>
+            <p>Regularisation sits in a different place. It is a conversation about work already done without the right evidence, and it may involve opening up finished work. Treat it as a recovery route, not as a convenient alternative to applying before work starts.</p>
           </section>
           <div class="mini-nav">
             <a class="button" href="/tools/full-plans-vs-building-notice-checker/">Use route checker</a>
@@ -1193,6 +1475,7 @@ def render_standard_page(page: dict, all_pages: list[dict], sources: dict) -> st
                 <li>Plan inspections before work is covered.</li>
                 <li>Save evidence for sale or remortgage.</li>
               </ul>
+              <p class="local-note">Before asking for quotes, write down who owns each part of the evidence trail: application, drawings, calculations, inspections, installer certificates and final completion paperwork.</p>
               <a class="button" href="/tools/building-control-route-checker/">Open route checker</a>
             </aside>
           </div>
@@ -1225,6 +1508,20 @@ def render_tool_page(page: dict, tool: dict, all_pages: list[dict], sources: dic
               </ul>
             </aside>
           </div>
+          <section class="section">
+            <h2>How to use the result</h2>
+            <p>Use the result as a short briefing note, not as a decision to start work. The useful part is the set of next questions: who is applying, who is certifying, what needs drawings or calculations, and what must be inspected before it is hidden by finishes.</p>
+            <p>If the result points to a competent person route, check the installer registration before the work is booked and ask what certificate will be issued. If it points to full plans or building notice, ask building control what they expect to see before the first inspection. If it points to regularisation, gather evidence before asking whether the work can be considered.</p>
+          </section>
+          <section class="section">
+            <h2>Answers that can change the route</h2>
+            <ul class="checklist">
+              <li>A small project can become higher risk if it affects structure, escape routes, flats, fire separation, public sewers or hidden drainage.</li>
+              <li>A self-certification route can fail if the installer is not registered for the exact work being done.</li>
+              <li>A building notice can become uncomfortable where the builder has not priced drawings, calculations, inspections or remedial work.</li>
+              <li>A missing certificate issue is easier to discuss when you have dates, invoices, photos and installer details ready.</li>
+            </ul>
+          </section>
           {related_links(page, all_pages)}
           {source_panel(source_ids, sources)}
         </main>
@@ -1235,12 +1532,14 @@ def render_tool_page(page: dict, tool: dict, all_pages: list[dict], sources: dic
 
 def render_download_page(page: dict, download: dict, all_pages: list[dict], sources: dict) -> str:
     source_ids = download.get("source_ids") or [page.get("primary_source_id", "govuk_building_regs_approval")]
+    use_case = DOWNLOAD_USE_CASES.get(download.get("slug", ""), {})
+    lede = use_case.get("summary") or download.get("summary", page.get("summary", ""))
     body = dedent(
         f"""
         <main>
           {breadcrumbs(page['path'], page['title'])}
           <h1 class="page-title">{escape(page['title'])}</h1>
-          <p class="lede">{escape(download.get('summary', page.get('summary', '')))}</p>
+          <p class="lede">{escape(lede)}</p>
           {download_sheet(download)}
           {related_links(page, all_pages)}
           {source_panel(source_ids, sources)}
@@ -1305,8 +1604,17 @@ def render_homepage(all_pages: list[dict], sources: dict) -> str:
     return base_html(page["title"], page["summary"], "/", body, schema_for(page))
 
 
-def render_index_page(path: str, title: str, description: str, pages: list[dict], family_filter: set[str], sources: dict) -> str:
+def render_index_page(path: str, title: str, description: str, pages: list[dict], family_filter: set[str], sources: dict, prefixes: tuple[str, ...] = ()) -> str:
     selected = [page for page in pages if page["family"] in family_filter]
+    if prefixes:
+        selected = [page for page in selected if page["path"].startswith(prefixes)]
+    section_note = {
+        "/before-you-start/": "Use this section before asking for quotes or agreeing a start date. The goal is to make each builder price the same compliance assumptions: drawings, calculations, inspections, certificates, photos and final handover.",
+        "/evidence/": "Use this section when the project is likely to be inspected, sold, remortgaged or queried later. Evidence pages are less about theory and more about what proves the route, the inspection trail and the final certificate position.",
+        "/inspections/": "Use this section before work is covered up. Inspection-stage evidence is often easiest to collect on the day and hardest to recreate after plasterboard, flooring, concrete or landscaping is finished.",
+        "/compare/": "Use comparisons before choosing a route. They are designed to expose trade-offs between speed, certainty, self-certification, direct building-control involvement and historic missing-record recovery.",
+        "/questions/": "Use these pages for direct homeowner questions, then move into the fuller guide or tool once you know which route is probably relevant.",
+    }.get(path, "Use the section as a workflow: read the closest page, run the matching checker, print or save the evidence sheet, then keep the official source panel with your project notes.")
     card_html = "".join(
         f'<article class="card"><h3><a href="{page["path"]}">{escape(page["title"])}</a></h3><p>{escape(page.get("summary", page.get("meta_description", "")))}</p></article>'
         for page in selected
@@ -1325,6 +1633,9 @@ def render_index_page(path: str, title: str, description: str, pages: list[dict]
             <p>The strongest pages in this section are designed to answer one job at a time: choose a route, prepare an inspection, collect documents, or understand where planning permission sits outside building regulations. Use the cards as a sequence rather than a library. A sensible workflow is to read the most relevant guide, run the matching checker, print or save the evidence sheet, and then keep the official source panel with your project notes.</p>
             <p>If a page points to UKPlanningGuide, treat that as a planning handoff only. Come back here for building-control approval, competent person certificates, Approved Document prompts, completion evidence and inspection records. That separation makes the project file easier to explain to builders, designers, surveyors, conveyancers and building control.</p>
             <p>Comparison pages are especially useful before work starts because they expose trade-offs that are easy to miss in quotes: certainty versus speed, self-certification versus direct building-control involvement, and approval routes versus evidence routes. If a comparison still leaves you unsure, treat that uncertainty as a signal to ask building control earlier, not as a reason to choose the quickest route by default.</p>
+            <p>{escape(section_note)}</p>
+            <p>The section avoids near-duplicate answers. Each card has a distinct job: quote preparation, inspection planning, certificate chasing, route comparison, sale evidence or a clear planning handoff.</p>
+            <p>When two pages seem close, open the one that matches the next real action in your project file. A homeowner who is choosing a route needs different evidence from someone chasing a missing certificate, preparing for a builder quote or trying to answer a buyer's conveyancing question.</p>
           </section>
           <section class="grid">{card_html}</section>
           {source_panel(['govuk_building_regs_approval'], sources)}
@@ -1364,6 +1675,11 @@ def render_about(sources: dict) -> str:
             <p>The practical aim is not to publish the largest possible site on day one. It is to publish a smaller set of pages that answer a real next question, connect to a tool or checklist, and make the official source trail visible.</p>
           </section>
           <section class="section">
+            <h2>Editorial standard</h2>
+            <p>Pages are written around the decisions a homeowner actually has to make: whether approval may be needed, which route to discuss, who is responsible for certificates, what inspection evidence could disappear, and which official source should be re-checked. Pages that only restate a keyword without a practical next action should not be published.</p>
+            <p>Downloads and tools are treated as part of the guidance, not extras. A good page should leave the reader with a sharper project file: named risks, named evidence, named people to ask and a clearer split between planning permission and building regulations.</p>
+          </section>
+          <section class="section">
             <h2>Launch status</h2>
             <p>This starter build is prepared for the domain <strong>{escape(SITE_DOMAIN)}</strong>. Until the domain is purchased and connected, use preview builds for testing and keep production DNS changes separate from content checks.</p>
             <p>Before launch, the site should pass the local validators, load cleanly on a preview URL, and show the same source/version warnings that appear in the generated production output. That gives the domain switch a calmer, more reversible path.</p>
@@ -1400,6 +1716,11 @@ def render_legal(sources: dict) -> str:
             <h2>Jurisdiction and source limits</h2>
             <p>Most launch content is England-first. Wales, Scotland and Northern Ireland use different source material, language and approval routes. Re-check the official source links and version dates before relying on any page.</p>
             <p>Approved Documents are practical guidance on ways to meet building regulations in England. They are not the only possible route to compliance, and version timing can matter. If a page mentions Part F, Part L, fire safety or higher-risk buildings, use the source panel as a prompt to verify the current document before acting.</p>
+          </section>
+          <section class="section">
+            <h2>What to verify before acting</h2>
+            <p>Before work starts, verify the current official source, the project location, the exact scope, who is making any application, who is certifying controlled services, what inspection stages are expected and what final paperwork should be issued. Those checks matter more than a generic yes/no answer.</p>
+            <p>For historic work, verify dates, available records, installer details, photos, invoices and whether local authority regularisation is even the relevant route. Do not assume a missing certificate can always be recreated cleanly after the event.</p>
           </section>
           <section class="section">
             <h2>Higher-risk buildings</h2>
@@ -1545,6 +1866,11 @@ def enrich_pages(data: dict) -> list[dict]:
         if page.get("family") == "approved_document_hub" and not page.get("meta_title"):
             page["meta_title"] = f"{page['title']} guide"
         page.setdefault("meta_title", page["title"])
+        if page.get("family") == "download":
+            use_case = DOWNLOAD_USE_CASES.get(page["slug"])
+            if use_case:
+                page["summary"] = use_case["summary"]
+                page["meta_description"] = use_case["summary"]
         if not page.get("summary") or len(page.get("summary", "")) < 70:
             page["summary"] = long_description(page)
         if not page.get("meta_description") or len(page.get("meta_description", "")) < 70:
@@ -1571,12 +1897,14 @@ def mirror_output_to_root() -> None:
         "about",
         "approved-documents",
         "assets",
+        "before-you-start",
         "building-regulations",
         "compare",
         "dashboard",
         "downloads",
         "evidence",
         "index.html",
+        "inspections",
         "legal",
         "planning-and-building-regulations",
         "projects",
@@ -1625,16 +1953,18 @@ def build() -> dict:
         published.append(page)
 
     extra_pages = [
-        ("/projects/", "Building regulations by project", "Project guides for extensions, lofts, garage conversions, outbuildings, structural work, services, drainage and certificate evidence.", {"project"}),
-        ("/tools/", "Building regulations tools", "Interactive route, certificate, inspection and Approved Document tools.", {"tool"}),
-        ("/downloads/", "Building regulations downloads", "Printable checklists and evidence sheets for homeowner project files.", {"download"}),
-        ("/approved-documents/", "Approved Documents for home projects", "Source-linked England Approved Document starting points for common domestic work.", {"approved_document", "approved_document_hub"}),
-        ("/evidence/", "Building regulations evidence hub", "Documents, certificates and records to keep for building regulations projects, sale and remortgage.", {"evidence"}),
-        ("/compare/", "Building regulations comparisons", "Compare building-control routes, certificate responsibilities and common approval misunderstandings.", {"comparison"}),
-        ("/questions/", "Building regulations questions", "Focused homeowner answers that link back to fuller project guides, tools, downloads and official sources.", {"programmatic_question_page"}),
+        ("/before-you-start/", "Before you start building work", "Pre-quote and pre-start building regulations checks for homeowners before appointing builders, designers or installers.", {"evidence"}, ("/before-you-start/",)),
+        ("/projects/", "Building regulations by project", "Project guides for extensions, lofts, garage conversions, outbuildings, structural work, services, drainage and certificate evidence.", {"project"}, ()),
+        ("/tools/", "Building regulations tools", "Interactive route, certificate, inspection and Approved Document tools.", {"tool"}, ()),
+        ("/downloads/", "Building regulations downloads", "Printable checklists and evidence sheets for homeowner project files.", {"download"}, ()),
+        ("/approved-documents/", "Approved Documents for home projects", "Source-linked England Approved Document starting points for common domestic work.", {"approved_document", "approved_document_hub"}, ()),
+        ("/evidence/", "Building regulations evidence hub", "Documents, certificates and records to keep for building regulations projects, sale and remortgage.", {"evidence"}, ("/evidence/",)),
+        ("/inspections/", "Inspection stage guides", "Inspection-stage guides and evidence prompts for controlled domestic building work.", {"evidence"}, ("/inspections/",)),
+        ("/compare/", "Building regulations comparisons", "Compare building-control routes, certificate responsibilities and common approval misunderstandings.", {"comparison"}, ()),
+        ("/questions/", "Building regulations questions", "Focused homeowner answers that link back to fuller project guides, tools, downloads and official sources.", {"programmatic_question_page"}, ()),
     ]
-    for path, title, description, families in extra_pages:
-        write_page(path, render_index_page(path, title, description, pages, families, data["sources"]))
+    for path, title, description, families, prefixes in extra_pages:
+        write_page(path, render_index_page(path, title, description, pages, families, data["sources"], prefixes))
         published.append({"path": path, "title": title, "summary": description, "family": "hub"})
     write_page("/dashboard/", render_dashboard(data["sources"]))
     published.append({"path": "/dashboard/", "title": "Building regs project dashboard", "summary": "Local-only saved tool result dashboard.", "family": "dashboard"})
@@ -1670,7 +2000,7 @@ def build() -> dict:
         "published_count": len(published),
         "phase_1_count": len(data["phase_1"]),
         "expansion_count": len(EXPANSION_PAGES),
-        "extra_navigation_pages": ["/projects/", "/tools/", "/downloads/", "/approved-documents/", "/evidence/", "/compare/", "/questions/", "/dashboard/", "/search/"],
+        "extra_navigation_pages": ["/before-you-start/", "/projects/", "/tools/", "/downloads/", "/approved-documents/", "/evidence/", "/inspections/", "/compare/", "/questions/", "/dashboard/", "/search/"],
         "draft_noindex_count": 0,
         "blocked": [],
         "notes": [
