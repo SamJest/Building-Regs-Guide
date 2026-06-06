@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-06-05",
+  "generated_at": "2026-06-06",
   "build_env": "production",
   "base_url": "https://buildingregsguide.co.uk",
   "domain": "buildingregsguide.co.uk",
-  "published_count": 78,
+  "published_count": 87,
   "phase_1_count": 70,
+  "expansion_count": 6,
   "extra_navigation_pages": [
     "/projects/",
     "/tools/",
     "/downloads/",
     "/approved-documents/",
+    "/evidence/",
+    "/compare/",
+    "/questions/",
     "/dashboard/",
     "/search/"
   ],

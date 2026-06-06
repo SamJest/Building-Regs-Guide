@@ -420,6 +420,42 @@
     "family": "approved_document_hub"
   },
   {
+    "title": "Planning and building regulations project map",
+    "path": "/planning-and-building-regulations/",
+    "summary": "A bridge between BuildingRegsGuide and UKPlanningGuide showing which project questions belong to planning and which belong to building control.",
+    "family": "guide"
+  },
+  {
+    "title": "Building regulations documents to keep",
+    "path": "/evidence/building-regulations-documents-to-keep/",
+    "summary": "Checklist of building regulations paperwork, inspection records, certificates and project evidence to keep for sale, remortgage and future work.",
+    "family": "evidence"
+  },
+  {
+    "title": "Missing building regulations certificate",
+    "path": "/evidence/missing-building-regulations-certificate/",
+    "summary": "What to gather when a completion certificate, competent person certificate or historic building-control evidence is missing.",
+    "family": "evidence"
+  },
+  {
+    "title": "Full plans, building notice or regularisation?",
+    "path": "/compare/full-plans-building-notice-regularisation/",
+    "summary": "Compare the three common building-control routes, when each may fit, and what evidence the homeowner should keep.",
+    "family": "comparison"
+  },
+  {
+    "title": "Do I need building regulations for a loft conversion?",
+    "path": "/questions/do-i-need-building-regulations-for-loft-conversion/",
+    "summary": "Answer-first loft conversion building regulations guide covering structure, stairs, fire safety, insulation, ventilation, inspections and planning handoffs.",
+    "family": "programmatic_question_page"
+  },
+  {
+    "title": "What documents do I need for extension building regulations?",
+    "path": "/questions/what-documents-do-i-need-for-extension-building-regulations/",
+    "summary": "Extension paperwork checklist covering drawings, calculations, inspections, certificates, drainage records and completion evidence.",
+    "family": "programmatic_question_page"
+  },
+  {
     "title": "Building regulations by project",
     "path": "/projects/",
     "summary": "Project guides for extensions, lofts, garage conversions, outbuildings, structural work, services, drainage and certificate evidence.",
@@ -441,6 +477,24 @@
     "title": "Approved Documents for home projects",
     "path": "/approved-documents/",
     "summary": "Source-linked England Approved Document starting points for common domestic work.",
+    "family": "hub"
+  },
+  {
+    "title": "Building regulations evidence hub",
+    "path": "/evidence/",
+    "summary": "Documents, certificates and records to keep for building regulations projects, sale and remortgage.",
+    "family": "hub"
+  },
+  {
+    "title": "Building regulations comparisons",
+    "path": "/compare/",
+    "summary": "Compare building-control routes, certificate responsibilities and common approval misunderstandings.",
+    "family": "hub"
+  },
+  {
+    "title": "Building regulations questions",
+    "path": "/questions/",
+    "summary": "Focused homeowner answers that link back to fuller project guides, tools, downloads and official sources.",
     "family": "hub"
   },
   {

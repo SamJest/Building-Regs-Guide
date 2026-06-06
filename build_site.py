@@ -138,6 +138,129 @@ APPROVED_DOCUMENT_PROFILES = {
     "approved-document-p-electrical-safety": ("Electrical safety", ["Notifiable work", "Special locations", "Consumer units", "Certificates"]),
 }
 
+SISTER_PROJECT_LINKS = {
+    "extensions": {
+        "url": f"{SISTER_URL}/",
+        "label": "check the planning route first",
+        "note": "Extensions often have a separate planning or permitted development question before building control evidence.",
+    },
+    "loft-conversions": {
+        "url": f"{SISTER_URL}/england/projects/dormer-extensions/",
+        "label": "planning permission may still matter for dormers",
+        "note": "Roof shape, dormers, conservation areas and external changes can make the planning track relevant.",
+    },
+    "outbuildings": {
+        "url": f"{SISTER_URL}/",
+        "label": "check permitted development and planning limits",
+        "note": "Outbuildings can raise planning issues around size, position, use and protected areas before building regs evidence.",
+    },
+    "garden-rooms": {
+        "url": f"{SISTER_URL}/",
+        "label": "check the garden building planning route",
+        "note": "A garden room may be simple for building regs but still planning-sensitive if use, size or location changes.",
+    },
+    "boiler-heating": {
+        "url": f"{SISTER_URL}/",
+        "label": "check planning-sensitive external equipment",
+        "note": "External equipment, flues, heat pumps and protected buildings can need a planning check as well as certification.",
+    },
+    "windows-doors": {
+        "url": f"{SISTER_URL}/",
+        "label": "check planning constraints for visible changes",
+        "note": "Listed buildings, conservation areas and material external changes can sit on the planning side.",
+    },
+}
+
+BRIDGE_CARDS = [
+    {
+        "project": "Extensions",
+        "building": "/projects/extensions-building-regulations/",
+        "planning": f"{SISTER_URL}/",
+        "building_text": "Foundations, structure, insulation, drainage, ventilation, inspections and completion evidence.",
+        "planning_text": "Permitted development limits, neighbour-sensitive design, conservation constraints and local planning context.",
+    },
+    {
+        "project": "Loft conversions and dormers",
+        "building": "/projects/loft-conversion-building-regulations/",
+        "planning": f"{SISTER_URL}/england/projects/dormer-extensions/",
+        "building_text": "Stairs, structure, fire safety, insulation, ventilation, smoke alarms and completion paperwork.",
+        "planning_text": "Dormers, roof extensions, front roof slopes, conservation areas and external appearance.",
+    },
+    {
+        "project": "Outbuildings and garden rooms",
+        "building": "/projects/garden-room-building-regulations/",
+        "planning": f"{SISTER_URL}/",
+        "building_text": "Exemption checks, electrics, heating, drainage, fire spread and evidence before services are covered.",
+        "planning_text": "Size, position, incidental use, sleeping use, boundaries and protected-area planning limits.",
+    },
+    {
+        "project": "Driveways, drainage and access",
+        "building": "/projects/drainage-waste-building-regulations/",
+        "planning": f"{SISTER_URL}/england/projects/driveways/",
+        "building_text": "Drainage layout, waste connections, inspection chambers, soakaways and building-control inspection records.",
+        "planning_text": "Permeable surfacing, highway access, dropped kerbs and local planning constraints.",
+    },
+]
+
+EXPANSION_PAGES = [
+    {
+        "path": "/planning-and-building-regulations/",
+        "title": "Planning and building regulations project map",
+        "summary": "A bridge between BuildingRegsGuide and UKPlanningGuide showing which project questions belong to planning and which belong to building control.",
+        "family": "guide",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "bridge",
+    },
+    {
+        "path": "/evidence/building-regulations-documents-to-keep/",
+        "title": "Building regulations documents to keep",
+        "summary": "Checklist of building regulations paperwork, inspection records, certificates and project evidence to keep for sale, remortgage and future work.",
+        "family": "evidence",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "evidence",
+        "documents": ["Application reference or initial notice", "Approved plans or building notice acknowledgement", "Structural calculations and drawings", "Inspection records and dated site photos", "Competent person certificates", "Completion certificate or final acceptance", "Product data, commissioning records and warranties"],
+        "download": "/downloads/sale-remortgage-proof-folder/",
+    },
+    {
+        "path": "/evidence/missing-building-regulations-certificate/",
+        "title": "Missing building regulations certificate",
+        "summary": "What to gather when a completion certificate, competent person certificate or historic building-control evidence is missing.",
+        "family": "evidence",
+        "primary_source_id": "govuk_how_to_apply",
+        "kind": "evidence",
+        "documents": ["Project dates and address", "Builder/designer/installer invoices", "Photos showing hidden work if available", "Electrical, heating or glazing certificates", "Planning decision or lawful development certificate if relevant", "Surveyor notes and conveyancing queries", "Building control correspondence"],
+        "download": "/downloads/regularisation-evidence-pack/",
+    },
+    {
+        "path": "/compare/full-plans-building-notice-regularisation/",
+        "title": "Full plans, building notice or regularisation?",
+        "summary": "Compare the three common building-control routes, when each may fit, and what evidence the homeowner should keep.",
+        "family": "comparison",
+        "primary_source_id": "govuk_how_to_apply",
+        "kind": "comparison",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-loft-conversion/",
+        "title": "Do I need building regulations for a loft conversion?",
+        "summary": "Answer-first loft conversion building regulations guide covering structure, stairs, fire safety, insulation, ventilation, inspections and planning handoffs.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "question",
+        "parent": "/projects/loft-conversion-building-regulations/",
+        "project_slug": "loft-conversions",
+    },
+    {
+        "path": "/questions/what-documents-do-i-need-for-extension-building-regulations/",
+        "title": "What documents do I need for extension building regulations?",
+        "summary": "Extension paperwork checklist covering drawings, calculations, inspections, certificates, drainage records and completion evidence.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "question",
+        "parent": "/projects/extensions-building-regulations/",
+        "project_slug": "extensions",
+    },
+]
+
 
 def read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
@@ -170,7 +293,7 @@ def long_description(page: dict) -> str:
             f"Source-linked homeowner guide to {title}, explaining how the Approved Document may affect common "
             "domestic projects, evidence, inspections and version checks in England."
         )
-    if family == "project":
+    if family in {"project", "programmatic_question_page"}:
         return (
             f"England-first homeowner guide to {title.lower()}, covering likely building-control routes, "
             "drawings, inspections, certificates, evidence and planning handoffs."
@@ -269,7 +392,7 @@ def write_static_assets() -> None:
         dedent(
             """
             :root{--ink:#17202a;--muted:#59636d;--line:#d9dedb;--paper:#fbfaf6;--soft:#eef3ef;--navy:#17324d;--teal:#2f6f73;--green:#4d7d55;--gold:#d7a441;--red:#9b3d36}
-            *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.58}a{color:#195f66;text-underline-offset:3px}a:hover{color:#0d3d42}.site-header{position:sticky;top:0;z-index:3;background:rgba(251,250,246,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:1180px;margin:0 auto;padding:14px 20px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);text-decoration:none}.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:6px;background:var(--navy);color:#fff}.nav-links{display:flex;gap:14px;flex-wrap:wrap}.nav-links a{font-size:14px;color:var(--ink);text-decoration:none}.nav-links a:hover{text-decoration:underline}.hero{min-height:74vh;background:linear-gradient(90deg,rgba(15,31,45,.82),rgba(15,31,45,.55),rgba(15,31,45,.18)),url('/assets/images/building-control-hero.png') center/cover;display:flex;align-items:end;color:#fff}.hero-inner{width:min(1180px,100%);padding:68px 20px 56px;margin:0 auto}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:0;font-weight:700;color:#e9d18f}.hero h1{font-size:clamp(38px,7vw,74px);line-height:1.02;max-width:880px;margin:10px 0 16px}.hero p{font-size:20px;max-width:760px;margin:0 0 26px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:10px 15px;border-radius:7px;border:1px solid var(--navy);background:var(--navy);color:#fff;text-decoration:none;font-weight:700}.button.secondary{background:#fff;color:var(--navy);border-color:#fff}.button.ghost{background:transparent;color:var(--navy);border-color:var(--line)}main{max-width:1180px;margin:0 auto;padding:28px 20px 64px}.band{padding:34px 0;border-bottom:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;min-height:100%}.card h3{font-size:19px;margin:0 0 8px}.card p{color:var(--muted);margin:0 0 12px}.split{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.75fr);gap:24px;align-items:start}.panel{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px}.warning{border-left:5px solid var(--gold);background:#fff8df;padding:14px 16px;margin:18px 0}.stop{border-left-color:var(--red);background:#fff0ee}.source-panel{background:#edf4f1;border:1px solid #cadbd4;border-radius:8px;padding:18px;margin-top:28px}.source-panel ul{padding-left:20px}.breadcrumbs{font-size:14px;color:var(--muted);margin-bottom:18px}.page-title{font-size:42px;line-height:1.08;margin:0 0 12px;color:var(--navy)}.lede{font-size:19px;color:#31404a;max-width:850px}.section h2{font-size:26px;margin:30px 0 10px;color:#203648}.checklist li{margin-bottom:8px}.tag{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:4px 10px;background:var(--soft);font-size:13px}.tool-form{display:grid;gap:14px}.field label{display:block;font-weight:700;margin-bottom:5px}.field select,.field input{width:100%;min-height:42px;border:1px solid #bac3c2;border-radius:6px;padding:8px 10px;background:#fff;color:var(--ink)}.result{display:none;margin-top:18px;border:1px solid #b6cbc2;background:#f2f8f5;border-radius:8px;padding:18px}.result.show{display:block}.download-sheet{background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px}.blank-line{border-bottom:1px solid #7d878a;min-height:30px;margin:6px 0 16px}.site-footer{border-top:1px solid var(--line);padding:26px 20px;color:var(--muted);background:#fff}.footer-inner{max-width:1180px;margin:0 auto;display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}.search-box{display:flex;gap:8px}.search-box input{flex:1;min-height:42px;border:1px solid #bac3c2;border-radius:6px;padding:8px 10px}.local-note{font-size:14px;color:var(--muted)}.faq-item{border-top:1px solid var(--line);padding:12px 0}.faq-item summary{font-weight:700;cursor:pointer}.table-wrap{overflow-x:auto;margin:16px 0}.evidence-table{width:100%;border-collapse:collapse;background:#fff}.evidence-table th,.evidence-table td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}.evidence-table th{background:var(--soft)}.printable-content h2:first-child{margin-top:18px}.dashboard-actions{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.form-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.mini-input{width:100%;min-height:40px;border:1px solid #bac3c2;border-radius:6px;padding:8px;background:#fff}@media(max-width:760px){.split{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.hero{min-height:68vh}.page-title{font-size:34px}.hero p{font-size:18px}.search-box,.dashboard-actions{flex-direction:column}}@media print{.site-header,.site-footer,.hero-actions,.button,.nav-links{display:none!important}body{background:#fff;color:#000}main{max-width:none;padding:0}.panel,.card,.download-sheet,.source-panel{border-color:#777;break-inside:avoid}.page-title{font-size:28px}.band{padding:16px 0}.source-panel{background:#fff}}
+            *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.58}a{color:#195f66;text-underline-offset:3px}a:hover{color:#0d3d42}.site-header{position:sticky;top:0;z-index:3;background:rgba(251,250,246,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:1180px;margin:0 auto;padding:14px 20px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);text-decoration:none}.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:6px;background:var(--navy);color:#fff}.nav-links{display:flex;gap:14px;flex-wrap:wrap}.nav-links a{font-size:14px;color:var(--ink);text-decoration:none}.nav-links a:hover{text-decoration:underline}.hero{min-height:74vh;background:linear-gradient(90deg,rgba(15,31,45,.82),rgba(15,31,45,.55),rgba(15,31,45,.18)),url('/assets/images/building-control-hero.png') center/cover;display:flex;align-items:end;color:#fff}.hero-inner{width:min(1180px,100%);padding:68px 20px 56px;margin:0 auto}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:0;font-weight:700;color:#e9d18f}.hero h1{font-size:clamp(38px,7vw,74px);line-height:1.02;max-width:880px;margin:10px 0 16px}.hero p{font-size:20px;max-width:760px;margin:0 0 26px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:10px 15px;border-radius:7px;border:1px solid var(--navy);background:var(--navy);color:#fff;text-decoration:none;font-weight:700}.button.secondary{background:#fff;color:var(--navy);border-color:#fff}.button.ghost{background:transparent;color:var(--navy);border-color:var(--line)}main{max-width:1180px;margin:0 auto;padding:28px 20px 64px}.band{padding:34px 0;border-bottom:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;min-height:100%}.card h3{font-size:19px;margin:0 0 8px}.card p{color:var(--muted);margin:0 0 12px}.split{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.75fr);gap:24px;align-items:start}.panel{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px}.warning{border-left:5px solid var(--gold);background:#fff8df;padding:14px 16px;margin:18px 0}.stop{border-left-color:var(--red);background:#fff0ee}.source-panel{background:#edf4f1;border:1px solid #cadbd4;border-radius:8px;padding:18px;margin-top:28px}.source-panel ul{padding-left:20px}.breadcrumbs{font-size:14px;color:var(--muted);margin-bottom:18px}.page-title{font-size:42px;line-height:1.08;margin:0 0 12px;color:var(--navy)}.lede{font-size:19px;color:#31404a;max-width:850px}.section h2{font-size:26px;margin:30px 0 10px;color:#203648}.checklist li{margin-bottom:8px}.tag{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:4px 10px;background:var(--soft);font-size:13px}.tool-form{display:grid;gap:14px}.field label{display:block;font-weight:700;margin-bottom:5px}.field select,.field input{width:100%;min-height:42px;border:1px solid #bac3c2;border-radius:6px;padding:8px 10px;background:#fff;color:var(--ink)}.result{display:none;margin-top:18px;border:1px solid #b6cbc2;background:#f2f8f5;border-radius:8px;padding:18px}.result.show{display:block}.download-sheet{background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px}.blank-line{border-bottom:1px solid #7d878a;min-height:30px;margin:6px 0 16px}.site-footer{border-top:1px solid var(--line);padding:26px 20px;color:var(--muted);background:#fff}.footer-inner{max-width:1180px;margin:0 auto;display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}.search-box{display:flex;gap:8px}.search-box input{flex:1;min-height:42px;border:1px solid #bac3c2;border-radius:6px;padding:8px 10px}.local-note{font-size:14px;color:var(--muted)}.faq-item{border-top:1px solid var(--line);padding:12px 0}.faq-item summary{font-weight:700;cursor:pointer}.table-wrap{overflow-x:auto;margin:16px 0}.evidence-table{width:100%;border-collapse:collapse;background:#fff}.evidence-table th,.evidence-table td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}.evidence-table th{background:var(--soft)}.printable-content h2:first-child{margin-top:18px}.dashboard-actions{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.form-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.mini-input{width:100%;min-height:40px;border:1px solid #bac3c2;border-radius:6px;padding:8px;background:#fff}.handoff{background:#f4f8f7;border:1px solid #c9deda;border-radius:8px;padding:18px;margin:22px 0}.handoff h2{margin-top:0}.handoff-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}.handoff-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px}.route-table{width:100%;border-collapse:collapse;background:#fff}.route-table th,.route-table td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}.route-table th{background:var(--soft)}.mini-nav{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}.metric{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px}.metric strong{display:block;font-size:24px;color:var(--navy)}@media(max-width:760px){.split{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.hero{min-height:68vh}.page-title{font-size:34px}.hero p{font-size:18px}.search-box,.dashboard-actions{flex-direction:column}}@media print{.site-header,.site-footer,.hero-actions,.button,.nav-links{display:none!important}body{background:#fff;color:#000}main{max-width:none;padding:0}.panel,.card,.download-sheet,.source-panel{border-color:#777;break-inside:avoid}.page-title{font-size:28px}.band{padding:16px 0}.source-panel{background:#fff}}
             """
         ).strip(),
         encoding="utf-8",
@@ -411,6 +534,7 @@ def nav_html() -> str:
     links = [
         ("/building-regulations/", "Guides"),
         ("/projects/extensions-building-regulations/", "Projects"),
+        ("/planning-and-building-regulations/", "Planning map"),
         ("/approved-documents/", "Approved Documents"),
         ("/tools/building-control-route-checker/", "Tools"),
         ("/downloads/extension-building-regulations-checklist/", "Downloads"),
@@ -450,7 +574,7 @@ def base_html(title: str, description: str, path: str, body: str, schema: dict |
             <div class="footer-inner">
               <p>BuildingRegsGuide is an independent, source-linked guide for homeowners. It does not grant building regulations approval.</p>
               <p><a href="/about/">About</a> / <a href="/legal/">Legal and safety</a></p>
-              <p><a href="{SISTER_URL}/">UKPlanningGuide</a> covers planning permission and permitted development.</p>
+              <p><a href="/planning-and-building-regulations/">Planning and building regs project map</a></p>
             </div>
           </footer>
           <script src="/assets/js/site.js"></script>
@@ -499,7 +623,7 @@ def schema_for(page: dict) -> dict | list[dict]:
         kind = "SoftwareApplication"
     elif page["family"] == "download":
         kind = "DigitalDocument"
-    elif page["family"] in {"guide", "approval_route", "project", "approved_document"}:
+    elif page["family"] in {"guide", "approval_route", "project", "approved_document", "evidence", "comparison", "programmatic_question_page"}:
         kind = "Article"
     main = {
         "@context": "https://schema.org",
@@ -562,13 +686,36 @@ def source_panel(source_ids: list[str], sources: dict) -> str:
     )
 
 
+def sister_handoff(page: dict) -> str:
+    slug = page.get("slug", slug_from_path(page.get("path", "")))
+    handoff = SISTER_PROJECT_LINKS.get(slug)
+    if not handoff and page.get("needs_cross_site_handoff"):
+        handoff = {
+            "url": SISTER_URL + "/",
+            "label": "check the planning permission side",
+            "note": "Use this only for the planning permission, permitted development, prior approval or lawful development question.",
+        }
+    if not handoff:
+        return ""
+    return dedent(
+        f"""
+        <aside class="handoff" aria-label="Planning handoff">
+          <h2>Planning side of this project</h2>
+          <p>{escape(handoff['note'])}</p>
+          <p><a href="{escape(handoff['url'])}">{escape(handoff['label'])}</a> on UKPlanningGuide, then return here for building-control routes, inspections, certificates and evidence.</p>
+        </aside>
+        """
+    )
+
+
 def related_links(page: dict, all_pages: list[dict]) -> str:
     candidates = []
     preferred = [
         "/tools/building-control-route-checker/",
         "/tools/full-plans-vs-building-notice-checker/",
         "/building-regulations/completion-certificate/",
-        "/downloads/before-you-start-building-regs-checklist/",
+        "/evidence/building-regulations-documents-to-keep/",
+        "/planning-and-building-regulations/",
         "/building-regulations/planning-permission-vs-building-regulations/",
     ]
     by_path = {item["path"]: item for item in all_pages}
@@ -663,6 +810,7 @@ def page_sections(page: dict) -> str:
           <p>{escape(profile['answer'])}</p>
           <div class="{warning_class}">{escape(warning_text)}</div>
           {planning_handoff}
+          {sister_handoff(page)}
         </section>
         <section class="section">
           <h2>What usually triggers extra checks</h2>
@@ -840,6 +988,191 @@ def download_sheet(download: dict) -> str:
     )
 
 
+def render_bridge_page(page: dict, all_pages: list[dict], sources: dict) -> str:
+    cards = "".join(
+        f"""
+        <article class="handoff-card">
+          <h3>{escape(card['project'])}</h3>
+          <p><strong>Building regs:</strong> {escape(card['building_text'])}</p>
+          <p><a href="{escape(card['building'])}">Building-control evidence to keep</a></p>
+          <p><strong>Planning:</strong> {escape(card['planning_text'])}</p>
+          <p><a href="{escape(card['planning'])}">Check the planning route first</a></p>
+        </article>
+        """
+        for card in BRIDGE_CARDS
+    )
+    body = dedent(
+        f"""
+        <main>
+          {breadcrumbs(page['path'], page['title'])}
+          <h1 class="page-title">{escape(page['title'])}</h1>
+          <p class="lede">{escape(page['summary'])}</p>
+          <section class="section">
+            <h2>Use the two sites together</h2>
+            <p>Planning permission asks whether the development is allowed in planning terms. Building regulations ask whether the work is designed, built, inspected and evidenced properly. A project can need one, both or neither, so keep the decisions separate in your project file.</p>
+            <div class="metric-grid">
+              <div class="metric"><strong>1</strong>Planning route</div>
+              <div class="metric"><strong>2</strong>Building-control route</div>
+              <div class="metric"><strong>3</strong>Evidence and certificates</div>
+            </div>
+          </section>
+          <section class="section">
+            <h2>Project handoff map</h2>
+            <div class="handoff-grid">{cards}</div>
+          </section>
+          <section class="section">
+            <h2>Do not mix up these decisions</h2>
+            <div class="table-wrap">
+              <table class="route-table">
+                <tr><th>Question</th><th>Use UKPlanningGuide for</th><th>Use BuildingRegsGuide for</th></tr>
+                <tr><td>Can I build it?</td><td>Planning permission, permitted development, prior approval, local planning policy.</td><td>Not the main source, except to understand that building regs may still apply.</td></tr>
+                <tr><td>How must it be built?</td><td>Only where design constraints affect planning.</td><td>Approved Documents, full plans, building notice, inspections, competent person schemes.</td></tr>
+                <tr><td>What proof should I keep?</td><td>Planning decisions, lawful development certificates and appeal/condition records.</td><td>Drawings, calculations, inspections, completion certificates and installer certificates.</td></tr>
+              </table>
+            </div>
+          </section>
+          {related_links(page, all_pages)}
+          {source_panel(['govuk_building_regs_approval'], sources)}
+        </main>
+        """
+    )
+    return base_html(page["title"], page["summary"], page["path"], body, schema_for(page))
+
+
+def render_evidence_page(page: dict, all_pages: list[dict], sources: dict) -> str:
+    items = "".join(f"<li>{escape(item)}</li>" for item in page.get("documents", []))
+    body = dedent(
+        f"""
+        <main>
+          {breadcrumbs(page['path'], page['title'])}
+          <h1 class="page-title">{escape(page['title'])}</h1>
+          <p class="lede">{escape(page['summary'])}</p>
+          <section class="section">
+            <h2>Short answer</h2>
+            <p>Keep a project file that proves what route was chosen, what was inspected, who certified controlled services, and what evidence was available before work was covered up. Missing records can become a sale, remortgage or future-alteration problem.</p>
+          </section>
+          <section class="section">
+            <h2>Documents and evidence to keep</h2>
+            <ul class="checklist">{items}</ul>
+          </section>
+          <section class="section">
+            <h2>When to ask before relying on old paperwork</h2>
+            <p>Ask building control, your conveyancer or a competent professional where work is historic, certificates are missing, the work affects structure or fire safety, or the only evidence is a builder's verbal assurance.</p>
+          </section>
+          <section class="section">
+            <h2>Next action</h2>
+            <p>Use the printable checklist and local dashboard to keep the evidence trail together.</p>
+            <div class="mini-nav">
+              <a class="button" href="{escape(page.get('download', '/downloads/'))}">Open related download</a>
+              <a class="button ghost" href="/dashboard/">Open local dashboard</a>
+              <a class="button ghost" href="/tools/completion-certificate-readiness-checker/">Check completion readiness</a>
+            </div>
+          </section>
+          {related_links(page, all_pages)}
+          {source_panel([page.get('primary_source_id', 'govuk_building_regs_approval'), 'govuk_use_competent_person'], sources)}
+        </main>
+        """
+    )
+    return base_html(page["title"], page["summary"], page["path"], body, schema_for(page))
+
+
+def render_comparison_page(page: dict, all_pages: list[dict], sources: dict) -> str:
+    body = dedent(
+        f"""
+        <main>
+          {breadcrumbs(page['path'], page['title'])}
+          <h1 class="page-title">{escape(page['title'])}</h1>
+          <p class="lede">{escape(page['summary'])}</p>
+          <section class="section">
+            <h2>Plain answer</h2>
+            <p>Use full plans when design certainty matters before work starts. A building notice may suit simpler domestic work where details are already settled. Regularisation is for certain completed unauthorised work and can require opening up work; it is not a tidy substitute for applying before work starts.</p>
+          </section>
+          <section class="section">
+            <h2>Route comparison</h2>
+            <div class="table-wrap">
+              <table class="route-table">
+                <tr><th>Route</th><th>Best fit</th><th>Main risk</th><th>Evidence to keep</th></tr>
+                <tr><td>Full plans</td><td>Extensions, lofts, structural work, complex drainage, linked fire/energy details.</td><td>More preparation before work starts, but fewer unresolved site surprises.</td><td>Approved plans, calculations, specification, inspection records, completion certificate.</td></tr>
+                <tr><td>Building notice</td><td>Clear, straightforward domestic work with competent builders and simple details.</td><td>Problems can surface on site after money is committed.</td><td>Notice acknowledgement, inspection notes, photos, certificates, completion record.</td></tr>
+                <tr><td>Regularisation</td><td>Older completed work where approval evidence is missing and the local authority route is available.</td><td>May need opening up; approval is not guaranteed.</td><td>Photos, invoices, drawings, certificates, survey notes, local authority correspondence.</td></tr>
+              </table>
+            </div>
+          </section>
+          <section class="section">
+            <h2>Common mistakes</h2>
+            <ul class="checklist">
+              <li>Choosing building notice to avoid preparing structural or energy details.</li>
+              <li>Starting work before inspection stages are agreed.</li>
+              <li>Assuming planning permission removes the building regulations duty.</li>
+              <li>Leaving completion certificate and competent person certificate checks until sale.</li>
+            </ul>
+          </section>
+          <div class="mini-nav">
+            <a class="button" href="/tools/full-plans-vs-building-notice-checker/">Use route checker</a>
+            <a class="button ghost" href="/downloads/building-notice-vs-full-plans-worksheet/">Print worksheet</a>
+          </div>
+          {related_links(page, all_pages)}
+          {source_panel(['govuk_how_to_apply', 'planning_portal_building_notice'], sources)}
+        </main>
+        """
+    )
+    return base_html(page["title"], page["summary"], page["path"], body, schema_for(page))
+
+
+def render_question_page(page: dict, all_pages: list[dict], sources: dict) -> str:
+    project_page = next((item for item in all_pages if item["path"] == page.get("parent")), None)
+    profile = profile_for({"slug": page.get("project_slug", ""), "title": page["title"], "summary": page["summary"]})
+    parent_link = project_page["path"] if project_page else "/projects/"
+    parent_title = project_page["title"] if project_page else "project guide"
+    body = dedent(
+        f"""
+        <main>
+          {breadcrumbs(page['path'], page['title'])}
+          <h1 class="page-title">{escape(page['title'])}</h1>
+          <p class="lede">{escape(page['summary'])}</p>
+          <section class="section">
+            <h2>Short answer</h2>
+            <p>{escape(profile['answer'])}</p>
+            {sister_handoff({'slug': page.get('project_slug', ''), 'needs_cross_site_handoff': True})}
+          </section>
+          <section class="section">
+            <h2>What changes the answer</h2>
+            <ul class="checklist">{list_html(profile['triggers'])}</ul>
+          </section>
+          <section class="section">
+            <h2>Safer next step</h2>
+            <p>{escape(profile['route'])}</p>
+            <div class="mini-nav">
+              <a class="button" href="{escape(parent_link)}">Open {escape(parent_title)}</a>
+              <a class="button ghost" href="/tools/building-control-route-checker/">Use route checker</a>
+              <a class="button ghost" href="/evidence/building-regulations-documents-to-keep/">Evidence to keep</a>
+            </div>
+          </section>
+          <section class="section">
+            <h2>Evidence checklist</h2>
+            <ul class="checklist">{list_html(profile['evidence'])}</ul>
+          </section>
+          {faq_section({'family': 'project', 'title': page['title']})}
+          {related_links(page, all_pages)}
+          {source_panel(['govuk_building_regs_approval', 'govuk_how_to_apply'], sources)}
+        </main>
+        """
+    )
+    return base_html(page["title"], page["summary"], page["path"], body, schema_for(page))
+
+
+def render_expansion_page(page: dict, all_pages: list[dict], sources: dict) -> str:
+    if page["kind"] == "bridge":
+        return render_bridge_page(page, all_pages, sources)
+    if page["kind"] == "evidence":
+        return render_evidence_page(page, all_pages, sources)
+    if page["kind"] == "comparison":
+        return render_comparison_page(page, all_pages, sources)
+    if page["kind"] == "question":
+        return render_question_page(page, all_pages, sources)
+    return render_standard_page(page, all_pages, sources)
+
+
 def render_standard_page(page: dict, all_pages: list[dict], sources: dict) -> str:
     source_ids = [page.get("primary_source_id", "govuk_building_regs_approval")]
     body = dedent(
@@ -923,6 +1256,8 @@ def render_homepage(all_pages: list[dict], sources: dict) -> str:
         ("/building-regulations/full-plans-vs-building-notice/", "Choose an application route", "Compare full plans, building notice and risk."),
         ("/building-regulations/competent-person-schemes/", "Check certificates", "Know when a registered installer can self-certify."),
         ("/tools/building-control-route-checker/", "Use the route checker", "Get a source-linked next-step prompt."),
+        ("/planning-and-building-regulations/", "Separate planning from building regs", "Use the sister-site map for the planning handoff."),
+        ("/evidence/building-regulations-documents-to-keep/", "Keep the right evidence", "Documents and certificates to save before work is hidden."),
     ]
     card_html = "".join(f'<article class="card"><h3><a href="{href}">{title}</a></h3><p>{text}</p></article>' for href, title, text in cards)
     project_cards = "".join(
@@ -940,6 +1275,7 @@ def render_homepage(all_pages: list[dict], sources: dict) -> str:
             <div class="hero-actions">
               <a class="button secondary" href="/tools/building-control-route-checker/">Start route checker</a>
               <a class="button ghost" href="/building-regulations/planning-permission-vs-building-regulations/">Planning vs building regs</a>
+              <a class="button ghost" href="/planning-and-building-regulations/">Project map</a>
             </div>
           </div>
         </section>
@@ -953,6 +1289,13 @@ def render_homepage(all_pages: list[dict], sources: dict) -> str:
             </div>
           </section>
           <section class="band"><div class="grid">{card_html}</div></section>
+          <section class="band">
+            <h2>Use the sister sites together</h2>
+            <div class="handoff-grid">
+              <article class="handoff-card"><h3>Planning permission</h3><p>Use UKPlanningGuide for permitted development, prior approval, local planning policy and whether the development is allowed.</p><p><a href="{SISTER_URL}/">Open UKPlanningGuide</a></p></article>
+              <article class="handoff-card"><h3>Building regulations</h3><p>Use this site for building-control routes, inspections, Approved Documents, certificates and evidence to keep.</p><p><a href="/planning-and-building-regulations/">See the project map</a></p></article>
+            </div>
+          </section>
           <section class="band"><h2>Project starting points</h2><div class="grid">{project_cards}</div></section>
           {source_panel(['govuk_building_regs_approval', 'govuk_competent_person_scheme', 'govuk_approved_documents_collection'], sources)}
         </main>
@@ -979,6 +1322,9 @@ def render_index_page(path: str, title: str, description: str, pages: list[dict]
             <p>Start with the page closest to your project, then use the linked tool or printable checklist to turn the guidance into questions for your building control body, designer, builder or registered installer.</p>
             <p>Every published page keeps planning permission separate from building regulations approval and links back to official sources so you can re-check the current version before relying on it.</p>
             <p>For a cleaner project file, save the likely route, record who is responsible for each certificate, and keep dated evidence before important work is covered up. If the work includes structure, fire safety, drainage, ventilation, electrics, heating or missing historic paperwork, confirm the route before committing money.</p>
+            <p>The strongest pages in this section are designed to answer one job at a time: choose a route, prepare an inspection, collect documents, or understand where planning permission sits outside building regulations. Use the cards as a sequence rather than a library. A sensible workflow is to read the most relevant guide, run the matching checker, print or save the evidence sheet, and then keep the official source panel with your project notes.</p>
+            <p>If a page points to UKPlanningGuide, treat that as a planning handoff only. Come back here for building-control approval, competent person certificates, Approved Document prompts, completion evidence and inspection records. That separation makes the project file easier to explain to builders, designers, surveyors, conveyancers and building control.</p>
+            <p>Comparison pages are especially useful before work starts because they expose trade-offs that are easy to miss in quotes: certainty versus speed, self-certification versus direct building-control involvement, and approval routes versus evidence routes. If a comparison still leaves you unsure, treat that uncertainty as a signal to ask building control earlier, not as a reason to choose the quickest route by default.</p>
           </section>
           <section class="grid">{card_html}</section>
           {source_panel(['govuk_building_regs_approval'], sources)}
@@ -1205,7 +1551,56 @@ def enrich_pages(data: dict) -> list[dict]:
             page["meta_description"] = long_description(page)
         page.setdefault("primary_source_id", candidate.get("primary_source_id", "govuk_building_regs_approval"))
         pages.append(page)
+    for extra in EXPANSION_PAGES:
+        page = {**extra}
+        page.setdefault("slug", slug_from_path(page["path"]))
+        page.setdefault("meta_title", page["title"])
+        page.setdefault("meta_description", page["summary"])
+        page.setdefault("primary_source_id", "govuk_building_regs_approval")
+        pages.append(page)
     return pages
+
+
+def mirror_output_to_root() -> None:
+    mirror_paths = [
+        ".nojekyll",
+        "404.html",
+        "BUILD_REPORT.json",
+        "BUILD_REPORT.md",
+        "CNAME",
+        "about",
+        "approved-documents",
+        "assets",
+        "building-regulations",
+        "compare",
+        "dashboard",
+        "downloads",
+        "evidence",
+        "index.html",
+        "legal",
+        "planning-and-building-regulations",
+        "projects",
+        "robots.txt",
+        "search",
+        "search-index.json",
+        "sitemap.xml",
+        "tools",
+        "questions",
+    ]
+    for relative in mirror_paths:
+        source = OUTPUT / relative
+        target = ROOT / relative
+        if not source.exists():
+            continue
+        if target.exists():
+            if target.is_dir():
+                shutil.rmtree(target)
+            else:
+                target.unlink()
+        if source.is_dir():
+            shutil.copytree(source, target)
+        else:
+            shutil.copy2(source, target)
 
 
 def build() -> dict:
@@ -1218,6 +1613,8 @@ def build() -> dict:
     for page in pages:
         if page["path"] == "/":
             html_text = render_homepage(pages, data["sources"])
+        elif page.get("kind") in {"bridge", "evidence", "comparison", "question"}:
+            html_text = render_expansion_page(page, pages, data["sources"])
         elif page["family"] == "tool":
             html_text = render_tool_page(page, data["tool_by_path"].get(page["path"], {}), pages, data["sources"])
         elif page["family"] == "download":
@@ -1232,6 +1629,9 @@ def build() -> dict:
         ("/tools/", "Building regulations tools", "Interactive route, certificate, inspection and Approved Document tools.", {"tool"}),
         ("/downloads/", "Building regulations downloads", "Printable checklists and evidence sheets for homeowner project files.", {"download"}),
         ("/approved-documents/", "Approved Documents for home projects", "Source-linked England Approved Document starting points for common domestic work.", {"approved_document", "approved_document_hub"}),
+        ("/evidence/", "Building regulations evidence hub", "Documents, certificates and records to keep for building regulations projects, sale and remortgage.", {"evidence"}),
+        ("/compare/", "Building regulations comparisons", "Compare building-control routes, certificate responsibilities and common approval misunderstandings.", {"comparison"}),
+        ("/questions/", "Building regulations questions", "Focused homeowner answers that link back to fuller project guides, tools, downloads and official sources.", {"programmatic_question_page"}),
     ]
     for path, title, description, families in extra_pages:
         write_page(path, render_index_page(path, title, description, pages, families, data["sources"]))
@@ -1268,8 +1668,9 @@ def build() -> dict:
         "base_url": BASE_URL,
         "domain": SITE_DOMAIN,
         "published_count": len(published),
-        "phase_1_count": len(pages),
-        "extra_navigation_pages": ["/projects/", "/tools/", "/downloads/", "/approved-documents/", "/dashboard/", "/search/"],
+        "phase_1_count": len(data["phase_1"]),
+        "expansion_count": len(EXPANSION_PAGES),
+        "extra_navigation_pages": ["/projects/", "/tools/", "/downloads/", "/approved-documents/", "/evidence/", "/compare/", "/questions/", "/dashboard/", "/search/"],
         "draft_noindex_count": 0,
         "blocked": [],
         "notes": [
@@ -1284,7 +1685,8 @@ def build() -> dict:
         "# BuildingRegsGuide starter build report\n\n"
         f"- Generated: {TODAY}\n"
         f"- Published pages: {len(published)}\n"
-        f"- Phase 1 routes: {len(pages)}\n"
+        f"- Phase 1 routes: {len(data['phase_1'])}\n"
+        f"- Focused expansion pages: {len(EXPANSION_PAGES)}\n"
         "- Draft/noindex pages: 0\n"
         "- Blocked pages: none in this starter pass\n"
         f"- Build environment: {BUILD_ENV}\n"
@@ -1293,6 +1695,7 @@ def build() -> dict:
         "- Included: generated pages, tools, downloads, sitemap, robots, search index, schema, source panels, print CSS, 404 page, legal page and local-only dashboard.\n",
         encoding="utf-8",
     )
+    mirror_output_to_root()
     return report
 
 
