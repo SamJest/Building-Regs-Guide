@@ -764,6 +764,15 @@ def base_html(title: str, description: str, path: str, body: str, schema: dict |
           {robots}
           <link rel="canonical" href="{escape(canonical)}">
           <link rel="stylesheet" href="/assets/site.css">
+          <!-- Google tag (gtag.js) -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2658Z4PKE"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){{dataLayer.push(arguments);}}
+            gtag('js', new Date());
+
+            gtag('config', 'G-C2658Z4PKE');
+          </script>
           {schema_html}
         </head>
         <body>

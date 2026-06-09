@@ -1,6 +1,6 @@
 # BuildingRegsGuide starter build report
 
-- Generated: 2026-06-06
+- Generated: 2026-06-09
 - Published pages: 96
 - Phase 1 routes: 70
 - Focused expansion pages: 13
