@@ -57,6 +57,13 @@ DOWNLOAD_MARKDOWN_MAP = {
     "garden-room-building-regs-checklist": "garden-room-building-regs-risk-checklist.md",
     "load-bearing-wall-removal-checklist": "load-bearing-wall-removal-evidence-checklist.md",
     "rooflight-building-regs-checklist": "rooflight-building-regs-checklist.md",
+    "heat-pump-building-regs-evidence-sheet": "heat-pump-installation-paperwork-checklist.md",
+    "solar-panel-structure-electrical-checklist": "solar-panel-building-regs-and-roof-checklist.md",
+    "bathroom-building-regs-checklist": "new-bathroom-and-ensuite-regs-checklist.md",
+    "kitchen-building-regs-checklist": "kitchen-building-regs-and-ventilation-checklist.md",
+    "building-regs-project-file-index": "homeowner-handover-file-index.md",
+    "before-you-start-building-regs-checklist": "building-regs-before-you-start-checklist.md",
+    "completion-day-handover-checklist": "final-completion-walkthrough.md",
 }
 
 DOWNLOAD_USE_CASES = {
@@ -139,6 +146,46 @@ DOWNLOAD_USE_CASES = {
     "rooflight-building-regs-checklist": {
         "summary": "Rooflight checklist for structure, weathering, insulation, ventilation, safety glazing and planning-sensitive roof changes.",
         "use": "Use it before cutting the roof so building-control and planning-sensitive questions are separated.",
+    },
+    "heat-pump-building-regs-evidence-sheet": {
+        "summary": "Heat pump evidence sheet for installer registration, commissioning records, electrical work, external equipment and handover paperwork.",
+        "use": "Use it before appointing an installer so certificates, product records and any planning-sensitive external equipment are named early.",
+    },
+    "solar-panel-structure-electrical-checklist": {
+        "summary": "Solar panel checklist for roof structure, fixing method, electrical certification, product records and installer handover evidence.",
+        "use": "Use it before installation so roof load, electrical certification and planning-sensitive roof changes are checked separately.",
+    },
+    "bathroom-building-regs-checklist": {
+        "summary": "Bathroom and ensuite checklist for ventilation, drainage, electrics, structural penetrations, waterproofing evidence and certificates.",
+        "use": "Use it before first-fix work so fans, waste runs, electrical zones and before-cover-up photos are not missed.",
+    },
+    "kitchen-building-regs-checklist": {
+        "summary": "Kitchen building regulations checklist for ventilation, drainage, electrical work, structure, fire safety and completion evidence.",
+        "use": "Use it before ordering units so hidden services and certification responsibilities are settled before finishes go in.",
+    },
+    "wales-scotland-source-checklist": {
+        "summary": "Jurisdiction source checklist for separating England-first guidance from Wales, Scotland and Northern Ireland building standards.",
+        "use": "Use it when the project is outside England or the property location is unclear before relying on an England-first page.",
+    },
+    "higher-risk-building-warning-sheet": {
+        "summary": "Higher-risk building warning sheet for flats, major fire-safety signals and projects that need specialist building-control advice.",
+        "use": "Use it as a stop-check before applying general homeowner guidance to a flat, tall building or complex fire-safety project.",
+    },
+    "building-regs-project-file-index": {
+        "summary": "Project file index for keeping applications, drawings, calculations, inspections, certificates, photos and handover records together.",
+        "use": "Use it at project kickoff and update it whenever a new certificate, inspection or design record is created.",
+    },
+    "approved-document-version-record": {
+        "summary": "Approved Document version record for logging which Parts were checked, when, and who translated them into project evidence.",
+        "use": "Use it before design decisions are fixed, especially where Part B, F, H, L or P affects drawings or certificates.",
+    },
+    "before-you-start-building-regs-checklist": {
+        "summary": "Before-you-start checklist for route choice, drawings, calculations, inspections, certificate owners and planning handoffs.",
+        "use": "Use it before quotes or deposits so building regulations responsibilities are visible in the project brief.",
+    },
+    "completion-day-handover-checklist": {
+        "summary": "Completion day handover checklist for final inspection, completion certificate, installer certificates, warranties and evidence gaps.",
+        "use": "Use it before final payment so missing paperwork is chased while the builder and installers are still engaged.",
     },
 }
 
@@ -230,6 +277,89 @@ PROJECT_PROFILES = {
     },
 }
 
+PROJECT_PROFILES.update(
+    {
+        "single-storey-extensions": {
+            "answer": "A single-storey extension usually needs building regulations approval because it can affect foundations, structure, drainage, insulation, ventilation and completion evidence.",
+            "triggers": ["New foundations", "Steel beams or widened openings", "New drainage or public sewer proximity", "Rooflights, insulation and ventilation details"],
+            "route": "Use full plans where structure, drainage or energy details need checking before work starts. A building notice may fit only when the specification is already clear.",
+            "evidence": ["Foundation inspection notes", "Structural calculations", "Drainage photos before backfill", "Insulation and completion records"],
+        },
+        "two-storey-extensions": {
+            "answer": "A two-storey extension is normally a building regulations project with linked structure, fire safety, drainage, stairs, energy and inspection questions.",
+            "triggers": ["New upper-floor structure", "Fire escape and alarm changes", "Complex steelwork or load paths", "Drainage and Part L energy details"],
+            "route": "Full plans are usually the cleaner route because the design needs more certainty before foundations and structure are built.",
+            "evidence": ["Approved drawings", "Structural calculations", "Fire and alarm specification", "Inspection and completion certificate records"],
+        },
+        "porches": {
+            "answer": "Some porches can be exempt, but building regulations questions can still arise where glazing, electrics, heating, access, structure or the existing front door are affected.",
+            "triggers": ["Electrical work", "Heating or removal of thermal separation", "Safety glazing", "Structural changes or accessibility issues"],
+            "route": "Check exemption conditions before ordering. If services, structure or the existing external door change, ask building control or a registered installer what route applies.",
+            "evidence": ["Porch dimensions and photos", "Glazing specification", "Electrical certificate if relevant", "Installer and product records"],
+        },
+        "chimney-breast-removal": {
+            "answer": "Chimney breast removal usually raises building regulations and structural evidence questions because loads, supports, fire separation and neighbouring stacks may be affected.",
+            "triggers": ["Removing a breast below a remaining stack", "Party wall or shared chimney issues", "Gallower brackets or steel support proposals", "Work hidden before inspection"],
+            "route": "Use a structural engineer and agree inspection timing before removal. Full plans or a clear building-control discussion is safer than relying on a builder's verbal plan.",
+            "evidence": ["Engineer calculations", "Support detail drawings", "Before and after photos", "Inspection notes and completion evidence"],
+        },
+        "roof-alterations": {
+            "answer": "Roof alterations can need building regulations input where structure, weathering, insulation, ventilation, fire safety or roof loading changes.",
+            "triggers": ["Changing roof structure", "Adding dormers or rooflights", "Re-roofing with insulation upgrades", "Solar panels or new loads"],
+            "route": "Ask whether calculations, roof build-up details or inspections are needed before the roof is opened or covered again.",
+            "evidence": ["Roof drawings or specification", "Structural calculations if relevant", "Insulation and ventilation photos", "Product and installer records"],
+        },
+        "rooflights": {
+            "answer": "Rooflights can trigger building regulations checks around structure, weathering, insulation, ventilation, safety glazing and escape where rooms are affected.",
+            "triggers": ["Cut rafters or altered roof structure", "New habitable-room ventilation", "Safety glazing locations", "Escape window assumptions"],
+            "route": "Confirm whether building control, installer certification or structural advice is needed before cutting the roof.",
+            "evidence": ["Rooflight specification", "Rafter trimming details", "Insulation and weathering photos", "Installer and warranty records"],
+        },
+        "heat-pumps": {
+            "answer": "Heat pump work often relies on registered installer certification, but electrical work, external equipment, commissioning and planning-sensitive siting still need evidence.",
+            "triggers": ["New external unit", "Electrical circuit changes", "Cylinder or heating-system alterations", "Work on listed or constrained buildings"],
+            "route": "Use an appropriately registered installer and ask what building regulations compliance certificate, commissioning record and product information will be issued.",
+            "evidence": ["Installer registration", "Commissioning certificate", "Electrical records", "Product, noise and warranty information"],
+        },
+        "solar-panels": {
+            "answer": "Solar panel work can raise building regulations questions around roof structure, electrical safety, fixing method, fire spread and installer certification.",
+            "triggers": ["Roof load or fixing uncertainty", "Electrical work and inverter installation", "Battery storage", "Listed buildings or visible roof changes"],
+            "route": "Ask the installer how structural suitability and electrical certification are evidenced, and separate any planning-sensitive roof question before installation.",
+            "evidence": ["Roof suitability note", "Electrical certificate", "Installer registration", "Panel, inverter and battery records"],
+        },
+        "bathrooms": {
+            "answer": "Bathroom and ensuite work can need building regulations evidence where drainage, ventilation, electrics, structure or waterproofing details are changed.",
+            "triggers": ["New bathroom location", "New or moved waste runs", "Electrical work in special locations", "Extractor fans or structural penetrations"],
+            "route": "Agree who certifies electrical work and whether drainage or ventilation changes need building-control inspection before finishes cover them.",
+            "evidence": ["Drainage layout", "Fan and ventilation specification", "Electrical certificate", "Photos before boxing-in or tiling"],
+        },
+        "kitchens": {
+            "answer": "Kitchen work can become a building regulations issue where drainage, ventilation, electrical circuits, structural openings or fire-safety details change.",
+            "triggers": ["New circuits or consumer unit work", "Moved waste pipes", "Extract ventilation changes", "Removing walls or forming openings"],
+            "route": "Separate ordinary replacement work from controlled services or structure, and confirm certificates before units and finishes hide evidence.",
+            "evidence": ["Electrical records", "Ventilation details", "Drainage photos", "Structural calculations if walls or openings changed"],
+        },
+        "insulation": {
+            "answer": "Insulation upgrades can involve Part L evidence and may affect ventilation, condensation risk, fire safety and before-cover-up inspection records.",
+            "triggers": ["Insulating roofs, floors or walls", "Replacing windows or doors", "Changing ventilation paths", "Work hidden by plasterboard or finishes"],
+            "route": "Confirm the expected specification and whether building control wants inspection or product evidence before the insulation is covered.",
+            "evidence": ["Product datasheets", "Photos before cover-up", "Ventilation strategy", "Installer records and completion evidence"],
+        },
+        "basements": {
+            "answer": "Basement conversion work is usually a significant building regulations project because it can affect structure, damp proofing, ventilation, fire escape, drainage and waterproofing.",
+            "triggers": ["Excavation or underpinning", "New habitable rooms below ground", "Pumped drainage", "Fire escape and ventilation strategy"],
+            "route": "Use professional design and full plans-style checking before work starts. Basements are not a good fit for vague on-site decisions.",
+            "evidence": ["Structural and waterproofing design", "Drainage and pump records", "Fire and ventilation strategy", "Inspection and completion paperwork"],
+        },
+        "underpinning": {
+            "answer": "Underpinning is a structural building regulations and safety issue that needs competent design, inspection planning and careful evidence.",
+            "triggers": ["Foundation movement", "Basement excavation", "Party wall proximity", "Work near drains or neighbouring structures"],
+            "route": "Use a structural engineer and building-control route before work starts. Keep design and inspection evidence from each stage.",
+            "evidence": ["Engineer calculations", "Method statement", "Inspection photos and notes", "Completion and warranty records"],
+        },
+    }
+)
+
 APPROVED_DOCUMENT_PROFILES = {
     "approved-document-a-structure": ("Structure", ["Foundations", "Beams and lintels", "Load-bearing walls", "Roof/floor changes"]),
     "approved-document-b-fire-safety": ("Fire safety", ["Escape routes", "Fire doors", "Smoke alarms", "Separation and spread of fire"]),
@@ -237,6 +367,7 @@ APPROVED_DOCUMENT_PROFILES = {
     "approved-document-h-drainage-waste": ("Drainage and waste", ["Foul drainage", "Rainwater", "Pipe gradients", "Inspection chambers"]),
     "approved-document-k-falling-collision-impact": ("Protection from falling, collision and impact", ["Stairs", "Guarding", "Glazing safety", "Headroom"]),
     "approved-document-l-conservation-fuel-power": ("Conservation of fuel and power", ["Insulation", "Windows and doors", "Heating efficiency", "Thermal bridging"]),
+    "approved-document-o-overheating": ("Overheating", ["New homes", "Excess heat risk", "Glazing and ventilation strategy", "Design evidence"]),
     "approved-document-p-electrical-safety": ("Electrical safety", ["Notifiable work", "Special locations", "Consumer units", "Certificates"]),
 }
 
@@ -431,7 +562,251 @@ EXPANSION_PAGES = [
         "parent": "/projects/windows-doors-building-regulations/",
         "project_slug": "windows-doors",
     },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-garage-conversion/",
+        "title": "Do I need building regulations for a garage conversion?",
+        "summary": "Answer-first garage conversion guide covering habitable use, damp, insulation, ventilation, fire separation, electrics and completion evidence.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "question",
+        "parent": "/projects/garage-conversion-building-regulations/",
+        "project_slug": "garage-conversions",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-outbuilding/",
+        "title": "Do I need building regulations for an outbuilding?",
+        "summary": "Answer-first outbuilding guide covering exemption checks, sleeping use, services, boundary fire risk, electrics, drainage and evidence to keep.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "question",
+        "parent": "/projects/outbuilding-building-regulations/",
+        "project_slug": "outbuildings",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-garden-room/",
+        "title": "Do I need building regulations for a garden room?",
+        "summary": "Answer-first garden room guide covering exemption checks, year-round use, electrics, heating, drainage, boundaries and certificates.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "question",
+        "parent": "/projects/garden-room-building-regulations/",
+        "project_slug": "garden-rooms",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-structural-alterations/",
+        "title": "Do I need building regulations for structural alterations?",
+        "summary": "Answer-first structural alterations guide covering openings, beams, load paths, calculations, inspections and completion paperwork.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "question",
+        "parent": "/projects/structural-alteration-building-regulations/",
+        "project_slug": "structural-alterations",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-electrical-work/",
+        "title": "Do I need building regulations for electrical work?",
+        "summary": "Answer-first electrical work guide covering Part P, notifiable work, registered electricians, certificates and evidence to keep.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_use_competent_person",
+        "kind": "question",
+        "parent": "/projects/electrical-work-building-regulations/",
+        "project_slug": "electrical-work",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-boiler-replacement/",
+        "title": "Do I need building regulations for boiler replacement?",
+        "summary": "Answer-first heating guide covering boiler replacement, registered installers, commissioning records, flues, certificates and warranties.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_use_competent_person",
+        "kind": "question",
+        "parent": "/projects/boiler-heating-building-regulations/",
+        "project_slug": "boiler-heating",
+    },
+    {
+        "path": "/questions/do-i-need-building-regulations-for-drainage-work/",
+        "title": "Do I need building regulations for drainage work?",
+        "summary": "Answer-first drainage guide covering new waste runs, soil pipes, inspection chambers, public sewer risk and before-cover-up evidence.",
+        "family": "programmatic_question_page",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "question",
+        "parent": "/projects/drainage-waste-building-regulations/",
+        "project_slug": "drainage-waste",
+    },
+    {
+        "path": "/evidence/competent-person-certificates-for-homeowners/",
+        "title": "Competent person certificates for homeowners",
+        "summary": "Homeowner guide to competent person certificates for windows, electrical work, heating and other self-certified building regulations work.",
+        "family": "evidence",
+        "primary_source_id": "govuk_use_competent_person",
+        "kind": "evidence",
+        "documents": ["Installer name, scheme and registration number", "Exact work covered by self-certification", "Certificate type and expected issue date", "Electrical installation certificate or commissioning record where relevant", "Product information and warranties", "Payment milestone tied to certificate handover", "Backup building-control route if the installer cannot self-certify"],
+        "download": "/downloads/competent-person-certificate-checklist/",
+    },
+    {
+        "path": "/evidence/completion-certificate-before-final-payment/",
+        "title": "Completion certificate checklist before final payment",
+        "summary": "Final-payment evidence guide for completion certificates, inspection sign-off, installer certificates, warranties and missing paperwork.",
+        "family": "evidence",
+        "primary_source_id": "govuk_how_to_apply",
+        "kind": "evidence",
+        "documents": ["Completion certificate or final acceptance status", "Inspection notes and outstanding building-control conditions", "Competent person certificates for controlled services", "Commissioning records for heating, ventilation or electrical work", "Structural calculations and before-cover-up photos", "Product warranties and installer details", "Written list of unresolved evidence gaps before final payment"],
+        "download": "/downloads/completion-day-handover-checklist/",
+    },
+    {
+        "path": "/before-you-start/building-regs-project-file-before-work-starts/",
+        "title": "Set up a building regs project file before work starts",
+        "summary": "Pre-start project file guide for keeping building-control routes, drawings, calculations, inspections, certificates and photos together.",
+        "family": "evidence",
+        "primary_source_id": "govuk_building_regs_approval",
+        "kind": "evidence",
+        "documents": ["Project scope and property address", "Planning handoff notes where relevant", "Chosen building-control route and application references", "Drawings, specifications and structural calculations", "Inspection stage list and booking responsibility", "Certificate owners for electrics, heating, glazing and completion", "Photo log for work before it is covered"],
+        "download": "/downloads/building-regs-project-file-index/",
+    },
+    {
+        "path": "/downloads/heat-pump-building-regs-evidence-sheet/",
+        "title": "Heat pump building regs evidence sheet",
+        "summary": "Printable heat pump evidence sheet for installer certification, commissioning records, electrical work, external equipment and handover paperwork.",
+        "family": "download",
+        "primary_source_id": "govuk_use_competent_person",
+    },
+    {
+        "path": "/downloads/solar-panel-structure-electrical-checklist/",
+        "title": "Solar panel structure and electrical checklist",
+        "summary": "Printable solar panel checklist for roof structure, fixing method, electrical certification, product records and installer handover evidence.",
+        "family": "download",
+        "primary_source_id": "govuk_use_competent_person",
+    },
+    {
+        "path": "/downloads/bathroom-building-regs-checklist/",
+        "title": "Bathroom building regs checklist",
+        "summary": "Printable bathroom and ensuite checklist for ventilation, drainage, electrics, waterproofing evidence and certificates.",
+        "family": "download",
+        "primary_source_id": "govuk_building_regs_approval",
+    },
+    {
+        "path": "/downloads/kitchen-building-regs-checklist/",
+        "title": "Kitchen building regs checklist",
+        "summary": "Printable kitchen checklist for ventilation, drainage, electrical work, structure, fire safety and completion evidence.",
+        "family": "download",
+        "primary_source_id": "govuk_building_regs_approval",
+    },
+    {
+        "path": "/downloads/wales-scotland-source-checklist/",
+        "title": "Wales/Scotland source checklist",
+        "summary": "Printable jurisdiction source checklist for separating England-first guidance from Wales, Scotland and Northern Ireland building standards.",
+        "family": "download",
+        "primary_source_id": "govuk_building_regs_approval",
+    },
+    {
+        "path": "/downloads/higher-risk-building-warning-sheet/",
+        "title": "Higher-risk building warning sheet",
+        "summary": "Printable stop-check for flats, major fire-safety signals and projects that need specialist building-control advice.",
+        "family": "download",
+        "primary_source_id": "govuk_bsr_higher_risk_buildings",
+    },
+    {
+        "path": "/downloads/building-regs-project-file-index/",
+        "title": "Building regs project file index",
+        "summary": "Printable project file index for applications, drawings, calculations, inspections, certificates, photos and handover records.",
+        "family": "download",
+        "primary_source_id": "govuk_building_regs_approval",
+    },
+    {
+        "path": "/downloads/approved-document-version-record/",
+        "title": "Approved Document version record",
+        "summary": "Printable version record for logging which Approved Documents were checked, when, and who translated them into project evidence.",
+        "family": "download",
+        "primary_source_id": "govuk_approved_documents_collection",
+    },
+    {
+        "path": "/downloads/before-you-start-building-regs-checklist/",
+        "title": "Before-you-start building regs checklist",
+        "summary": "Printable pre-start checklist for route choice, drawings, calculations, inspections, certificate owners and planning handoffs.",
+        "family": "download",
+        "primary_source_id": "govuk_building_regs_approval",
+    },
+    {
+        "path": "/downloads/completion-day-handover-checklist/",
+        "title": "Completion day handover checklist",
+        "summary": "Printable handover checklist for final inspection, completion certificate, installer certificates, warranties and evidence gaps.",
+        "family": "download",
+        "primary_source_id": "govuk_how_to_apply",
+    },
 ]
+
+BATCH_TWO_PROJECT_PAGES = [
+    ("/projects/single-storey-extension-building-regulations/", "Single-storey extension building regulations", "Checklist-led guide for single-storey domestic extensions covering foundations, structure, insulation, drainage and completion evidence.", "single-storey-extensions", "govuk_building_regs_approval"),
+    ("/projects/two-storey-extension-building-regulations/", "Two-storey extension building regulations", "Higher-risk domestic extension guide around structure, fire safety, drainage, stairs, energy details and inspection evidence.", "two-storey-extensions", "govuk_building_regs_approval"),
+    ("/projects/porch-building-regulations/", "Porch building regulations", "Porch exemption and risk guide covering glazing, doors, access, electrics, heating and evidence to keep.", "porches", "govuk_building_regs_approval"),
+    ("/projects/chimney-breast-removal-building-regulations/", "Chimney breast removal building regulations", "Chimney breast removal guide covering structural support, load paths, inspection timing and completion evidence.", "chimney-breast-removal", "govuk_building_regs_approval"),
+    ("/projects/roof-alteration-building-regulations/", "Roof alteration building regulations", "Roof alteration guide covering structure, weathering, insulation, ventilation, fire safety and roof loading evidence.", "roof-alterations", "govuk_building_regs_approval"),
+    ("/projects/rooflight-building-regulations/", "Rooflight building regulations", "Rooflight guide covering rafter trimming, insulation, ventilation, safety glazing, weathering and installer evidence.", "rooflights", "govuk_building_regs_approval"),
+    ("/projects/heat-pump-building-regulations/", "Heat pump building regulations", "Heat pump guide covering registered installers, commissioning records, electrical work, external equipment and handover paperwork.", "heat-pumps", "govuk_use_competent_person"),
+    ("/projects/solar-panel-building-regulations/", "Solar panel building regulations", "Solar panel guide covering roof structure, fixing methods, electrical certification, batteries, product records and installer evidence.", "solar-panels", "govuk_use_competent_person"),
+    ("/projects/bathroom-building-regulations/", "Bathroom building regulations", "Bathroom and ensuite guide covering ventilation, drainage, electrics, structural penetrations, waterproofing evidence and certificates.", "bathrooms", "govuk_building_regs_approval"),
+    ("/projects/kitchen-building-regulations/", "Kitchen building regulations", "Kitchen guide covering ventilation, drainage, electrical work, structural openings, fire safety and completion evidence.", "kitchens", "govuk_building_regs_approval"),
+    ("/projects/insulation-building-regulations/", "Insulation building regulations", "Insulation upgrade guide covering Part L evidence, ventilation, condensation risk, fire safety and before-cover-up records.", "insulation", "govuk_approved_documents_collection"),
+    ("/projects/basement-conversion-building-regulations/", "Basement conversion building regulations", "Basement conversion guide covering structure, damp proofing, ventilation, fire escape, drainage and waterproofing evidence.", "basements", "govuk_building_regs_approval"),
+    ("/projects/underpinning-building-regulations/", "Underpinning building regulations", "Underpinning guide covering structural design, method statements, inspections, drains, neighbouring risk and completion records.", "underpinning", "govuk_building_regs_approval"),
+]
+
+BATCH_TWO_QUESTION_PAGES = [
+    ("/questions/do-i-need-building-regulations-for-single-storey-extension/", "Do I need building regulations for a single-storey extension?", "Answer-first single-storey extension guide covering foundations, structure, insulation, drainage, inspections and completion evidence.", "/projects/single-storey-extension-building-regulations/", "single-storey-extensions", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-two-storey-extension/", "Do I need building regulations for a two-storey extension?", "Answer-first two-storey extension guide covering structure, fire safety, drainage, stairs, energy details and inspection evidence.", "/projects/two-storey-extension-building-regulations/", "two-storey-extensions", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-porch/", "Do I need building regulations for a porch?", "Answer-first porch guide covering exemption checks, glazing, doors, electrics, heating, access and evidence to keep.", "/projects/porch-building-regulations/", "porches", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-chimney-breast-removal/", "Do I need building regulations for chimney breast removal?", "Answer-first chimney breast removal guide covering structural support, load paths, inspection timing and completion evidence.", "/projects/chimney-breast-removal-building-regulations/", "chimney-breast-removal", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-roof-alteration/", "Do I need building regulations for a roof alteration?", "Answer-first roof alteration guide covering structure, insulation, ventilation, fire safety, roof loading and evidence to keep.", "/projects/roof-alteration-building-regulations/", "roof-alterations", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-rooflights/", "Do I need building regulations for rooflights?", "Answer-first rooflight guide covering rafter trimming, safety glazing, ventilation, insulation, weathering and installer evidence.", "/projects/rooflight-building-regulations/", "rooflights", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-heat-pump/", "Do I need building regulations for a heat pump?", "Answer-first heat pump guide covering registered installers, commissioning, electrical records, external equipment and handover evidence.", "/projects/heat-pump-building-regulations/", "heat-pumps", "govuk_use_competent_person"),
+    ("/questions/do-i-need-building-regulations-for-solar-panels/", "Do I need building regulations for solar panels?", "Answer-first solar panel guide covering roof structure, fixing method, electrical certification, batteries and installer evidence.", "/projects/solar-panel-building-regulations/", "solar-panels", "govuk_use_competent_person"),
+    ("/questions/do-i-need-building-regulations-for-bathroom/", "Do I need building regulations for a bathroom?", "Answer-first bathroom guide covering ventilation, drainage, electrics, structural penetrations, waterproofing and certificates.", "/projects/bathroom-building-regulations/", "bathrooms", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-kitchen/", "Do I need building regulations for a kitchen?", "Answer-first kitchen guide covering ventilation, drainage, electrical work, structural openings, fire safety and completion evidence.", "/projects/kitchen-building-regulations/", "kitchens", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-insulation/", "Do I need building regulations for insulation?", "Answer-first insulation guide covering Part L evidence, ventilation, condensation risk, fire safety and before-cover-up photos.", "/projects/insulation-building-regulations/", "insulation", "govuk_approved_documents_collection"),
+    ("/questions/do-i-need-building-regulations-for-basement-conversion/", "Do I need building regulations for a basement conversion?", "Answer-first basement conversion guide covering structure, damp proofing, ventilation, fire escape, drainage and waterproofing evidence.", "/projects/basement-conversion-building-regulations/", "basements", "govuk_building_regs_approval"),
+    ("/questions/do-i-need-building-regulations-for-underpinning/", "Do I need building regulations for underpinning?", "Answer-first underpinning guide covering structural design, method statements, inspections, drains, neighbouring risk and completion records.", "/projects/underpinning-building-regulations/", "underpinning", "govuk_building_regs_approval"),
+]
+
+EXPANSION_PAGES.extend(
+    [
+        {
+            "path": path,
+            "title": title,
+            "summary": summary,
+            "family": "project",
+            "primary_source_id": source_id,
+            "slug": slug,
+            "needs_cross_site_handoff": True,
+        }
+        for path, title, summary, slug, source_id in BATCH_TWO_PROJECT_PAGES
+    ]
+)
+
+EXPANSION_PAGES.extend(
+    [
+        {
+            "path": path,
+            "title": title,
+            "summary": summary,
+            "family": "programmatic_question_page",
+            "primary_source_id": source_id,
+            "kind": "question",
+            "parent": parent,
+            "project_slug": slug,
+        }
+        for path, title, summary, parent, slug, source_id in BATCH_TWO_QUESTION_PAGES
+    ]
+)
+
+EXPANSION_PAGES.append(
+    {
+        "path": "/approved-documents/approved-document-o-overheating/",
+        "title": "Approved Document O: Overheating",
+        "summary": "Source-linked homeowner guide to Approved Document O, overheating risk, glazing, ventilation strategy and evidence prompts.",
+        "family": "approved_document",
+        "primary_source_id": "govuk_approved_documents_collection",
+        "slug": "approved-document-o-overheating",
+    }
+)
 
 
 def read_json(path: Path):
@@ -812,10 +1187,17 @@ def faqs_for(page: dict) -> list[tuple[str, str]]:
     family = page.get("family", "")
     title = page.get("title", "this project")
     if family == "project":
+        subject = re.sub(r"\s+building regulations$", "", title, flags=re.IGNORECASE).lower()
         return [
-            (f"Does {title.lower()} need building regulations approval?", "Often yes, especially where the work changes structure, fire safety, insulation, ventilation, drainage, electrics or heating. The exact route depends on the specification and building control body."),
+            (f"Does {subject} need building regulations approval?", "Often yes, especially where the work changes structure, fire safety, insulation, ventilation, drainage, electrics or heating. The exact route depends on the specification and building control body."),
             ("Can planning permission and building regulations be separate?", "Yes. Planning permission controls whether development is allowed in planning terms; building regulations deal with safety, energy, ventilation, drainage, structure and completion evidence."),
             ("What should I keep for sale or remortgage?", "Keep the application reference, drawings, inspection notes, photos before work is covered, installer certificates and the completion certificate or equivalent evidence."),
+        ]
+    if family == "programmatic_question_page":
+        return [
+            ("Can planning permission and building regulations be separate?", "Yes. Planning controls whether the development is allowed in planning terms; building regulations deal with how controlled work is designed, built, inspected and evidenced."),
+            ("What should I do before asking a builder for a quote?", "Write down the likely route, who will provide drawings or calculations, who books inspections, and which installer certificates or completion records must be handed over."),
+            ("What evidence should I keep?", "Keep application references, drawings, calculations, inspection notes, photos before work is covered, competent person certificates and completion paperwork."),
         ]
     if family in {"approval_route", "guide"}:
         lower_title = title.lower()
@@ -1443,7 +1825,7 @@ def render_question_page(page: dict, all_pages: list[dict], sources: dict) -> st
             <h2>Evidence checklist</h2>
             <ul class="checklist">{list_html(profile['evidence'])}</ul>
           </section>
-          {faq_section({'family': 'project', 'title': page['title']})}
+          {faq_section(page)}
           {related_links(page, all_pages)}
           {source_panel(['govuk_building_regs_approval', 'govuk_how_to_apply'], sources)}
         </main>

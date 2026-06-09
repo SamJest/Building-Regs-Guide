@@ -3,9 +3,9 @@
   "build_env": "production",
   "base_url": "https://buildingregsguide.co.uk",
   "domain": "buildingregsguide.co.uk",
-  "published_count": 96,
+  "published_count": 143,
   "phase_1_count": 70,
-  "expansion_count": 13,
+  "expansion_count": 60,
   "extra_navigation_pages": [
     "/before-you-start/",
     "/projects/",
